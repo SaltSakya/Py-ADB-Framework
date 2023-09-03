@@ -3,9 +3,9 @@ from Utils.math import Math
 
 class Vector:
     def __init__(self, x, y, device:Device=None):
-        if Device:
+        if device:
             self.x = Math.Clamp(x, 0, 1) * device.width
-            self.y = Math.Clamp(x, 0, 1) * device.height
+            self.y = Math.Clamp(y, 0, 1) * device.height
         else:
             self.x = x
             self.y = y
