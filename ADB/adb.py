@@ -43,7 +43,7 @@ class ADB:
         size = re.match("^Physical size: (.*?)x(.*?)$", ADB.CMD(f"adb -s {device.url} shell wm size", True).read())
         density = re.match("^Physical density: (.*?)$", ADB.CMD(f"adb -s {device.url} shell wm density", True).read())
         if size and density:
-            orientation = ADB.CMD("adb shell \"dumpsys input | grep SurfaceOrientation | awk '{print $2}' | head -n 1\"", True)
+            orientation = int(ADB.CMD("adb shell \"dumpsys input | grep SurfaceOrientation | awk '{print $2}' | head -n 1\"", True).read())
             if orientation%2 == 0:
                 device.ScreenParam(size.group(1), size.group(2), density.group(1))
             else:
