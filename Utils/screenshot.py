@@ -61,16 +61,18 @@ class ScreenshotConfig:
 # 封装了一些与模板对照的类
 class Screenshot:
     def __init__(self, array:np.ndarray):
-        self.img = array
+        self.img = array/255.0
+        self.edge = cv.Canny(array, 100, 200)/255.0
 
     def CheckColorTemplate(self, template:int) -> bool:
         templatePath = os.path.join("Resources", "templates", "Color", ScreenshotTemplates.template[template])
-        tpl = np.array(Image.open(templatePath))
-        return (tpl/255 * self.img/255.0).sum() / (tpl/255).sum() > 0.875
+        tpl = np.array(Image.open(templatePath))/255.0
+        return (tpl * self.img).sum() / (tpl).sum() > 0.875
 
     def CheckEdgeTemplate(self, template:int) -> bool:
-        os.path.join("Resources", "templates", "Edge", ScreenshotTemplates.template[template])
-        pass
+        templatePath = os.path.join("Resources", "templates", "Edge", ScreenshotTemplates.template[template])
+        tpl = np.array(Image.open(templatePath))/255.0
+        return (tpl * self.edge).sum() / tpl.sum() > 0.85
 
     def CheckTemplate(self, template:str, mode:int = ScreenshotCheckMode.STRICT) -> bool:
         '''检查是否匹配模板'''
@@ -99,6 +101,7 @@ if __name__ == "__main__":
     print(os.getcwd())
     ss = Screenshot(np.array(Image.open("D:\\Work Space\\Python\\Py-ADB-Framework\\Resources\\screencaps\\home\\1693820370.png")))
     for i in range(len(ScreenshotTemplates.template)):
-        print(ScreenshotTemplates.template[i], end=": ")
-        print(ss.CheckColorTemplate(i))
-        print(ss.CheckColorTemplate(i))
+        print(ScreenshotTemplates.template[i], end=":\n")
+        print(">>> Color: ", ss.CheckColorTemplate(i))
+        print(">>> Edge: ", ss.CheckEdgeTemplate(i))
+        
