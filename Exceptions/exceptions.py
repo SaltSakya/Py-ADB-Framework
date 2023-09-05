@@ -1,0 +1,2 @@
+class SAFException(BaseException):
+    pass
