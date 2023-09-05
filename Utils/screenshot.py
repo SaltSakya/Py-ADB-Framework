@@ -84,7 +84,6 @@ class Screenshot:
             raise(ValueError("mode 参数无效。"))
         
 if __name__ == "__main__":
-    """
     templates = os.listdir(os.path.join("..", "Resources", "templates", "Color"))
 
     code1 = ""
@@ -97,15 +96,15 @@ if __name__ == "__main__":
     code2 += "    }"
     print(code1 + code2)
 
-    os.chdir("..")"""
-    print(os.getcwd())
-    for foldername in os.listdir(os.path.join("Resources", "screencaps")):
-        if not os.path.isdir(os.path.join("Resources", "screencaps", foldername)):
-            continue
-        for filename in os.listdir(os.path.join("Resources", "screencaps", foldername)):
-            print(">>> ", os.path.join(foldername, filename))
-            ss = Screenshot(np.array(Image.open(os.path.join("Resources", "screencaps", foldername, filename))))
-            for i in range(len(ScreenshotTemplates.template)):
-                if ss.CheckTemplate(i, mode=ScreenshotCheckMode.LOOSE):
-                    print(ScreenshotTemplates.template[i], ss.CheckColorTemplate(i),ss.CheckEdgeTemplate(i)) 
+    #os.chdir("..")
+    #print(os.getcwd())
+    #for foldername in os.listdir(os.path.join("Resources", "screencaps")):
+    #    if not os.path.isdir(os.path.join("Resources", "screencaps", foldername)):
+    #        continue
+    #    for filename in os.listdir(os.path.join("Resources", "screencaps", foldername)):
+    #        print(">>> ", os.path.join(foldername, filename))
+    #        ss = Screenshot(np.array(Image.open(os.path.join("Resources", "screencaps", foldername, filename))))
+    #        for i in range(len(ScreenshotTemplates.template)):
+    #            if ss.CheckTemplate(i, mode=ScreenshotCheckMode.LOOSE):
+    #                print(ScreenshotTemplates.template[i], ss.CheckColorTemplate(i),ss.CheckEdgeTemplate(i)) 
                 
