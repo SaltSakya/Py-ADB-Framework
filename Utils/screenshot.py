@@ -99,9 +99,13 @@ if __name__ == "__main__":
 
     os.chdir("..")"""
     print(os.getcwd())
-    ss = Screenshot(np.array(Image.open("D:\\Work Space\\Python\\Py-ADB-Framework\\Resources\\screencaps\\home\\1693820370.png")))
-    for i in range(len(ScreenshotTemplates.template)):
-        print(ScreenshotTemplates.template[i], end=":\n")
-        print(">>> Color: ", ss.CheckColorTemplate(i))
-        print(">>> Edge: ", ss.CheckEdgeTemplate(i))
-        
+    for foldername in os.listdir(os.path.join("Resources", "screencaps")):
+        if not os.path.isdir(os.path.join("Resources", "screencaps", foldername)):
+            continue
+        for filename in os.listdir(os.path.join("Resources", "screencaps", foldername)):
+            print(">>> ", os.path.join(foldername, filename))
+            ss = Screenshot(np.array(Image.open(os.path.join("Resources", "screencaps", foldername, filename))))
+            for i in range(len(ScreenshotTemplates.template)):
+                if ss.CheckTemplate(i, mode=ScreenshotCheckMode.LOOSE):
+                    print(ScreenshotTemplates.template[i], ss.CheckColorTemplate(i),ss.CheckEdgeTemplate(i)) 
+                
