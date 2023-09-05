@@ -74,7 +74,7 @@ class Screenshot:
         tpl = np.array(Image.open(templatePath))/255.0
         return (tpl * self.edge).sum() / tpl.sum() > 0.85
 
-    def CheckTemplate(self, template:str, mode:int = ScreenshotCheckMode.STRICT) -> bool:
+    def CheckTemplate(self, template:int, mode:int = ScreenshotCheckMode.STRICT) -> bool:
         '''检查是否匹配模板'''
         if mode == ScreenshotCheckMode.STRICT:
             return self.CheckEdgeTemplate(template) and self.CheckColorTemplate(template)
