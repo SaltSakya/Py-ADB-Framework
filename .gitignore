@@ -160,3 +160,4 @@ cython_debug/
 #.idea/
 ADB/adb.zip
 ADB/README.txt
+Tools/cookies.dat
