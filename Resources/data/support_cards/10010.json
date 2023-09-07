@@ -1,0 +1,256 @@
+[
+    {
+        "support_card_info": {
+            "card_id": 10010,
+            "name": "[特雷森学园]目白麦昆",
+            "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/759274190b7d47f6993b6ef619c867f4664db037.png",
+            "attr_id": 5,
+            "rarity": 1
+        },
+        "branch_story": [
+            {
+                "story_id": 801013002,
+                "story_name": "为了更上一层楼",
+                "story_type": 1,
+                "union_type": 2,
+                "related_skill_ids": [
+                    200532
+                ],
+                "gain_skill": "抢先",
+                "select_value_list": [
+                    {
+                        "option": "选项一",
+                        "gain_list": [
+                            "耐力+5\n毅力+5\n目白麦昆友情槽+5\n"
+                        ]
+                    },
+                    {
+                        "option": "选项二",
+                        "gain_list": [
+                            "目白麦昆友情槽+5\n「抢先」的启发等级+1\n"
+                        ]
+                    }
+                ]
+            },
+            {
+                "story_id": 801013001,
+                "story_name": "为了维持体重",
+                "story_type": 1,
+                "union_type": 2,
+                "related_skill_ids": null,
+                "gain_skill": null,
+                "select_value_list": [
+                    {
+                        "option": "选项一",
+                        "gain_list": [
+                            "体力-10\n耐力+15\n目白麦昆友情槽+5\n"
+                        ]
+                    },
+                    {
+                        "option": "选项二",
+                        "gain_list": [
+                            "最大体力上限+4\n耐力+5\n目白麦昆友情槽+5\n"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "no_branch_story": [],
+        "after_match_story": [],
+        "continuous_story": null,
+        "trip_story": [],
+        "story_skill_info": [
+            {
+                "skill_id": 200532,
+                "skill_name": "抢先",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/bd338ecc1d33ec83d4e45977372f03c4d221c3e0.png",
+                "rarity": 1,
+                "skill_desc": "在赛事初期时\n会略微容易取得领先<战术：领跑>",
+                "limitation": "领跑",
+                "condition1": "领跑，序盘，赛事进行时间≥5",
+                "condition2": null,
+                "skill_type1": "加速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    2000
+                ],
+                "ability_value2": [],
+                "ability_time1": 12000,
+                "ability_time2": null,
+                "need_skill_point": 120,
+                "pre_skill": 200531,
+                "pre_skill_name": "先发制人"
+            }
+        ],
+        "training_skill_info": [
+            {
+                "skill_id": 200062,
+                "skill_name": "京都赛场○",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/762928d76f4cb135264040edacbc36eb0fb7708e.png",
+                "rarity": 1,
+                "skill_desc": "会变得稍微擅长京都赛场的赛事",
+                "limitation": "通用",
+                "condition1": "京都场",
+                "condition2": null,
+                "skill_type1": "耐力（属性）",
+                "skill_type2": null,
+                "ability_value1": [
+                    400000
+                ],
+                "ability_value2": [],
+                "ability_time1": -1,
+                "ability_time2": null,
+                "need_skill_point": 90,
+                "pre_skill": null,
+                "pre_skill_name": null
+            },
+            {
+                "skill_id": 200172,
+                "skill_name": "春季优俊少女○",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/70f3c8fea3c651cb38d69df6e644872657a63cbf.png",
+                "rarity": 1,
+                "skill_desc": "会变得稍微擅长春季赛事",
+                "limitation": "通用",
+                "condition1": "春；",
+                "condition2": null,
+                "skill_type1": "速度（属性）",
+                "skill_type2": null,
+                "ability_value1": [
+                    400000
+                ],
+                "ability_value2": [],
+                "ability_time1": -1,
+                "ability_time2": null,
+                "need_skill_point": 90,
+                "pre_skill": null,
+                "pre_skill_name": null
+            },
+            {
+                "skill_id": 200562,
+                "skill_name": "保留体力",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/4c910489d09842c36b36fa521844dc37342d3d20.png",
+                "rarity": 1,
+                "skill_desc": "在赛事初期时会略微不容易疲劳\n<战术：跟前>",
+                "limitation": "跟前",
+                "condition1": "跟前，序盘随机位置，赛事进行时间≥5，名次≤50%",
+                "condition2": null,
+                "skill_type1": "体力值（百分比）",
+                "skill_type2": null,
+                "ability_value1": [
+                    150
+                ],
+                "ability_value2": [],
+                "ability_time1": 0,
+                "ability_time2": null,
+                "need_skill_point": 180,
+                "pre_skill": 200561,
+                "pre_skill_name": "游刃有余"
+            },
+            {
+                "skill_id": 200742,
+                "skill_name": "深呼吸",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/4c910489d09842c36b36fa521844dc37342d3d20.png",
+                "rarity": 1,
+                "skill_desc": "进入直线后调整呼吸，会略微不容易疲劳\n<长距离>",
+                "limitation": "长距离",
+                "condition1": "长距离，直线",
+                "condition2": null,
+                "skill_type1": "体力值（百分比）",
+                "skill_type2": null,
+                "ability_value1": [
+                    150
+                ],
+                "ability_value2": [],
+                "ability_time1": 0,
+                "ability_time2": null,
+                "need_skill_point": 160,
+                "pre_skill": 200741,
+                "pre_skill_name": "冷却"
+            },
+            {
+                "skill_id": 201182,
+                "skill_name": "长距离弯道○",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/c44ceb01d2551e9cd2a82b7b1ca8b3f30e433902.png",
+                "rarity": 1,
+                "skill_desc": "在弯道上的速度略微提升\n<长距离>",
+                "limitation": "长距离",
+                "condition1": "长距离，第1弯道；长距离，第2弯道；长距离，第3弯道；长距离，第4弯道",
+                "condition2": null,
+                "skill_type1": "目标速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    1500
+                ],
+                "ability_value2": [],
+                "ability_time1": 30000,
+                "ability_time2": null,
+                "need_skill_point": 100,
+                "pre_skill": null,
+                "pre_skill_name": null
+            },
+            {
+                "skill_id": 201192,
+                "skill_name": "保持领先",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/c44ceb01d2551e9cd2a82b7b1ca8b3f30e433902.png",
+                "rarity": 1,
+                "skill_desc": "在赛事中期遥遥领先时\n略微容易保持领跑位置<长距离>",
+                "limitation": "长距离",
+                "condition1": "长距离，中盘随机位置，距离后方马身≥3，名次=1",
+                "condition2": null,
+                "skill_type1": "目标速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    1500
+                ],
+                "ability_value2": [],
+                "ability_time1": 30000,
+                "ability_time2": null,
+                "need_skill_point": 160,
+                "pre_skill": 201191,
+                "pre_skill_name": "领头心得"
+            },
+            {
+                "skill_id": 201352,
+                "skill_name": "营养补给",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/4c910489d09842c36b36fa521844dc37342d3d20.png",
+                "rarity": 1,
+                "skill_desc": "在赛事中期体力略微恢复\n<战术：跟前>",
+                "limitation": "跟前",
+                "condition1": "跟前，中盘随机位置",
+                "condition2": null,
+                "skill_type1": "体力值（百分比）",
+                "skill_type2": null,
+                "ability_value1": [
+                    150
+                ],
+                "ability_value2": [],
+                "ability_time1": 0,
+                "ability_time2": null,
+                "need_skill_point": 180,
+                "pre_skill": 201351,
+                "pre_skill_name": "大胃王"
+            },
+            {
+                "skill_id": 201372,
+                "skill_name": "干扰",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/4536d871977091d2d7959a88450e6e1a2cd493a6.png",
+                "rarity": 1,
+                "skill_desc": "在赛事末期位于前列时\n使后方优俊少女的视野略微变窄\n<战术：跟前>",
+                "limitation": "跟前",
+                "condition1": "跟前，终盘前半段随机位置，名次≤50%",
+                "condition2": null,
+                "skill_type1": "视野范围",
+                "skill_type2": null,
+                "ability_value1": [
+                    -30000
+                ],
+                "ability_value2": [],
+                "ability_time1": 30000,
+                "ability_time2": null,
+                "need_skill_point": 110,
+                "pre_skill": 201371,
+                "pre_skill_name": "迷惑干扰"
+            }
+        ]
+    }
+]

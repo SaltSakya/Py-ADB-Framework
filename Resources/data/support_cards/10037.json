@@ -1,0 +1,151 @@
+[
+    {
+        "support_card_info": {
+            "card_id": 10037,
+            "name": "[特雷森学园]空中神宫",
+            "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/379e48dc7ed1f698467157e797d15b8329df4178.png",
+            "attr_id": 6,
+            "rarity": 1
+        },
+        "branch_story": [
+            {
+                "story_id": 801036002,
+                "story_name": "//绝对想要",
+                "story_type": 1,
+                "union_type": 2,
+                "related_skill_ids": [
+                    200472
+                ],
+                "gain_skill": "保持步伐",
+                "select_value_list": [
+                    {
+                        "option": "选项一",
+                        "gain_list": [
+                            "空中神宫友情槽+5\n「保持步伐」的启发等级+1\n"
+                        ]
+                    },
+                    {
+                        "option": "选项二",
+                        "gain_list": [
+                            "毅力+5\n最大体力上限+4\n空中神宫友情槽+5\n"
+                        ]
+                    }
+                ]
+            },
+            {
+                "story_id": 801036001,
+                "story_name": "//有待验证",
+                "story_type": 1,
+                "union_type": 2,
+                "related_skill_ids": null,
+                "gain_skill": null,
+                "select_value_list": [
+                    {
+                        "option": "选项一",
+                        "gain_list": [
+                            "体力+10\n毅力+5\n空中神宫友情槽+5\n"
+                        ]
+                    },
+                    {
+                        "option": "选项二",
+                        "gain_list": [
+                            "体力-10\n耐力+5\n毅力+10\n空中神宫友情槽+5\n"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "no_branch_story": [],
+        "after_match_story": [],
+        "continuous_story": null,
+        "trip_story": [],
+        "story_skill_info": [
+            {
+                "skill_id": 200472,
+                "skill_name": "保持步伐",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/4c910489d09842c36b36fa521844dc37342d3d20.png",
+                "rarity": 1,
+                "skill_desc": "在赛事中期被赶超时\n体力略微恢复",
+                "limitation": "通用",
+                "condition1": "中盘，被超越次数＞0",
+                "condition2": null,
+                "skill_type1": "体力值（百分比）",
+                "skill_type2": null,
+                "ability_value1": [
+                    150
+                ],
+                "ability_value2": [],
+                "ability_time1": 0,
+                "ability_time2": null,
+                "need_skill_point": 170,
+                "pre_skill": 200471,
+                "pre_skill_name": "不屈之心"
+            }
+        ],
+        "training_skill_info": [
+            {
+                "skill_id": 201212,
+                "skill_name": "追击",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/c44ceb01d2551e9cd2a82b7b1ca8b3f30e433902.png",
+                "rarity": 1,
+                "skill_desc": "在赛事末期赶超成功时\n速度略微提升<长距离>",
+                "limitation": "长距离",
+                "condition1": "长距离，终盘前端，至少超越一人",
+                "condition2": null,
+                "skill_type1": "目标速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    1500
+                ],
+                "ability_value2": [],
+                "ability_time1": 30000,
+                "ability_time2": null,
+                "need_skill_point": 160,
+                "pre_skill": 201211,
+                "pre_skill_name": "怒涛般的追击"
+            },
+            {
+                "skill_id": 201492,
+                "skill_name": "冷静",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/4c910489d09842c36b36fa521844dc37342d3d20.png",
+                "rarity": 1,
+                "skill_desc": "前方拥堵时使自己冷静下来\n略微重新调整态势<战术：后追>",
+                "limitation": "后追",
+                "condition1": "后追，前方被阻挡时间≥1，赛事进行时间≥10",
+                "condition2": null,
+                "skill_type1": "体力值（百分比）",
+                "skill_type2": null,
+                "ability_value1": [
+                    150
+                ],
+                "ability_value2": [],
+                "ability_time1": 0,
+                "ability_time2": null,
+                "need_skill_point": 180,
+                "pre_skill": 201491,
+                "pre_skill_name": "沉着冷静"
+            },
+            {
+                "skill_id": 201502,
+                "skill_name": "策士",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/10d52cb1987a5e8a95cf845f3460c3145490ecc3.png",
+                "rarity": 1,
+                "skill_desc": "在赛事末期位于后方时\n视野略微变得开阔<战术：后追>",
+                "limitation": "后追",
+                "condition1": "后追，终盘前半段随机位置，名次>50%",
+                "condition2": null,
+                "skill_type1": "视野范围",
+                "skill_type2": null,
+                "ability_value1": [
+                    50000
+                ],
+                "ability_value2": [],
+                "ability_time1": 30000,
+                "ability_time2": null,
+                "need_skill_point": 110,
+                "pre_skill": 201501,
+                "pre_skill_name": "知天命者"
+            }
+        ]
+    }
+]

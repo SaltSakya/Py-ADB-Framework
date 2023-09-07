@@ -1,0 +1,193 @@
+[
+    {
+        "support_card_info": {
+            "card_id": 10038,
+            "name": "[特雷森学园]荣进闪耀",
+            "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/aec18a020f1cdedca6433b9f8d675ee43cf02d45.png",
+            "attr_id": 1,
+            "rarity": 1
+        },
+        "branch_story": [
+            {
+                "story_id": 801037002,
+                "story_name": "意外情况应对方案",
+                "story_type": 1,
+                "union_type": 2,
+                "related_skill_ids": [
+                    200292
+                ],
+                "gain_skill": "彻底盯紧○",
+                "select_value_list": [
+                    {
+                        "option": "选项一",
+                        "gain_list": [
+                            "毅力+10\n荣进闪耀友情槽+5\n"
+                        ]
+                    },
+                    {
+                        "option": "选项二",
+                        "gain_list": [
+                            "荣进闪耀友情槽+5\n「彻底盯紧○」的启发等级+1\n"
+                        ]
+                    }
+                ]
+            },
+            {
+                "story_id": 801037001,
+                "story_name": "意料之外的午餐",
+                "story_type": 1,
+                "union_type": 2,
+                "related_skill_ids": null,
+                "gain_skill": null,
+                "select_value_list": [
+                    {
+                        "option": "选项一",
+                        "gain_list": [
+                            "体力+15\n荣进闪耀友情槽+5\n"
+                        ]
+                    },
+                    {
+                        "option": "选项二",
+                        "gain_list": [
+                            "速度+5\n毅力+5\n荣进闪耀友情槽+5\n"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "no_branch_story": [],
+        "after_match_story": [],
+        "continuous_story": null,
+        "trip_story": [],
+        "story_skill_info": [
+            {
+                "skill_id": 200292,
+                "skill_name": "彻底盯紧○",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/977e98772467a7d9ea51bd0ad54b9dc1d1e1e01e.png",
+                "rarity": 1,
+                "skill_desc": "在与人气第1名的优俊少女战术相同时\n能力稍微容易发挥",
+                "limitation": "通用",
+                "condition1": "和人气第一者作战方式相同",
+                "condition2": null,
+                "skill_type1": "毅力（属性）",
+                "skill_type2": null,
+                "ability_value1": [
+                    400000
+                ],
+                "ability_value2": [],
+                "ability_time1": -1,
+                "ability_time2": null,
+                "need_skill_point": 90,
+                "pre_skill": null,
+                "pre_skill_name": null
+            }
+        ],
+        "training_skill_info": [
+            {
+                "skill_id": 200132,
+                "skill_name": "标准距离○",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/762928d76f4cb135264040edacbc36eb0fb7708e.png",
+                "rarity": 1,
+                "skill_desc": "会变得稍微擅长\n标准距离（400米的倍数）的赛事",
+                "limitation": "通用",
+                "condition1": "标准距离",
+                "condition2": null,
+                "skill_type1": "耐力（属性）",
+                "skill_type2": null,
+                "ability_value1": [
+                    400000
+                ],
+                "ability_value2": [],
+                "ability_time1": -1,
+                "ability_time2": null,
+                "need_skill_point": 90,
+                "pre_skill": null,
+                "pre_skill_name": null
+            },
+            {
+                "skill_id": 200372,
+                "skill_name": "直线加速",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/bd338ecc1d33ec83d4e45977372f03c4d221c3e0.png",
+                "rarity": 1,
+                "skill_desc": "直线上加速能力略微提升",
+                "limitation": "通用",
+                "condition1": "直线",
+                "condition2": null,
+                "skill_type1": "加速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    2000
+                ],
+                "ability_value2": [],
+                "ability_time1": 18000,
+                "ability_time2": null,
+                "need_skill_point": 170,
+                "pre_skill": 200371,
+                "pre_skill_name": "一阵狂风"
+            },
+            {
+                "skill_id": 201382,
+                "skill_name": "居中直线○",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/c44ceb01d2551e9cd2a82b7b1ca8b3f30e433902.png",
+                "rarity": 1,
+                "skill_desc": "在直线上的速度略微提升\n<战术：居中>",
+                "limitation": "居中",
+                "condition1": "居中，直线",
+                "condition2": null,
+                "skill_type1": "目标速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    1500
+                ],
+                "ability_value2": [],
+                "ability_time1": 30000,
+                "ability_time2": null,
+                "need_skill_point": 130,
+                "pre_skill": null,
+                "pre_skill_name": null
+            },
+            {
+                "skill_id": 201392,
+                "skill_name": "居中弯道○",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/c44ceb01d2551e9cd2a82b7b1ca8b3f30e433902.png",
+                "rarity": 1,
+                "skill_desc": "在弯道上的速度略微提升\n<战术：居中>",
+                "limitation": "居中",
+                "condition1": "居中，第1弯道；居中，第2弯道；居中，第3弯道；居中，第4弯道",
+                "condition2": null,
+                "skill_type1": "目标速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    1500
+                ],
+                "ability_value2": [],
+                "ability_time1": 30000,
+                "ability_time2": null,
+                "need_skill_point": 130,
+                "pre_skill": null,
+                "pre_skill_name": null
+            },
+            {
+                "skill_id": 201402,
+                "skill_name": "努力者",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/bd338ecc1d33ec83d4e45977372f03c4d221c3e0.png",
+                "rarity": 1,
+                "skill_desc": "略微容易赶超成功\n<战术：居中>",
+                "limitation": "居中",
+                "condition1": "居中，正在超越，赛事进行时间≥5",
+                "condition2": null,
+                "skill_type1": "加速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    2000
+                ],
+                "ability_value2": [],
+                "ability_time1": 30000,
+                "ability_time2": null,
+                "need_skill_point": 120,
+                "pre_skill": 201401,
+                "pre_skill_name": "努力家"
+            }
+        ]
+    }
+]

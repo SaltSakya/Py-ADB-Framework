@@ -1,0 +1,257 @@
+[
+    {
+        "support_card_info": {
+            "card_id": 10013,
+            "name": "[特雷森学园]鲁道夫象征",
+            "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/63cee8a009a913f09708eea22cc139ee42766777.png",
+            "attr_id": 6,
+            "rarity": 1
+        },
+        "branch_story": [
+            {
+                "story_id": 801017002,
+                "story_name": "学生会长的想法",
+                "story_type": 1,
+                "union_type": 2,
+                "related_skill_ids": [
+                    200232
+                ],
+                "gain_skill": "雨天○",
+                "select_value_list": [
+                    {
+                        "option": "选项一",
+                        "gain_list": [
+                            "「雨天○」的启发等级+1\n"
+                        ]
+                    },
+                    {
+                        "option": "选项二",
+                        "gain_list": [
+                            "耐力+15\n"
+                        ]
+                    }
+                ]
+            },
+            {
+                "story_id": 801017001,
+                "story_name": "“皇帝”的激励",
+                "story_type": 1,
+                "union_type": 2,
+                "related_skill_ids": null,
+                "gain_skill": null,
+                "select_value_list": [
+                    {
+                        "option": "选项一",
+                        "gain_list": [
+                            "速度+10\n"
+                        ]
+                    },
+                    {
+                        "option": "选项二",
+                        "gain_list": [
+                            "体力-10\n技能点数+30\n"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "no_branch_story": [],
+        "after_match_story": [],
+        "continuous_story": null,
+        "trip_story": [],
+        "story_skill_info": [
+            {
+                "skill_id": 200232,
+                "skill_name": "雨天○",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/977e98772467a7d9ea51bd0ad54b9dc1d1e1e01e.png",
+                "rarity": 1,
+                "skill_desc": "会变得稍微擅长雨天的赛事",
+                "limitation": "通用",
+                "condition1": "雨",
+                "condition2": null,
+                "skill_type1": "毅力（属性）",
+                "skill_type2": null,
+                "ability_value1": [
+                    400000
+                ],
+                "ability_value2": [],
+                "ability_time1": -1,
+                "ability_time2": null,
+                "need_skill_point": 90,
+                "pre_skill": null,
+                "pre_skill_name": null
+            }
+        ],
+        "training_skill_info": [
+            {
+                "skill_id": 200572,
+                "skill_name": "稳步紧追",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/4c910489d09842c36b36fa521844dc37342d3d20.png",
+                "rarity": 1,
+                "skill_desc": "在赛事中期时会略微不容易变疲劳\n<战术：跟前>",
+                "limitation": "跟前",
+                "condition1": "跟前，中盘随机位置，名次≤50%",
+                "condition2": null,
+                "skill_type1": "体力值（百分比）",
+                "skill_type2": null,
+                "ability_value1": [
+                    150
+                ],
+                "ability_value2": [],
+                "ability_time1": 0,
+                "ability_time2": null,
+                "need_skill_point": 180,
+                "pre_skill": 200571,
+                "pre_skill_name": "比赛策略家"
+            },
+            {
+                "skill_id": 200831,
+                "skill_name": "领跑牵制",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/0c83e76b13b77ecb2daf700587c64c85a86fdaa3.png",
+                "rarity": 1,
+                "skill_desc": "在赛事初期对领跑战术的优俊少女\n进行牵制使其略微容易疲劳",
+                "limitation": "通用",
+                "condition1": "领跑策略人数≥1，序盘随机位置，赛事进行时间≥5",
+                "condition2": null,
+                "skill_type1": "体力值（百分比）",
+                "skill_type2": null,
+                "ability_value1": [
+                    -100
+                ],
+                "ability_value2": [],
+                "ability_time1": 0,
+                "ability_time2": null,
+                "need_skill_point": 130,
+                "pre_skill": null,
+                "pre_skill_name": null
+            },
+            {
+                "skill_id": 200861,
+                "skill_name": "跟前牵制",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/0c83e76b13b77ecb2daf700587c64c85a86fdaa3.png",
+                "rarity": 1,
+                "skill_desc": "在赛事初期对跟前战术的优俊少女\n进行牵制使其略微容易疲劳",
+                "limitation": "通用",
+                "condition1": "跟前策略人数≥1，序盘随机位置，赛事进行时间≥5",
+                "condition2": null,
+                "skill_type1": "体力值（百分比）",
+                "skill_type2": null,
+                "ability_value1": [
+                    -100
+                ],
+                "ability_value2": [],
+                "ability_time1": 0,
+                "ability_time2": null,
+                "need_skill_point": 130,
+                "pre_skill": null,
+                "pre_skill_name": null
+            },
+            {
+                "skill_id": 200891,
+                "skill_name": "居中牵制",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/0c83e76b13b77ecb2daf700587c64c85a86fdaa3.png",
+                "rarity": 1,
+                "skill_desc": "在赛事初期对居中战术的优俊少女\n进行牵制使其略微容易疲劳",
+                "limitation": "通用",
+                "condition1": "居中策略人数≥1，序盘随机位置，赛事进行时间≥5",
+                "condition2": null,
+                "skill_type1": "体力值（百分比）",
+                "skill_type2": null,
+                "ability_value1": [
+                    -100
+                ],
+                "ability_value2": [],
+                "ability_time1": 0,
+                "ability_time2": null,
+                "need_skill_point": 130,
+                "pre_skill": null,
+                "pre_skill_name": null
+            },
+            {
+                "skill_id": 200921,
+                "skill_name": "后追牵制",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/0c83e76b13b77ecb2daf700587c64c85a86fdaa3.png",
+                "rarity": 1,
+                "skill_desc": "在赛事初期对后追战术的优俊少女\n进行牵制使其略微容易疲劳",
+                "limitation": "通用",
+                "condition1": "后追策略人数≥1，序盘随机位置，赛事进行时间≥5",
+                "condition2": null,
+                "skill_type1": "体力值（百分比）",
+                "skill_type2": null,
+                "ability_value1": [
+                    -100
+                ],
+                "ability_value2": [],
+                "ability_time1": 0,
+                "ability_time2": null,
+                "need_skill_point": 130,
+                "pre_skill": null,
+                "pre_skill_name": null
+            },
+            {
+                "skill_id": 201152,
+                "skill_name": "束缚",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/1612c4d4017143348c64c3a7830305aa46a8034e.png",
+                "rarity": 1,
+                "skill_desc": "在赛事末期位于后方时\n会略微降低前方优俊少女的速度<中距离>",
+                "limitation": "中距离",
+                "condition1": "中距离，终盘前半段随机位置，名次>50%",
+                "condition2": null,
+                "skill_type1": "当前速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    -1500
+                ],
+                "ability_value2": [],
+                "ability_time1": 30000,
+                "ability_time2": null,
+                "need_skill_point": 160,
+                "pre_skill": 201151,
+                "pre_skill_name": "独占力"
+            },
+            {
+                "skill_id": 201532,
+                "skill_name": "跟前诀窍○",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/1c9b9e90297efb32fd2d8baa70464e97c50f58b1.png",
+                "rarity": 1,
+                "skill_desc": "稍微容易占据良好位置\n<战术：跟前>",
+                "limitation": "跟前",
+                "condition1": "跟前",
+                "condition2": null,
+                "skill_type1": "智力（属性）、视野范围",
+                "skill_type2": null,
+                "ability_value1": [
+                    400000,
+                    50000
+                ],
+                "ability_value2": [],
+                "ability_time1": -1,
+                "ability_time2": null,
+                "need_skill_point": 110,
+                "pre_skill": null,
+                "pre_skill_name": null
+            },
+            {
+                "skill_id": 201601,
+                "skill_name": "打基础",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/bd338ecc1d33ec83d4e45977372f03c4d221c3e0.png",
+                "rarity": 1,
+                "skill_desc": "在赛事初期发动多个技能时\n加速能力略微提升",
+                "limitation": "通用",
+                "condition1": "序盘技能发动数量≥3",
+                "condition2": null,
+                "skill_type1": "加速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    2000
+                ],
+                "ability_value2": [],
+                "ability_time1": 30000,
+                "ability_time2": null,
+                "need_skill_point": 100,
+                "pre_skill": null,
+                "pre_skill_name": null
+            }
+        ]
+    }
+]

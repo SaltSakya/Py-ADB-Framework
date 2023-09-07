@@ -1,0 +1,289 @@
+[
+    {
+        "support_card_info": {
+            "card_id": 30011,
+            "name": "[飞奔吧，闪耀吧]艾尼风神",
+            "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/599108753615881ddc00066a8d48eca780d00b15.png",
+            "attr_id": 3,
+            "rarity": 3
+        },
+        "branch_story": [
+            {
+                "story_id": 801031002,
+                "story_name": "还有10分钟！",
+                "story_type": 1,
+                "union_type": 2,
+                "related_skill_ids": null,
+                "gain_skill": null,
+                "select_value_list": [
+                    {
+                        "option": "选项一",
+                        "gain_list": [
+                            "毅力+15\n艾尼风神友情槽+5\n"
+                        ]
+                    },
+                    {
+                        "option": "选项二",
+                        "gain_list": [
+                            "智力+15\n艾尼风神友情槽+5\n"
+                        ]
+                    }
+                ]
+            },
+            {
+                "story_id": 801031001,
+                "story_name": "抓人游戏！",
+                "story_type": 1,
+                "union_type": 2,
+                "related_skill_ids": [
+                    200542
+                ],
+                "gain_skill": "疾步",
+                "select_value_list": [
+                    {
+                        "option": "选项一",
+                        "gain_list": [
+                            "体力+10\n速度+5\n艾尼风神友情槽+5\n"
+                        ]
+                    },
+                    {
+                        "option": "选项二",
+                        "gain_list": [
+                            "艾尼风神友情槽+5\n「疾步」的启发等级+1\n"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "no_branch_story": [],
+        "after_match_story": [],
+        "continuous_story": [
+            {
+                "story_id": 830011001,
+                "story_name": "姐姐的爆发力",
+                "story_type": 4,
+                "union_type": 3,
+                "related_skill_ids": null,
+                "gain_skill": null,
+                "select_value_list": [
+                    {
+                        "option": "无选项",
+                        "gain_list": [
+                            "体力-10\n速度+5\n耐力+5\n毅力+10\n"
+                        ]
+                    }
+                ]
+            },
+            {
+                "story_id": 830011002,
+                "story_name": "快乐前行",
+                "story_type": 4,
+                "union_type": 3,
+                "related_skill_ids": null,
+                "gain_skill": null,
+                "select_value_list": [
+                    {
+                        "option": "无选项",
+                        "gain_list": [
+                            "体力-10\n毅力+10\n技能点数+30\n艾尼风神友情槽+5\n"
+                        ]
+                    }
+                ]
+            },
+            {
+                "story_id": 830011003,
+                "story_name": "目标是闪耀瞬间！",
+                "story_type": 4,
+                "union_type": 3,
+                "related_skill_ids": [
+                    201281,
+                    201282
+                ],
+                "gain_skill": "活泼优俊少女、随势而动",
+                "select_value_list": [
+                    {
+                        "option": "无选项",
+                        "gain_list": [
+                            "体力-10\n毅力+20\n智力+5\n「活泼优俊少女」的启发等级+3\n",
+                            "体力-10\n毅力+10\n「随势而动」的启发等级+1\n"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "trip_story": [],
+        "story_skill_info": [
+            {
+                "skill_id": 200542,
+                "skill_name": "疾步",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/c44ceb01d2551e9cd2a82b7b1ca8b3f30e433902.png",
+                "rarity": 1,
+                "skill_desc": "在赛事中期时\n会略微容易取得领先<战术：领跑>",
+                "limitation": "领跑",
+                "condition1": "领跑，中盘随机位置，名次≤50%",
+                "condition2": null,
+                "skill_type1": "目标速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    1500
+                ],
+                "ability_value2": [],
+                "ability_time1": 30000,
+                "ability_time2": null,
+                "need_skill_point": 180,
+                "pre_skill": 200541,
+                "pre_skill_name": "逃脱术"
+            },
+            {
+                "skill_id": 201281,
+                "skill_name": "活泼优俊少女",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/df405a026fd17b46f8374d6ddbd36c8d13b54bb3.png",
+                "rarity": 2,
+                "skill_desc": "在上坡时不容易疲劳\n<战术：领跑>",
+                "limitation": "领跑",
+                "condition1": "领跑，上坡，赛事进行时间≥10",
+                "condition2": null,
+                "skill_type1": "体力值（百分比）",
+                "skill_type2": null,
+                "ability_value1": [
+                    550
+                ],
+                "ability_value2": [],
+                "ability_time1": 0,
+                "ability_time2": null,
+                "need_skill_point": 180,
+                "pre_skill": null,
+                "pre_skill_name": null
+            },
+            {
+                "skill_id": 201282,
+                "skill_name": "随势而动",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/4c910489d09842c36b36fa521844dc37342d3d20.png",
+                "rarity": 1,
+                "skill_desc": "在上坡时略微不容易疲劳\n<战术：领跑>",
+                "limitation": "领跑",
+                "condition1": "领跑，上坡，赛事进行时间≥10",
+                "condition2": null,
+                "skill_type1": "体力值（百分比）",
+                "skill_type2": null,
+                "ability_value1": [
+                    150
+                ],
+                "ability_value2": [],
+                "ability_time1": 0,
+                "ability_time2": null,
+                "need_skill_point": 180,
+                "pre_skill": 201281,
+                "pre_skill_name": "活泼优俊少女"
+            }
+        ],
+        "training_skill_info": [
+            {
+                "skill_id": 200732,
+                "skill_name": "紧追不舍",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/c44ceb01d2551e9cd2a82b7b1ca8b3f30e433902.png",
+                "rarity": 1,
+                "skill_desc": "在最终弯道被赶超时\n略微容易反超回来<中距离>",
+                "limitation": "中距离",
+                "condition1": "中距离，最终拐角，弯道，被超越次数＞0",
+                "condition2": null,
+                "skill_type1": "目标速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    1500
+                ],
+                "ability_value2": [],
+                "ability_time1": 30000,
+                "ability_time2": null,
+                "need_skill_point": 160,
+                "pre_skill": 200731,
+                "pre_skill_name": "对胜利的执念"
+            },
+            {
+                "skill_id": 201082,
+                "skill_name": "吞噬速度",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/1612c4d4017143348c64c3a7830305aa46a8034e.png",
+                "rarity": 1,
+                "skill_desc": "在赛事中期位于领先位置时\n略微掠夺后方优俊少女的速度<英里>",
+                "limitation": "英里",
+                "condition1": "英里，中盘随机位置，名次=1",
+                "condition2": null,
+                "skill_type1": "当前速度、目标速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    -1500,
+                    1500
+                ],
+                "ability_value2": [],
+                "ability_time1": 30000,
+                "ability_time2": null,
+                "need_skill_point": 160,
+                "pre_skill": 201081,
+                "pre_skill_name": "掠夺速度"
+            },
+            {
+                "skill_id": 201282,
+                "skill_name": "随势而动",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/4c910489d09842c36b36fa521844dc37342d3d20.png",
+                "rarity": 1,
+                "skill_desc": "在上坡时略微不容易疲劳\n<战术：领跑>",
+                "limitation": "领跑",
+                "condition1": "领跑，上坡，赛事进行时间≥10",
+                "condition2": null,
+                "skill_type1": "体力值（百分比）",
+                "skill_type2": null,
+                "ability_value1": [
+                    150
+                ],
+                "ability_value2": [],
+                "ability_time1": 0,
+                "ability_time2": null,
+                "need_skill_point": 180,
+                "pre_skill": 201281,
+                "pre_skill_name": "活泼优俊少女"
+            },
+            {
+                "skill_id": 201651,
+                "skill_name": "尾流",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/c44ceb01d2551e9cd2a82b7b1ca8b3f30e433902.png",
+                "rarity": 1,
+                "skill_desc": "紧跟在前方优俊少女身后时\n略微减少自身所受风阻",
+                "limitation": "通用",
+                "condition1": "紧跟前方时间≥3，赛事进行时间≥10",
+                "condition2": null,
+                "skill_type1": "目标速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    1500
+                ],
+                "ability_value2": [],
+                "ability_time1": 30000,
+                "ability_time2": null,
+                "need_skill_point": 160,
+                "pre_skill": null,
+                "pre_skill_name": null
+            },
+            {
+                "skill_id": 201661,
+                "skill_name": "游戏到此为止！",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/c44ceb01d2551e9cd2a82b7b1ca8b3f30e433902.png",
+                "rarity": 1,
+                "skill_desc": "身后有优俊少女长时间紧跟时\n速度略微提升",
+                "limitation": "通用",
+                "condition1": "后方贴近时间≥3，赛事进行时间≥10",
+                "condition2": null,
+                "skill_type1": "目标速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    1500
+                ],
+                "ability_value2": [],
+                "ability_time1": 30000,
+                "ability_time2": null,
+                "need_skill_point": 160,
+                "pre_skill": null,
+                "pre_skill_name": null
+            }
+        ]
+    }
+]

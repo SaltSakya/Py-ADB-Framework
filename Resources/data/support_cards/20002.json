@@ -1,0 +1,270 @@
+[
+    {
+        "support_card_info": {
+            "card_id": 20002,
+            "name": "[努力不会背叛自己！]大和赤骥",
+            "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/91e129fcbf488ad530d14f6c11aeb02c30d874cd.png",
+            "attr_id": 6,
+            "rarity": 2
+        },
+        "branch_story": [
+            {
+                "story_id": 801009002,
+                "story_name": "这点小伤不用在意！",
+                "story_type": 1,
+                "union_type": 2,
+                "related_skill_ids": [
+                    200562
+                ],
+                "gain_skill": "保留体力",
+                "select_value_list": [
+                    {
+                        "option": "选项一",
+                        "gain_list": [
+                            "大和赤骥友情槽+5\n「保留体力」的启发等级+1\n"
+                        ]
+                    },
+                    {
+                        "option": "选项二",
+                        "gain_list": [
+                            "体力+20\n干劲+1\n大和赤骥友情槽+5\n"
+                        ]
+                    }
+                ]
+            },
+            {
+                "story_id": 801009001,
+                "story_name": "明天我一定会赢的！",
+                "story_type": 1,
+                "union_type": 2,
+                "related_skill_ids": null,
+                "gain_skill": null,
+                "select_value_list": [
+                    {
+                        "option": "选项一",
+                        "gain_list": [
+                            "智力+10\n大和赤骥友情槽+5\n"
+                        ]
+                    },
+                    {
+                        "option": "选项二",
+                        "gain_list": [
+                            "干劲+1\n技能点数+15\n大和赤骥友情槽+5\n"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "no_branch_story": [],
+        "after_match_story": [],
+        "continuous_story": [
+            {
+                "story_id": 820002001,
+                "story_name": "不管对手是谁都不会输的！",
+                "story_type": 4,
+                "union_type": 3,
+                "related_skill_ids": null,
+                "gain_skill": null,
+                "select_value_list": [
+                    {
+                        "option": "无选项",
+                        "gain_list": [
+                            "体力+15\n智力+5\n大和赤骥友情槽+5\n"
+                        ]
+                    }
+                ]
+            },
+            {
+                "story_id": 820002002,
+                "story_name": "就算是打扫卫生也不会输的！",
+                "story_type": 4,
+                "union_type": 3,
+                "related_skill_ids": [
+                    201362
+                ],
+                "gain_skill": "重振旗鼓",
+                "select_value_list": [
+                    {
+                        "option": "无选项",
+                        "gain_list": [
+                            "智力+10\n「重振旗鼓」的启发等级+1\n"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "trip_story": [],
+        "story_skill_info": [
+            {
+                "skill_id": 200562,
+                "skill_name": "保留体力",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/4c910489d09842c36b36fa521844dc37342d3d20.png",
+                "rarity": 1,
+                "skill_desc": "在赛事初期时会略微不容易疲劳\n<战术：跟前>",
+                "limitation": "跟前",
+                "condition1": "跟前，序盘随机位置，赛事进行时间≥5，名次≤50%",
+                "condition2": null,
+                "skill_type1": "体力值（百分比）",
+                "skill_type2": null,
+                "ability_value1": [
+                    150
+                ],
+                "ability_value2": [],
+                "ability_time1": 0,
+                "ability_time2": null,
+                "need_skill_point": 180,
+                "pre_skill": 200561,
+                "pre_skill_name": "游刃有余"
+            },
+            {
+                "skill_id": 201362,
+                "skill_name": "重振旗鼓",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/bd338ecc1d33ec83d4e45977372f03c4d221c3e0.png",
+                "rarity": 1,
+                "skill_desc": "在赛事中期位于后方时\n加速能力略微提升<战术：跟前>",
+                "limitation": "跟前",
+                "condition1": "跟前，中盘随机位置，名次>50%",
+                "condition2": null,
+                "skill_type1": "加速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    2000
+                ],
+                "ability_value2": [],
+                "ability_time1": 30000,
+                "ability_time2": null,
+                "need_skill_point": 120,
+                "pre_skill": 201361,
+                "pre_skill_name": "不屈的精神"
+            }
+        ],
+        "training_skill_info": [
+            {
+                "skill_id": 200282,
+                "skill_name": "对抗意识○",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/673e0c0734bcdbee9cd2648df49bb77e2b3952fe.png",
+                "rarity": 1,
+                "skill_desc": "在有至少6名优俊少女与自己战术相同时\n能力稍微容易发挥",
+                "limitation": "通用",
+                "condition1": "相同跑法人数≥6",
+                "condition2": null,
+                "skill_type1": "力量（属性）",
+                "skill_type2": null,
+                "ability_value1": [
+                    400000
+                ],
+                "ability_value2": [],
+                "ability_time1": -1,
+                "ability_time2": null,
+                "need_skill_point": 90,
+                "pre_skill": null,
+                "pre_skill_name": null
+            },
+            {
+                "skill_id": 200572,
+                "skill_name": "稳步紧追",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/4c910489d09842c36b36fa521844dc37342d3d20.png",
+                "rarity": 1,
+                "skill_desc": "在赛事中期时会略微不容易变疲劳\n<战术：跟前>",
+                "limitation": "跟前",
+                "condition1": "跟前，中盘随机位置，名次≤50%",
+                "condition2": null,
+                "skill_type1": "体力值（百分比）",
+                "skill_type2": null,
+                "ability_value1": [
+                    150
+                ],
+                "ability_value2": [],
+                "ability_time1": 0,
+                "ability_time2": null,
+                "need_skill_point": 180,
+                "pre_skill": 200571,
+                "pre_skill_name": "比赛策略家"
+            },
+            {
+                "skill_id": 200582,
+                "skill_name": "准备突围",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/c44ceb01d2551e9cd2a82b7b1ca8b3f30e433902.png",
+                "rarity": 1,
+                "skill_desc": "在最终弯道处\n会略微容易突围<战术：跟前>",
+                "limitation": "跟前",
+                "condition1": "跟前，最终弯道随机位置，名次≤50%",
+                "condition2": null,
+                "skill_type1": "目标速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    1500
+                ],
+                "ability_value2": [],
+                "ability_time1": 12000,
+                "ability_time2": null,
+                "need_skill_point": 180,
+                "pre_skill": 200581,
+                "pre_skill_name": "速度之星"
+            },
+            {
+                "skill_id": 200712,
+                "skill_name": "前途似锦",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/4c910489d09842c36b36fa521844dc37342d3d20.png",
+                "rarity": 1,
+                "skill_desc": "在赛事中盘处于领跑位置时\n会略微不容易疲劳<中距离>",
+                "limitation": "中距离",
+                "condition1": "中距离，中盘随机位置，名次=1",
+                "condition2": null,
+                "skill_type1": "体力值（百分比）",
+                "skill_type2": null,
+                "ability_value1": [
+                    150
+                ],
+                "ability_value2": [],
+                "ability_time1": 0,
+                "ability_time2": null,
+                "need_skill_point": 160,
+                "pre_skill": 200711,
+                "pre_skill_name": "开拓者"
+            },
+            {
+                "skill_id": 200722,
+                "skill_name": "加快节奏",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/c44ceb01d2551e9cd2a82b7b1ca8b3f30e433902.png",
+                "rarity": 1,
+                "skill_desc": "在赛事中期位于前列时\n略微容易取得良好位置<中距离>",
+                "limitation": "中距离",
+                "condition1": "中距离，中盘随机位置，名次≤50%",
+                "condition2": null,
+                "skill_type1": "目标速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    1500
+                ],
+                "ability_value2": [],
+                "ability_time1": 9000,
+                "ability_time2": null,
+                "need_skill_point": 160,
+                "pre_skill": 200721,
+                "pre_skill_name": "绝妙韵律"
+            },
+            {
+                "skill_id": 201052,
+                "skill_name": "变速",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/c44ceb01d2551e9cd2a82b7b1ca8b3f30e433902.png",
+                "rarity": 1,
+                "skill_desc": "在赛事中期位于前列时\n会略微容易赶超<英里>",
+                "limitation": "英里",
+                "condition1": "英里，中盘随机位置，名次≤50%",
+                "condition2": null,
+                "skill_type1": "目标速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    1500
+                ],
+                "ability_value2": [],
+                "ability_time1": 12000,
+                "ability_time2": null,
+                "need_skill_point": 160,
+                "pre_skill": 201051,
+                "pre_skill_name": "换挡"
+            }
+        ]
+    }
+]

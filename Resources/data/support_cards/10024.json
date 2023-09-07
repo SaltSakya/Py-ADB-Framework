@@ -1,0 +1,195 @@
+[
+    {
+        "support_card_info": {
+            "card_id": 10024,
+            "name": "[特雷森学园]菱亚马逊",
+            "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/e5233d5321fcd634740b3918e6bf2c699fb117ad.png",
+            "attr_id": 2,
+            "rarity": 1
+        },
+        "branch_story": [
+            {
+                "story_id": 801012002,
+                "story_name": "菱亚姐奋斗记～后追篇～",
+                "story_type": 1,
+                "union_type": 2,
+                "related_skill_ids": [
+                    200941
+                ],
+                "gain_skill": "后追踌躇",
+                "select_value_list": [
+                    {
+                        "option": "选项一",
+                        "gain_list": [
+                            "菱亚马逊友情槽+5\n「后追踌躇」的启发等级+1\n"
+                        ]
+                    },
+                    {
+                        "option": "选项二",
+                        "gain_list": [
+                            "力量+5\n技能点数+15\n菱亚马逊友情槽+5\n"
+                        ]
+                    }
+                ]
+            },
+            {
+                "story_id": 801012001,
+                "story_name": "菱亚姐奋斗记～问题儿童篇～",
+                "story_type": 1,
+                "union_type": 2,
+                "related_skill_ids": null,
+                "gain_skill": null,
+                "select_value_list": [
+                    {
+                        "option": "选项一",
+                        "gain_list": [
+                            "体力+10\n智力+5\n菱亚马逊友情槽+5\n"
+                        ]
+                    },
+                    {
+                        "option": "选项二",
+                        "gain_list": [
+                            "体力-10\n速度+10\n毅力+5\n菱亚马逊友情槽+5\n"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "no_branch_story": [],
+        "after_match_story": [],
+        "continuous_story": null,
+        "trip_story": [],
+        "story_skill_info": [
+            {
+                "skill_id": 200941,
+                "skill_name": "后追踌躇",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/1612c4d4017143348c64c3a7830305aa46a8034e.png",
+                "rarity": 1,
+                "skill_desc": "在赛事末期让后追战术的优俊少女踌躇\n使其速度略微降低",
+                "limitation": "通用",
+                "condition1": "后追策略人数≥1，终盘前半段随机位置",
+                "condition2": null,
+                "skill_type1": "当前速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    -1500
+                ],
+                "ability_value2": [],
+                "ability_time1": 30000,
+                "ability_time2": null,
+                "need_skill_point": 130,
+                "pre_skill": null,
+                "pre_skill_name": null
+            }
+        ],
+        "training_skill_info": [
+            {
+                "skill_id": 200562,
+                "skill_name": "保留体力",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/4c910489d09842c36b36fa521844dc37342d3d20.png",
+                "rarity": 1,
+                "skill_desc": "在赛事初期时会略微不容易疲劳\n<战术：跟前>",
+                "limitation": "跟前",
+                "condition1": "跟前，序盘随机位置，赛事进行时间≥5，名次≤50%",
+                "condition2": null,
+                "skill_type1": "体力值（百分比）",
+                "skill_type2": null,
+                "ability_value1": [
+                    150
+                ],
+                "ability_value2": [],
+                "ability_time1": 0,
+                "ability_time2": null,
+                "need_skill_point": 180,
+                "pre_skill": 200561,
+                "pre_skill_name": "游刃有余"
+            },
+            {
+                "skill_id": 200642,
+                "skill_name": "一鼓作气",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/bd338ecc1d33ec83d4e45977372f03c4d221c3e0.png",
+                "rarity": 1,
+                "skill_desc": "在最后冲刺阶段的直线上\n加速能力略微提升<战术：后追>",
+                "limitation": "后追",
+                "condition1": "后追，最后冲刺，直线",
+                "condition2": null,
+                "skill_type1": "加速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    2000
+                ],
+                "ability_value2": [],
+                "ability_time1": 9000,
+                "ability_time2": null,
+                "need_skill_point": 180,
+                "pre_skill": 200641,
+                "pre_skill_name": "迫近的暗影"
+            },
+            {
+                "skill_id": 201452,
+                "skill_name": "后追直线○",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/c44ceb01d2551e9cd2a82b7b1ca8b3f30e433902.png",
+                "rarity": 1,
+                "skill_desc": "在直线上的速度略微提升\n<战术：后追>",
+                "limitation": "后追",
+                "condition1": "后追，直线",
+                "condition2": null,
+                "skill_type1": "目标速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    1500
+                ],
+                "ability_value2": [],
+                "ability_time1": 30000,
+                "ability_time2": null,
+                "need_skill_point": 130,
+                "pre_skill": null,
+                "pre_skill_name": null
+            },
+            {
+                "skill_id": 201532,
+                "skill_name": "跟前诀窍○",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/1c9b9e90297efb32fd2d8baa70464e97c50f58b1.png",
+                "rarity": 1,
+                "skill_desc": "稍微容易占据良好位置\n<战术：跟前>",
+                "limitation": "跟前",
+                "condition1": "跟前",
+                "condition2": null,
+                "skill_type1": "智力（属性）、视野范围",
+                "skill_type2": null,
+                "ability_value1": [
+                    400000,
+                    50000
+                ],
+                "ability_value2": [],
+                "ability_time1": -1,
+                "ability_time2": null,
+                "need_skill_point": 110,
+                "pre_skill": null,
+                "pre_skill_name": null
+            },
+            {
+                "skill_id": 201552,
+                "skill_name": "后追诀窍○",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/1c9b9e90297efb32fd2d8baa70464e97c50f58b1.png",
+                "rarity": 1,
+                "skill_desc": "稍微容易占据良好位置\n<战术：后追>",
+                "limitation": "后追",
+                "condition1": "后追",
+                "condition2": null,
+                "skill_type1": "智力（属性）、视野范围",
+                "skill_type2": null,
+                "ability_value1": [
+                    400000,
+                    50000
+                ],
+                "ability_value2": [],
+                "ability_time1": -1,
+                "ability_time2": null,
+                "need_skill_point": 110,
+                "pre_skill": null,
+                "pre_skill_name": null
+            }
+        ]
+    }
+]

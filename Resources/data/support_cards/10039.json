@@ -1,0 +1,257 @@
+[
+    {
+        "support_card_info": {
+            "card_id": 10039,
+            "name": "[特雷森学园]醒目飞鹰",
+            "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/782faf52f6f5fc600446d7d8b49593af2d7374a9.png",
+            "attr_id": 2,
+            "rarity": 1
+        },
+        "branch_story": [
+            {
+                "story_id": 801046002,
+                "story_name": "觉得可爱的话要来看哦☆",
+                "story_type": 1,
+                "union_type": 2,
+                "related_skill_ids": [
+                    200552
+                ],
+                "gain_skill": "准备压制",
+                "select_value_list": [
+                    {
+                        "option": "选项一",
+                        "gain_list": [
+                            "体力-10\n力量+10\n醒目飞鹰友情槽+5\n「准备压制」的启发等级+1\n"
+                        ]
+                    },
+                    {
+                        "option": "选项二",
+                        "gain_list": [
+                            "体力+10\n智力+5\n醒目飞鹰友情槽+5\n"
+                        ]
+                    }
+                ]
+            },
+            {
+                "story_id": 801046001,
+                "story_name": "互动是演出的关键☆",
+                "story_type": 1,
+                "union_type": 2,
+                "related_skill_ids": null,
+                "gain_skill": null,
+                "select_value_list": [
+                    {
+                        "option": "选项一",
+                        "gain_list": [
+                            "耐力+5\n毅力+10\n醒目飞鹰友情槽+5\n"
+                        ]
+                    },
+                    {
+                        "option": "选项二",
+                        "gain_list": [
+                            "智力+15\n醒目飞鹰友情槽+5\n"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "no_branch_story": [],
+        "after_match_story": [],
+        "continuous_story": null,
+        "trip_story": [],
+        "story_skill_info": [
+            {
+                "skill_id": 200552,
+                "skill_name": "准备压制",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/bd338ecc1d33ec83d4e45977372f03c4d221c3e0.png",
+                "rarity": 1,
+                "skill_desc": "在最终弯道时\n会略微容易保持领先<战术：领跑>",
+                "limitation": "领跑",
+                "condition1": "领跑，最终弯道随机位置，名次=1",
+                "condition2": null,
+                "skill_type1": "加速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    2000
+                ],
+                "ability_value2": [],
+                "ability_time1": 30000,
+                "ability_time2": null,
+                "need_skill_point": 180,
+                "pre_skill": 200551,
+                "pre_skill_name": "逃亡者"
+            }
+        ],
+        "training_skill_info": [
+            {
+                "skill_id": 200162,
+                "skill_name": "路况不佳○",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/673e0c0734bcdbee9cd2648df49bb77e2b3952fe.png",
+                "rarity": 1,
+                "skill_desc": "会变得稍微擅长\n“稍重”“重”“不良”的场地状态",
+                "limitation": "通用",
+                "condition1": "稍重场；重场；不良场",
+                "condition2": null,
+                "skill_type1": "力量（属性）",
+                "skill_type2": null,
+                "ability_value1": [
+                    400000
+                ],
+                "ability_value2": [],
+                "ability_time1": -1,
+                "ability_time2": null,
+                "need_skill_point": 90,
+                "pre_skill": null,
+                "pre_skill_name": null
+            },
+            {
+                "skill_id": 200222,
+                "skill_name": "阴天○",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/977e98772467a7d9ea51bd0ad54b9dc1d1e1e01e.png",
+                "rarity": 1,
+                "skill_desc": "会变得稍微擅长阴天的赛事",
+                "limitation": "通用",
+                "condition1": "阴",
+                "condition2": null,
+                "skill_type1": "毅力（属性）",
+                "skill_type2": null,
+                "ability_value1": [
+                    400000
+                ],
+                "ability_value2": [],
+                "ability_time1": -1,
+                "ability_time2": null,
+                "need_skill_point": 90,
+                "pre_skill": null,
+                "pre_skill_name": null
+            },
+            {
+                "skill_id": 200262,
+                "skill_name": "擅长外道○",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/70f3c8fea3c651cb38d69df6e644872657a63cbf.png",
+                "rarity": 1,
+                "skill_desc": "会变得稍微擅长道次6至8号的赛事",
+                "limitation": "通用",
+                "condition1": "道次≥6",
+                "condition2": null,
+                "skill_type1": "速度（属性）",
+                "skill_type2": null,
+                "ability_value1": [
+                    400000
+                ],
+                "ability_value2": [],
+                "ability_time1": -1,
+                "ability_time2": null,
+                "need_skill_point": 90,
+                "pre_skill": null,
+                "pre_skill_name": null
+            },
+            {
+                "skill_id": 200352,
+                "skill_name": "弯道恢复○",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/4c910489d09842c36b36fa521844dc37342d3d20.png",
+                "rarity": 1,
+                "skill_desc": "利用高效的过弯略微恢复体力",
+                "limitation": "通用",
+                "condition1": "第1弯道；第2弯道；第3弯道；第4弯道",
+                "condition2": null,
+                "skill_type1": "体力值（百分比）",
+                "skill_type2": null,
+                "ability_value1": [
+                    150
+                ],
+                "ability_value2": [],
+                "ability_time1": 0,
+                "ability_time2": null,
+                "need_skill_point": 170,
+                "pre_skill": 200351,
+                "pre_skill_name": "圆弧艺术家"
+            },
+            {
+                "skill_id": 200952,
+                "skill_name": "大井赛场○",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/762928d76f4cb135264040edacbc36eb0fb7708e.png",
+                "rarity": 1,
+                "skill_desc": "会变得稍微擅长大井赛场的赛事",
+                "limitation": "通用",
+                "condition1": "大井场",
+                "condition2": null,
+                "skill_type1": "耐力（属性）",
+                "skill_type2": null,
+                "ability_value1": [
+                    400000
+                ],
+                "ability_value2": [],
+                "ability_time1": -1,
+                "ability_time2": null,
+                "need_skill_point": 90,
+                "pre_skill": null,
+                "pre_skill_name": null
+            },
+            {
+                "skill_id": 201292,
+                "skill_name": "第二支箭",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/bd338ecc1d33ec83d4e45977372f03c4d221c3e0.png",
+                "rarity": 1,
+                "skill_desc": "在赛事中期位于后方时\n加速能力略微提升<战术：领跑>",
+                "limitation": "领跑",
+                "condition1": "领跑，中盘随机位置，名次>50%",
+                "condition2": null,
+                "skill_type1": "加速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    2000
+                ],
+                "ability_value2": [],
+                "ability_time1": 30000,
+                "ability_time2": null,
+                "need_skill_point": 180,
+                "pre_skill": 201291,
+                "pre_skill_name": "再度燃烧"
+            },
+            {
+                "skill_id": 201302,
+                "skill_name": "重新开始",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/2438c874e5e1ec735caf934b743fb36154db385e.png",
+                "rarity": 1,
+                "skill_desc": "在赛事初期未能取得领跑位置时\n会让前方的优俊少女略微产生动摇\n<战术：领跑>",
+                "limitation": "领跑",
+                "condition1": "领跑，序盘随机位置，名次>50%，赛事进行时间≥5",
+                "condition2": null,
+                "skill_type1": "加速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    -1000
+                ],
+                "ability_value2": [],
+                "ability_time1": 30000,
+                "ability_time2": null,
+                "need_skill_point": 130,
+                "pre_skill": null,
+                "pre_skill_name": null
+            },
+            {
+                "skill_id": 201522,
+                "skill_name": "领跑诀窍○",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/1c9b9e90297efb32fd2d8baa70464e97c50f58b1.png",
+                "rarity": 1,
+                "skill_desc": "稍微容易占据良好位置\n<战术：领跑>",
+                "limitation": "领跑",
+                "condition1": "领跑",
+                "condition2": null,
+                "skill_type1": "智力（属性）、视野范围",
+                "skill_type2": null,
+                "ability_value1": [
+                    400000,
+                    50000
+                ],
+                "ability_value2": [],
+                "ability_time1": -1,
+                "ability_time2": null,
+                "need_skill_point": 110,
+                "pre_skill": null,
+                "pre_skill_name": null
+            }
+        ]
+    }
+]

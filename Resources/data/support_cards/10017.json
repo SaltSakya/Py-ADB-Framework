@@ -1,0 +1,151 @@
+[
+    {
+        "support_card_info": {
+            "card_id": 10017,
+            "name": "[特雷森学园]黄金城",
+            "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/1a1136fe50b7a845a15236de68f399da67d54406.png",
+            "attr_id": 1,
+            "rarity": 1
+        },
+        "branch_story": [
+            {
+                "story_id": 801040002,
+                "story_name": "13:12／午休，必须鼓足干劲",
+                "story_type": 1,
+                "union_type": 2,
+                "related_skill_ids": [
+                    201422
+                ],
+                "gain_skill": "稍作休息",
+                "select_value_list": [
+                    {
+                        "option": "选项一",
+                        "gain_list": [
+                            "技能点数+30\n黄金城友情槽+5\n"
+                        ]
+                    },
+                    {
+                        "option": "选项二",
+                        "gain_list": [
+                            "黄金城友情槽+5\n「稍作休息」的启发等级+1\n"
+                        ]
+                    }
+                ]
+            },
+            {
+                "story_id": 801040001,
+                "story_name": "08:36／睡过头了，糟糕",
+                "story_type": 1,
+                "union_type": 2,
+                "related_skill_ids": null,
+                "gain_skill": null,
+                "select_value_list": [
+                    {
+                        "option": "选项一",
+                        "gain_list": [
+                            "干劲-1\n技能点数+45\n黄金城友情槽+5\n"
+                        ]
+                    },
+                    {
+                        "option": "选项二",
+                        "gain_list": [
+                            "体力+10\n智力+5\n黄金城友情槽+5\n"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "no_branch_story": [],
+        "after_match_story": [],
+        "continuous_story": null,
+        "trip_story": [],
+        "story_skill_info": [
+            {
+                "skill_id": 201422,
+                "skill_name": "稍作休息",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/4c910489d09842c36b36fa521844dc37342d3d20.png",
+                "rarity": 1,
+                "skill_desc": "在赛事末期体力略微恢复\n<战术：居中>",
+                "limitation": "居中",
+                "condition1": "居中，终盘前半段随机位置",
+                "condition2": null,
+                "skill_type1": "体力值（百分比）",
+                "skill_type2": null,
+                "ability_value1": [
+                    150
+                ],
+                "ability_value2": [],
+                "ability_time1": 0,
+                "ability_time2": null,
+                "need_skill_point": 180,
+                "pre_skill": 201421,
+                "pre_skill_name": "放松"
+            }
+        ],
+        "training_skill_info": [
+            {
+                "skill_id": 200082,
+                "skill_name": "札幌赛场○",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/762928d76f4cb135264040edacbc36eb0fb7708e.png",
+                "rarity": 1,
+                "skill_desc": "会变得稍微擅长札幌赛场的赛事",
+                "limitation": "通用",
+                "condition1": "札幌场",
+                "condition2": null,
+                "skill_type1": "耐力（属性）",
+                "skill_type2": null,
+                "ability_value1": [
+                    400000
+                ],
+                "ability_value2": [],
+                "ability_time1": -1,
+                "ability_time2": null,
+                "need_skill_point": 70,
+                "pre_skill": null,
+                "pre_skill_name": null
+            },
+            {
+                "skill_id": 200692,
+                "skill_name": "窥视展开",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/4c910489d09842c36b36fa521844dc37342d3d20.png",
+                "rarity": 1,
+                "skill_desc": "在赛事初期位于后方时\n会略微不容易疲劳<英里>",
+                "limitation": "英里",
+                "condition1": "英里，序盘随机位置，赛事进行时间≥5，名次>50%",
+                "condition2": null,
+                "skill_type1": "体力值（百分比）",
+                "skill_type2": null,
+                "ability_value1": [
+                    150
+                ],
+                "ability_value2": [],
+                "ability_time1": 0,
+                "ability_time2": null,
+                "need_skill_point": 160,
+                "pre_skill": 200691,
+                "pre_skill_name": "慧眼"
+            },
+            {
+                "skill_id": 201062,
+                "skill_name": "加快速度",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/bd338ecc1d33ec83d4e45977372f03c4d221c3e0.png",
+                "rarity": 1,
+                "skill_desc": "在赛事中期赶超成功时\n加速能力略微提升<英里>",
+                "limitation": "英里",
+                "condition1": "英里，中盘，至少超越一人",
+                "condition2": null,
+                "skill_type1": "加速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    2000
+                ],
+                "ability_value2": [],
+                "ability_time1": 12000,
+                "ability_time2": null,
+                "need_skill_point": 160,
+                "pre_skill": 201061,
+                "pre_skill_name": "马力全开！"
+            }
+        ]
+    }
+]

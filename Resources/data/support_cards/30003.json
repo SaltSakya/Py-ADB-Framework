@@ -1,0 +1,288 @@
+[
+    {
+        "support_card_info": {
+            "card_id": 30003,
+            "name": "[有梦想就要大声说出来！]东海帝王",
+            "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/567de0e49a352f185f46ce2c0fb9097bb4a66f92.png",
+            "attr_id": 1,
+            "rarity": 3
+        },
+        "branch_story": [
+            {
+                "story_id": 801003002,
+                "story_name": "我的武器",
+                "story_type": 1,
+                "union_type": 2,
+                "related_skill_ids": [
+                    201312
+                ],
+                "gain_skill": "跟前直线○",
+                "select_value_list": [
+                    {
+                        "option": "选项一",
+                        "gain_list": [
+                            "干劲+1\n毅力+10\n东海帝王友情槽+5\n"
+                        ]
+                    },
+                    {
+                        "option": "选项二",
+                        "gain_list": [
+                            "东海帝王友情槽+5\n「跟前直线○」的启发等级+1\n"
+                        ]
+                    }
+                ]
+            },
+            {
+                "story_id": 801003001,
+                "story_name": "我的跑法",
+                "story_type": 1,
+                "union_type": 2,
+                "related_skill_ids": null,
+                "gain_skill": null,
+                "select_value_list": [
+                    {
+                        "option": "选项一",
+                        "gain_list": [
+                            "干劲+1\n技能点数+15\n东海帝王友情槽+5\n"
+                        ]
+                    },
+                    {
+                        "option": "选项二",
+                        "gain_list": [
+                            "毅力+15\n东海帝王友情槽+5\n"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "no_branch_story": [],
+        "after_match_story": [],
+        "continuous_story": [
+            {
+                "story_id": 830003001,
+                "story_name": "拉开帷幕的预感",
+                "story_type": 4,
+                "union_type": 3,
+                "related_skill_ids": null,
+                "gain_skill": null,
+                "select_value_list": [
+                    {
+                        "option": "无选项",
+                        "gain_list": [
+                            "体力+10\n速度+5\n"
+                        ]
+                    }
+                ]
+            },
+            {
+                "story_id": 830003002,
+                "story_name": "短暂的幕间休息",
+                "story_type": 4,
+                "union_type": 3,
+                "related_skill_ids": null,
+                "gain_skill": null,
+                "select_value_list": [
+                    {
+                        "option": "无选项",
+                        "gain_list": [
+                            "体力+10\n速度+5\n智力+5\n"
+                        ]
+                    }
+                ]
+            },
+            {
+                "story_id": 830003003,
+                "story_name": "成为传说的一幕",
+                "story_type": 4,
+                "union_type": 3,
+                "related_skill_ids": [
+                    200371
+                ],
+                "gain_skill": "一阵狂风",
+                "select_value_list": [
+                    {
+                        "option": "无选项",
+                        "gain_list": [
+                            "体力+10\n速度+5\n东海帝王友情槽+5\n「一阵狂风」的启发等级+1\n"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "trip_story": [],
+        "story_skill_info": [
+            {
+                "skill_id": 201312,
+                "skill_name": "跟前直线○",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/c44ceb01d2551e9cd2a82b7b1ca8b3f30e433902.png",
+                "rarity": 1,
+                "skill_desc": "在直线上的速度略微提升\n<战术：跟前>",
+                "limitation": "跟前",
+                "condition1": "跟前，直线",
+                "condition2": null,
+                "skill_type1": "目标速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    1500
+                ],
+                "ability_value2": [],
+                "ability_time1": 30000,
+                "ability_time2": null,
+                "need_skill_point": 130,
+                "pre_skill": null,
+                "pre_skill_name": null
+            },
+            {
+                "skill_id": 200371,
+                "skill_name": "一阵狂风",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/474b7f656caba23ad1448ff7bf804e5c348f4b67.png",
+                "rarity": 2,
+                "skill_desc": "直线上加速能力提升",
+                "limitation": "通用",
+                "condition1": "直线",
+                "condition2": null,
+                "skill_type1": "加速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    4000
+                ],
+                "ability_value2": [],
+                "ability_time1": 18000,
+                "ability_time2": null,
+                "need_skill_point": 170,
+                "pre_skill": null,
+                "pre_skill_name": null
+            }
+        ],
+        "training_skill_info": [
+            {
+                "skill_id": 200452,
+                "skill_name": "位置感",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/71102427535809845ae98aa2d2238606645af8b7.png",
+                "rarity": 1,
+                "skill_desc": "在赛事初期\n稍微容易取得好路线",
+                "limitation": "通用",
+                "condition1": "序盘随机位置",
+                "condition2": null,
+                "skill_type1": "变道速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    250
+                ],
+                "ability_value2": [],
+                "ability_time1": 30000,
+                "ability_time2": null,
+                "need_skill_point": 120,
+                "pre_skill": 200451,
+                "pre_skill_name": "人气舞娘"
+            },
+            {
+                "skill_id": 200492,
+                "skill_name": "回避失速优俊少女",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/bd338ecc1d33ec83d4e45977372f03c4d221c3e0.png",
+                "rarity": 1,
+                "skill_desc": "最后冲刺阶段前方被阻挡时\n会略微擅长回避",
+                "limitation": "通用",
+                "condition1": "前方被阻挡时间≥1，最后冲刺，体力剩余≥1%",
+                "condition2": null,
+                "skill_type1": "加速度、变道速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    2000,
+                    50
+                ],
+                "ability_value2": [],
+                "ability_time1": 30000,
+                "ability_time2": null,
+                "need_skill_point": 150,
+                "pre_skill": 200491,
+                "pre_skill_name": "不停步的女孩"
+            },
+            {
+                "skill_id": 200502,
+                "skill_name": "临机应变",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/71102427535809845ae98aa2d2238606645af8b7.png",
+                "rarity": 1,
+                "skill_desc": "赛事末期时\n稍微容易取得好路线",
+                "limitation": "通用",
+                "condition1": "终盘前半段随机位置",
+                "condition2": null,
+                "skill_type1": "变道速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    250
+                ],
+                "ability_value2": [],
+                "ability_time1": 30000,
+                "ability_time2": null,
+                "need_skill_point": 120,
+                "pre_skill": 200501,
+                "pre_skill_name": "赛道的魔术师"
+            },
+            {
+                "skill_id": 201132,
+                "skill_name": "闪电步伐",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/71102427535809845ae98aa2d2238606645af8b7.png",
+                "rarity": 1,
+                "skill_desc": "在赛事中期位于后方时\n稍微不容易被包围<中距离>",
+                "limitation": "中距离",
+                "condition1": "中距离，中盘随机位置，名次>50%",
+                "condition2": null,
+                "skill_type1": "变道速度、加速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    250,
+                    2000
+                ],
+                "ability_value2": [],
+                "ability_time1": 30000,
+                "ability_time2": null,
+                "need_skill_point": 140,
+                "pre_skill": 201131,
+                "pre_skill_name": "闪光步伐"
+            },
+            {
+                "skill_id": 201142,
+                "skill_name": "轻盈步伐",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/4c910489d09842c36b36fa521844dc37342d3d20.png",
+                "rarity": 1,
+                "skill_desc": "左右移动略微不容易疲劳\n<中距离>",
+                "limitation": "中距离",
+                "condition1": "中距离，变换跑道，赛事进行时间≥10；中距离，变换跑道，赛事进行时间≥10",
+                "condition2": null,
+                "skill_type1": "体力值（百分比）",
+                "skill_type2": null,
+                "ability_value1": [
+                    150
+                ],
+                "ability_value2": [],
+                "ability_time1": 0,
+                "ability_time2": null,
+                "need_skill_point": 160,
+                "pre_skill": 201141,
+                "pre_skill_name": "神迹步伐"
+            },
+            {
+                "skill_id": 201332,
+                "skill_name": "轻巧舞步",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/bd338ecc1d33ec83d4e45977372f03c4d221c3e0.png",
+                "rarity": 1,
+                "skill_desc": "路线选择会变得略微顺利\n<战术：跟前>",
+                "limitation": "跟前",
+                "condition1": "跟前，变换跑道；跟前，变换跑道",
+                "condition2": null,
+                "skill_type1": "加速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    2000
+                ],
+                "ability_value2": [],
+                "ability_time1": 18000,
+                "ability_time2": null,
+                "need_skill_point": 120,
+                "pre_skill": 201331,
+                "pre_skill_name": "技巧派"
+            }
+        ]
+    }
+]

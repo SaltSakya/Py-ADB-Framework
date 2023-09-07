@@ -1,0 +1,226 @@
+[
+    {
+        "support_card_info": {
+            "card_id": 20015,
+            "name": "[Marvelous☆大作战]美丽周日",
+            "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/bbf8ee06e09188836b326afcac93ff2ed535b24e.png",
+            "attr_id": 6,
+            "rarity": 2
+        },
+        "branch_story": [
+            {
+                "story_id": 801055002,
+                "story_name": "为了变得marvelous☆",
+                "story_type": 1,
+                "union_type": 2,
+                "related_skill_ids": [
+                    200052
+                ],
+                "gain_skill": "阪神赛场○",
+                "select_value_list": [
+                    {
+                        "option": "选项一",
+                        "gain_list": [
+                            "体力+10\n干劲+1\n美丽周日友情槽+5\n"
+                        ]
+                    },
+                    {
+                        "option": "选项二",
+                        "gain_list": [
+                            "美丽周日友情槽+5\n「阪神赛场○」的启发等级+1\n"
+                        ]
+                    }
+                ]
+            },
+            {
+                "story_id": 801055001,
+                "story_name": "无需多言marvelous☆",
+                "story_type": 1,
+                "union_type": 2,
+                "related_skill_ids": null,
+                "gain_skill": null,
+                "select_value_list": [
+                    {
+                        "option": "选项一",
+                        "gain_list": [
+                            "体力+10\n速度+5\n美丽周日友情槽+5\n"
+                        ]
+                    },
+                    {
+                        "option": "选项二",
+                        "gain_list": [
+                            "干劲+1\n速度+5\n美丽周日友情槽+5\n"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "no_branch_story": [],
+        "after_match_story": [],
+        "continuous_story": [
+            {
+                "story_id": 820015001,
+                "story_name": "世界marvelous计划☆",
+                "story_type": 4,
+                "union_type": 3,
+                "related_skill_ids": null,
+                "gain_skill": null,
+                "select_value_list": [
+                    {
+                        "option": "无选项",
+                        "gain_list": [
+                            "毅力+5\n智力+5\n"
+                        ]
+                    }
+                ]
+            },
+            {
+                "story_id": 820015002,
+                "story_name": "超级厉害marvelous☆",
+                "story_type": 4,
+                "union_type": 3,
+                "related_skill_ids": null,
+                "gain_skill": null,
+                "select_value_list": [
+                    {
+                        "option": "无选项",
+                        "gain_list": [
+                            "毅力+15\n智力+15\n"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "trip_story": [],
+        "story_skill_info": [
+            {
+                "skill_id": 200052,
+                "skill_name": "阪神赛场○",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/762928d76f4cb135264040edacbc36eb0fb7708e.png",
+                "rarity": 1,
+                "skill_desc": "会变得稍微擅长阪神赛场的赛事",
+                "limitation": "通用",
+                "condition1": "阪神场",
+                "condition2": null,
+                "skill_type1": "耐力（属性）",
+                "skill_type2": null,
+                "ability_value1": [
+                    400000
+                ],
+                "ability_value2": [],
+                "ability_time1": -1,
+                "ability_time2": null,
+                "need_skill_point": 90,
+                "pre_skill": null,
+                "pre_skill_name": null
+            }
+        ],
+        "training_skill_info": [
+            {
+                "skill_id": 200362,
+                "skill_name": "直线能手",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/c44ceb01d2551e9cd2a82b7b1ca8b3f30e433902.png",
+                "rarity": 1,
+                "skill_desc": "直线上速度略微提升",
+                "limitation": "通用",
+                "condition1": "直线",
+                "condition2": null,
+                "skill_type1": "目标速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    1500
+                ],
+                "ability_value2": [],
+                "ability_time1": 9000,
+                "ability_time2": null,
+                "need_skill_point": 170,
+                "pre_skill": 200361,
+                "pre_skill_name": "迅疾如风"
+            },
+            {
+                "skill_id": 200462,
+                "skill_name": "加快步伐",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/c44ceb01d2551e9cd2a82b7b1ca8b3f30e433902.png",
+                "rarity": 1,
+                "skill_desc": "在赛事中期赶超成功时\n速度略微提升",
+                "limitation": "通用",
+                "condition1": "中盘，至少超越一人",
+                "condition2": null,
+                "skill_type1": "目标速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    1500
+                ],
+                "ability_value2": [],
+                "ability_time1": 18000,
+                "ability_time2": null,
+                "need_skill_point": 170,
+                "pre_skill": 200461,
+                "pre_skill_name": "兴奋起来了！"
+            },
+            {
+                "skill_id": 200851,
+                "skill_name": "领跑踌躇",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/1612c4d4017143348c64c3a7830305aa46a8034e.png",
+                "rarity": 1,
+                "skill_desc": "在赛事末期让领跑战术的优俊少女踌躇\n使其速度略微降低",
+                "limitation": "通用",
+                "condition1": "领跑策略人数≥1，终盘前半段随机位置",
+                "condition2": null,
+                "skill_type1": "当前速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    -1500
+                ],
+                "ability_value2": [],
+                "ability_time1": 30000,
+                "ability_time2": null,
+                "need_skill_point": 130,
+                "pre_skill": null,
+                "pre_skill_name": null
+            },
+            {
+                "skill_id": 200881,
+                "skill_name": "跟前踌躇",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/1612c4d4017143348c64c3a7830305aa46a8034e.png",
+                "rarity": 1,
+                "skill_desc": "在赛事末期让跟前战术的优俊少女踌躇\n使其速度略微降低",
+                "limitation": "通用",
+                "condition1": "跟前策略人数≥1，终盘前半段随机位置",
+                "condition2": null,
+                "skill_type1": "当前速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    -1500
+                ],
+                "ability_value2": [],
+                "ability_time1": 30000,
+                "ability_time2": null,
+                "need_skill_point": 130,
+                "pre_skill": null,
+                "pre_skill_name": null
+            },
+            {
+                "skill_id": 201611,
+                "skill_name": "翘尾巴",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/c44ceb01d2551e9cd2a82b7b1ca8b3f30e433902.png",
+                "rarity": 1,
+                "skill_desc": "在赛事中期发动多个技能时\n速度略微提升",
+                "limitation": "通用",
+                "condition1": "中盘技能发动数量≥3",
+                "condition2": null,
+                "skill_type1": "目标速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    1500
+                ],
+                "ability_value2": [],
+                "ability_time1": 30000,
+                "ability_time2": null,
+                "need_skill_point": 100,
+                "pre_skill": null,
+                "pre_skill_name": null
+            }
+        ]
+    }
+]

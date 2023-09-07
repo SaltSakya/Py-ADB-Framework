@@ -1,0 +1,272 @@
+[
+    {
+        "support_card_info": {
+            "card_id": 30018,
+            "name": "[哪怕还未长大]西野花",
+            "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/819fd3aaf7d676e8c8c4d4053302737dc07a66d0.png",
+            "attr_id": 1,
+            "rarity": 3
+        },
+        "branch_story": [
+            {
+                "story_id": 801051002,
+                "story_name": "美丽地绽放吧♪",
+                "story_type": 1,
+                "union_type": 2,
+                "related_skill_ids": null,
+                "gain_skill": null,
+                "select_value_list": [
+                    {
+                        "option": "选项一",
+                        "gain_list": [
+                            "智力+15\n西野花友情槽+5\n"
+                        ]
+                    },
+                    {
+                        "option": "选项二",
+                        "gain_list": [
+                            "速度+10\n力量+5\n西野花友情槽+5\n"
+                        ]
+                    }
+                ]
+            },
+            {
+                "story_id": 801051001,
+                "story_name": "温馨的爱心便当",
+                "story_type": 1,
+                "union_type": 2,
+                "related_skill_ids": null,
+                "gain_skill": null,
+                "select_value_list": [
+                    {
+                        "option": "选项一",
+                        "gain_list": [
+                            "西野花友情槽+5\n获得“惹人喜爱◯”\n"
+                        ]
+                    },
+                    {
+                        "option": "选项二",
+                        "gain_list": [
+                            "体力+20\n西野花友情槽+5\n"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "no_branch_story": [],
+        "after_match_story": [],
+        "continuous_story": [
+            {
+                "story_id": 830018001,
+                "story_name": "我能做到的事",
+                "story_type": 4,
+                "union_type": 3,
+                "related_skill_ids": null,
+                "gain_skill": null,
+                "select_value_list": [
+                    {
+                        "option": "无选项",
+                        "gain_list": [
+                            "最大体力上限+4\n技能点数+10\n"
+                        ]
+                    }
+                ]
+            },
+            {
+                "story_id": 830018002,
+                "story_name": "憧憬的……",
+                "story_type": 4,
+                "union_type": 3,
+                "related_skill_ids": null,
+                "gain_skill": null,
+                "select_value_list": [
+                    {
+                        "option": "选项一",
+                        "gain_list": [
+                            "体力-10\n智力+20\n西野花友情槽+5\n"
+                        ]
+                    },
+                    {
+                        "option": "选项二",
+                        "gain_list": [
+                            "智力+5\n技能点数+15\n"
+                        ]
+                    }
+                ]
+            },
+            {
+                "story_id": 830018003,
+                "story_name": "最重要的是！",
+                "story_type": 4,
+                "union_type": 3,
+                "related_skill_ids": [
+                    200361,
+                    200362
+                ],
+                "gain_skill": "迅疾如风、直线能手",
+                "select_value_list": [
+                    {
+                        "option": "无选项",
+                        "gain_list": [
+                            "速度+5\n智力+10\n「迅疾如风」的启发等级+1\n",
+                            "速度+10\n智力+10\n「迅疾如风」的启发等级+3\n",
+                            "速度+5\n智力+10\n「直线能手」的启发等级+1\n"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "trip_story": [],
+        "story_skill_info": [
+            {
+                "skill_id": 200361,
+                "skill_name": "迅疾如风",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/6602a0953618cc0d21582543b81e8ca8627c2123.png",
+                "rarity": 2,
+                "skill_desc": "直线上速度提升",
+                "limitation": "通用",
+                "condition1": "直线",
+                "condition2": null,
+                "skill_type1": "目标速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    3500
+                ],
+                "ability_value2": [],
+                "ability_time1": 9000,
+                "ability_time2": null,
+                "need_skill_point": 170,
+                "pre_skill": null,
+                "pre_skill_name": null
+            },
+            {
+                "skill_id": 200362,
+                "skill_name": "直线能手",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/c44ceb01d2551e9cd2a82b7b1ca8b3f30e433902.png",
+                "rarity": 1,
+                "skill_desc": "直线上速度略微提升",
+                "limitation": "通用",
+                "condition1": "直线",
+                "condition2": null,
+                "skill_type1": "目标速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    1500
+                ],
+                "ability_value2": [],
+                "ability_time1": 9000,
+                "ability_time2": null,
+                "need_skill_point": 170,
+                "pre_skill": 200361,
+                "pre_skill_name": "迅疾如风"
+            }
+        ],
+        "training_skill_info": [
+            {
+                "skill_id": 200052,
+                "skill_name": "阪神赛场○",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/762928d76f4cb135264040edacbc36eb0fb7708e.png",
+                "rarity": 1,
+                "skill_desc": "会变得稍微擅长阪神赛场的赛事",
+                "limitation": "通用",
+                "condition1": "阪神场",
+                "condition2": null,
+                "skill_type1": "耐力（属性）",
+                "skill_type2": null,
+                "ability_value1": [
+                    400000
+                ],
+                "ability_value2": [],
+                "ability_time1": -1,
+                "ability_time2": null,
+                "need_skill_point": 90,
+                "pre_skill": null,
+                "pre_skill_name": null
+            },
+            {
+                "skill_id": 200132,
+                "skill_name": "标准距离○",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/762928d76f4cb135264040edacbc36eb0fb7708e.png",
+                "rarity": 1,
+                "skill_desc": "会变得稍微擅长\n标准距离（400米的倍数）的赛事",
+                "limitation": "通用",
+                "condition1": "标准距离",
+                "condition2": null,
+                "skill_type1": "耐力（属性）",
+                "skill_type2": null,
+                "ability_value1": [
+                    400000
+                ],
+                "ability_value2": [],
+                "ability_time1": -1,
+                "ability_time2": null,
+                "need_skill_point": 90,
+                "pre_skill": null,
+                "pre_skill_name": null
+            },
+            {
+                "skill_id": 200152,
+                "skill_name": "良场地○",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/673e0c0734bcdbee9cd2648df49bb77e2b3952fe.png",
+                "rarity": 1,
+                "skill_desc": "会变得稍微擅长“良”的场地状态",
+                "limitation": "通用",
+                "condition1": "良场",
+                "condition2": null,
+                "skill_type1": "力量（属性）",
+                "skill_type2": null,
+                "ability_value1": [
+                    400000
+                ],
+                "ability_value2": [],
+                "ability_time1": -1,
+                "ability_time2": null,
+                "need_skill_point": 90,
+                "pre_skill": null,
+                "pre_skill_name": null
+            },
+            {
+                "skill_id": 200702,
+                "skill_name": "上升气流",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/bd338ecc1d33ec83d4e45977372f03c4d221c3e0.png",
+                "rarity": 1,
+                "skill_desc": "在赛事末期位于后方时\n赶超能力略微提升<英里>",
+                "limitation": "英里",
+                "condition1": "英里，终盘前半段随机位置，名次>50%",
+                "condition2": null,
+                "skill_type1": "加速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    2000
+                ],
+                "ability_value2": [],
+                "ability_time1": 30000,
+                "ability_time2": null,
+                "need_skill_point": 160,
+                "pre_skill": 200701,
+                "pre_skill_name": "奋力一搏"
+            },
+            {
+                "skill_id": 201322,
+                "skill_name": "跟前弯道○",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/c44ceb01d2551e9cd2a82b7b1ca8b3f30e433902.png",
+                "rarity": 1,
+                "skill_desc": "在弯道上的速度略微提升\n<战术：跟前>",
+                "limitation": "跟前",
+                "condition1": "跟前，第1弯道；跟前，第2弯道；跟前，第3弯道；跟前，第4弯道",
+                "condition2": null,
+                "skill_type1": "目标速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    1500
+                ],
+                "ability_value2": [],
+                "ability_time1": 30000,
+                "ability_time2": null,
+                "need_skill_point": 130,
+                "pre_skill": null,
+                "pre_skill_name": null
+            }
+        ]
+    }
+]

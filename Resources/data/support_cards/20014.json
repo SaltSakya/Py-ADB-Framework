@@ -1,0 +1,291 @@
+[
+    {
+        "support_card_info": {
+            "card_id": 20014,
+            "name": "[心情起伏]成田大进",
+            "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/5566e9d4b4b037f6023a92e85f54b5fb1a371018.png",
+            "attr_id": 1,
+            "rarity": 2
+        },
+        "branch_story": [
+            {
+                "story_id": 801050002,
+                "story_name": "没事，别捣乱",
+                "story_type": 1,
+                "union_type": 2,
+                "related_skill_ids": [
+                    201212
+                ],
+                "gain_skill": "追击",
+                "select_value_list": [
+                    {
+                        "option": "选项一",
+                        "gain_list": [
+                            "成田大进友情槽+5\n「追击」的启发等级+1\n"
+                        ]
+                    },
+                    {
+                        "option": "选项二",
+                        "gain_list": [
+                            "技能点数+30\n成田大进友情槽+5\n"
+                        ]
+                    }
+                ]
+            },
+            {
+                "story_id": 801050001,
+                "story_name": "没事，别管我",
+                "story_type": 1,
+                "union_type": 2,
+                "related_skill_ids": null,
+                "gain_skill": null,
+                "select_value_list": [
+                    {
+                        "option": "选项一",
+                        "gain_list": [
+                            "耐力+5\n技能点数+15\n成田大进友情槽+5\n"
+                        ]
+                    },
+                    {
+                        "option": "选项二",
+                        "gain_list": [
+                            "力量+5\n技能点数+15\n成田大进友情槽+5\n"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "no_branch_story": [],
+        "after_match_story": [],
+        "continuous_story": [
+            {
+                "story_id": 820014001,
+                "story_name": "夜里悄悄地……",
+                "story_type": 4,
+                "union_type": 3,
+                "related_skill_ids": null,
+                "gain_skill": null,
+                "select_value_list": [
+                    {
+                        "option": "无选项",
+                        "gain_list": [
+                            "速度+5\n耐力+5\n"
+                        ]
+                    }
+                ]
+            },
+            {
+                "story_id": 820014002,
+                "story_name": "享受音乐剧！",
+                "story_type": 4,
+                "union_type": 3,
+                "related_skill_ids": [
+                    201472
+                ],
+                "gain_skill": "看穿",
+                "select_value_list": [
+                    {
+                        "option": "无选项",
+                        "gain_list": [
+                            "速度+5\n耐力+5\n力量+5\n「看穿」的启发等级+1\n"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "trip_story": [],
+        "story_skill_info": [
+            {
+                "skill_id": 201212,
+                "skill_name": "追击",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/c44ceb01d2551e9cd2a82b7b1ca8b3f30e433902.png",
+                "rarity": 1,
+                "skill_desc": "在赛事末期赶超成功时\n速度略微提升<长距离>",
+                "limitation": "长距离",
+                "condition1": "长距离，终盘前端，至少超越一人",
+                "condition2": null,
+                "skill_type1": "目标速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    1500
+                ],
+                "ability_value2": [],
+                "ability_time1": 30000,
+                "ability_time2": null,
+                "need_skill_point": 160,
+                "pre_skill": 201211,
+                "pre_skill_name": "怒涛般的追击"
+            },
+            {
+                "skill_id": 201472,
+                "skill_name": "看穿",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/10d52cb1987a5e8a95cf845f3460c3145490ecc3.png",
+                "rarity": 1,
+                "skill_desc": "左右移动时掌握情况，\n视野略微变得开阔<战术：后追>",
+                "limitation": "后追",
+                "condition1": "后追，变换跑道；后追，变换跑道",
+                "condition2": null,
+                "skill_type1": "视野范围",
+                "skill_type2": null,
+                "ability_value1": [
+                    50000
+                ],
+                "ability_value2": [],
+                "ability_time1": 30000,
+                "ability_time2": null,
+                "need_skill_point": 110,
+                "pre_skill": 201471,
+                "pre_skill_name": "视野良好！没有异常！"
+            }
+        ],
+        "training_skill_info": [
+            {
+                "skill_id": 200442,
+                "skill_name": "隐身衣",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/4c910489d09842c36b36fa521844dc37342d3d20.png",
+                "rarity": 1,
+                "skill_desc": "在赛事初期前方拥堵时\n隐藏实力，体力略微恢复",
+                "limitation": "通用",
+                "condition1": "序盘，赛事进行时间≥5，前方被阻挡时间≥1",
+                "condition2": null,
+                "skill_type1": "体力值（百分比）",
+                "skill_type2": null,
+                "ability_value1": [
+                    150
+                ],
+                "ability_value2": [],
+                "ability_time1": 0,
+                "ability_time2": null,
+                "need_skill_point": 160,
+                "pre_skill": 200441,
+                "pre_skill_name": "钢铁意志"
+            },
+            {
+                "skill_id": 200482,
+                "skill_name": "临危不乱",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/4c910489d09842c36b36fa521844dc37342d3d20.png",
+                "rarity": 1,
+                "skill_desc": "在赛事中期被包围时\n体力略微恢复",
+                "limitation": "通用",
+                "condition1": "中盘，被包围时间≥1",
+                "condition2": null,
+                "skill_type1": "体力值（百分比）",
+                "skill_type2": null,
+                "ability_value1": [
+                    150
+                ],
+                "ability_value2": [],
+                "ability_time1": 0,
+                "ability_time2": null,
+                "need_skill_point": 170,
+                "pre_skill": 200481,
+                "pre_skill_name": "耳边风"
+            },
+            {
+                "skill_id": 200622,
+                "skill_name": "后方待机",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/4c910489d09842c36b36fa521844dc37342d3d20.png",
+                "rarity": 1,
+                "skill_desc": "在赛事中期保存体力\n会略微不容易疲劳<战术：后追>",
+                "limitation": "后追",
+                "condition1": "后追，中盘随机位置，自身处于队伍位置≥75%",
+                "condition2": null,
+                "skill_type1": "体力值（百分比）",
+                "skill_type2": null,
+                "ability_value1": [
+                    150
+                ],
+                "ability_value2": [],
+                "ability_time1": 0,
+                "ability_time2": null,
+                "need_skill_point": 180,
+                "pre_skill": 200621,
+                "pre_skill_name": "沉睡的狮子"
+            },
+            {
+                "skill_id": 200632,
+                "skill_name": "超群冲刺",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/c44ceb01d2551e9cd2a82b7b1ca8b3f30e433902.png",
+                "rarity": 1,
+                "skill_desc": "在赛事末期进入追击态势\n略微提升排名<战术：后追>",
+                "limitation": "后追",
+                "condition1": "后追，终盘前半段随机位置，自身处于队伍位置≥75%",
+                "condition2": null,
+                "skill_type1": "目标速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    1500
+                ],
+                "ability_value2": [],
+                "ability_time1": 30000,
+                "ability_time2": null,
+                "need_skill_point": 180,
+                "pre_skill": 200631,
+                "pre_skill_name": "疾风怒涛"
+            },
+            {
+                "skill_id": 201462,
+                "skill_name": "后追弯道○",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/c44ceb01d2551e9cd2a82b7b1ca8b3f30e433902.png",
+                "rarity": 1,
+                "skill_desc": "在弯道上的速度略微提升\n<战术：后追>",
+                "limitation": "后追",
+                "condition1": "后追，第1弯道；后追，第2弯道；后追，第3弯道；后追，第4弯道",
+                "condition2": null,
+                "skill_type1": "目标速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    1500
+                ],
+                "ability_value2": [],
+                "ability_time1": 30000,
+                "ability_time2": null,
+                "need_skill_point": 130,
+                "pre_skill": null,
+                "pre_skill_name": null
+            },
+            {
+                "skill_id": 201512,
+                "skill_name": "视线",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/1612c4d4017143348c64c3a7830305aa46a8034e.png",
+                "rarity": 1,
+                "skill_desc": "在赛事末期使被自己盯上的优俊少女\n紧张感略微提升<战术：后追>",
+                "limitation": "后追",
+                "condition1": "后追，终盘前半段随机位置，名次≥2",
+                "condition2": null,
+                "skill_type1": "当前速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    -1500
+                ],
+                "ability_value2": [],
+                "ability_time1": 30000,
+                "ability_time2": null,
+                "need_skill_point": 180,
+                "pre_skill": 201511,
+                "pre_skill_name": "炙热视线"
+            },
+            {
+                "skill_id": 201641,
+                "skill_name": "孤狼",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/70f3c8fea3c651cb38d69df6e644872657a63cbf.png",
+                "rarity": 1,
+                "skill_desc": "只有自己拥有孤狼之心时\n能力少量提升",
+                "limitation": "通用",
+                "condition1": "持有相同技能人数（含自身）＝1",
+                "condition2": null,
+                "skill_type1": "速度（属性）",
+                "skill_type2": null,
+                "ability_value1": [
+                    400000
+                ],
+                "ability_value2": [],
+                "ability_time1": -1,
+                "ability_time2": null,
+                "need_skill_point": 70,
+                "pre_skill": null,
+                "pre_skill_name": null
+            }
+        ]
+    }
+]

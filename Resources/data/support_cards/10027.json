@@ -1,0 +1,236 @@
+[
+    {
+        "support_card_info": {
+            "card_id": 10027,
+            "name": "[特雷森学园]玉藻十字",
+            "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/40354828659c761edcbf2ef60efd72252d4f4690.png",
+            "attr_id": 5,
+            "rarity": 1
+        },
+        "branch_story": [
+            {
+                "story_id": 801021002,
+                "story_name": "决不能输的战斗！",
+                "story_type": 1,
+                "union_type": 2,
+                "related_skill_ids": [
+                    200482
+                ],
+                "gain_skill": "临危不乱",
+                "select_value_list": [
+                    {
+                        "option": "选项一",
+                        "gain_list": [
+                            "玉藻十字友情槽+5\n「临危不乱」的启发等级+1\n"
+                        ]
+                    },
+                    {
+                        "option": "选项二",
+                        "gain_list": [
+                            "耐力+5\n智力+5\n玉藻十字友情槽+5\n"
+                        ]
+                    }
+                ]
+            },
+            {
+                "story_id": 801021001,
+                "story_name": "玉藻前辈带路逛学园",
+                "story_type": 1,
+                "union_type": 2,
+                "related_skill_ids": null,
+                "gain_skill": null,
+                "select_value_list": [
+                    {
+                        "option": "选项一",
+                        "gain_list": [
+                            "智力+10\n玉藻十字友情槽+5\n"
+                        ]
+                    },
+                    {
+                        "option": "选项二",
+                        "gain_list": [
+                            "耐力+5\n毅力+5\n玉藻十字友情槽+5\n"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "no_branch_story": [],
+        "after_match_story": [],
+        "continuous_story": null,
+        "trip_story": [],
+        "story_skill_info": [
+            {
+                "skill_id": 200482,
+                "skill_name": "临危不乱",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/4c910489d09842c36b36fa521844dc37342d3d20.png",
+                "rarity": 1,
+                "skill_desc": "在赛事中期被包围时\n体力略微恢复",
+                "limitation": "通用",
+                "condition1": "中盘，被包围时间≥1",
+                "condition2": null,
+                "skill_type1": "体力值（百分比）",
+                "skill_type2": null,
+                "ability_value1": [
+                    150
+                ],
+                "ability_value2": [],
+                "ability_time1": 0,
+                "ability_time2": null,
+                "need_skill_point": 170,
+                "pre_skill": 200481,
+                "pre_skill_name": "耳边风"
+            }
+        ],
+        "training_skill_info": [
+            {
+                "skill_id": 200712,
+                "skill_name": "前途似锦",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/4c910489d09842c36b36fa521844dc37342d3d20.png",
+                "rarity": 1,
+                "skill_desc": "在赛事中盘处于领跑位置时\n会略微不容易疲劳<中距离>",
+                "limitation": "中距离",
+                "condition1": "中距离，中盘随机位置，名次=1",
+                "condition2": null,
+                "skill_type1": "体力值（百分比）",
+                "skill_type2": null,
+                "ability_value1": [
+                    150
+                ],
+                "ability_value2": [],
+                "ability_time1": 0,
+                "ability_time2": null,
+                "need_skill_point": 160,
+                "pre_skill": 200711,
+                "pre_skill_name": "开拓者"
+            },
+            {
+                "skill_id": 200811,
+                "skill_name": "居中策略",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/2c1a2298d667aec9efc1dcb29be462e14a5015b6.png",
+                "rarity": 1,
+                "skill_desc": "战术是居中的优俊少女陷入焦躁时\n恢复冷静需要耗费时间",
+                "limitation": "通用",
+                "condition1": "居中策略焦躁人数≥1，未进入过焦躁状态",
+                "condition2": null,
+                "skill_type1": "焦躁持续时间",
+                "skill_type2": null,
+                "ability_value1": [
+                    50000
+                ],
+                "ability_value2": [],
+                "ability_time1": 0,
+                "ability_time2": null,
+                "need_skill_point": 130,
+                "pre_skill": null,
+                "pre_skill_name": null
+            },
+            {
+                "skill_id": 200901,
+                "skill_name": "居中焦躁",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/0c83e76b13b77ecb2daf700587c64c85a86fdaa3.png",
+                "rarity": 1,
+                "skill_desc": "在赛事中期让居中战术的优俊少女\n焦躁使其略微容易疲劳",
+                "limitation": "通用",
+                "condition1": "居中策略人数≥1，中盘随机位置",
+                "condition2": null,
+                "skill_type1": "体力值（百分比）",
+                "skill_type2": null,
+                "ability_value1": [
+                    -100
+                ],
+                "ability_value2": [],
+                "ability_time1": 0,
+                "ability_time2": null,
+                "need_skill_point": 130,
+                "pre_skill": null,
+                "pre_skill_name": null
+            },
+            {
+                "skill_id": 201112,
+                "skill_name": "中距离弯道○",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/c44ceb01d2551e9cd2a82b7b1ca8b3f30e433902.png",
+                "rarity": 1,
+                "skill_desc": "在弯道上的速度略微提升\n<中距离>",
+                "limitation": "中距离",
+                "condition1": "中距离，第1弯道；中距离，第2弯道；中距离，第3弯道；中距离，第4弯道",
+                "condition2": null,
+                "skill_type1": "目标速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    1500
+                ],
+                "ability_value2": [],
+                "ability_time1": 30000,
+                "ability_time2": null,
+                "need_skill_point": 100,
+                "pre_skill": null,
+                "pre_skill_name": null
+            },
+            {
+                "skill_id": 201132,
+                "skill_name": "闪电步伐",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/71102427535809845ae98aa2d2238606645af8b7.png",
+                "rarity": 1,
+                "skill_desc": "在赛事中期位于后方时\n稍微不容易被包围<中距离>",
+                "limitation": "中距离",
+                "condition1": "中距离，中盘随机位置，名次>50%",
+                "condition2": null,
+                "skill_type1": "变道速度、加速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    250,
+                    2000
+                ],
+                "ability_value2": [],
+                "ability_time1": 30000,
+                "ability_time2": null,
+                "need_skill_point": 140,
+                "pre_skill": 201131,
+                "pre_skill_name": "闪光步伐"
+            },
+            {
+                "skill_id": 201142,
+                "skill_name": "轻盈步伐",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/4c910489d09842c36b36fa521844dc37342d3d20.png",
+                "rarity": 1,
+                "skill_desc": "左右移动略微不容易疲劳\n<中距离>",
+                "limitation": "中距离",
+                "condition1": "中距离，变换跑道，赛事进行时间≥10；中距离，变换跑道，赛事进行时间≥10",
+                "condition2": null,
+                "skill_type1": "体力值（百分比）",
+                "skill_type2": null,
+                "ability_value1": [
+                    150
+                ],
+                "ability_value2": [],
+                "ability_time1": 0,
+                "ability_time2": null,
+                "need_skill_point": 160,
+                "pre_skill": 201141,
+                "pre_skill_name": "神迹步伐"
+            },
+            {
+                "skill_id": 201412,
+                "skill_name": "十万马力",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/c44ceb01d2551e9cd2a82b7b1ca8b3f30e433902.png",
+                "rarity": 1,
+                "skill_desc": "上坡时速度略微提升\n<战术：居中>",
+                "limitation": "居中",
+                "condition1": "居中，上坡",
+                "condition2": null,
+                "skill_type1": "目标速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    1500
+                ],
+                "ability_value2": [],
+                "ability_time1": 18000,
+                "ability_time2": null,
+                "need_skill_point": 120,
+                "pre_skill": 201411,
+                "pre_skill_name": "百万马力"
+            }
+        ]
+    }
+]

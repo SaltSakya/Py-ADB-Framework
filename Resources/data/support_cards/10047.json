@@ -1,0 +1,256 @@
+[
+    {
+        "support_card_info": {
+            "card_id": 10047,
+            "name": "[特雷森学园]优秀素质",
+            "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/36444f07a56f57e38bb1df20dd6e3467ae8d6715.png",
+            "attr_id": 3,
+            "rarity": 1
+        },
+        "branch_story": [
+            {
+                "story_id": 801060002,
+                "story_name": "（美味的）闲事",
+                "story_type": 1,
+                "union_type": 2,
+                "related_skill_ids": [
+                    200462
+                ],
+                "gain_skill": "加快步伐",
+                "select_value_list": [
+                    {
+                        "option": "选项一",
+                        "gain_list": [
+                            "优秀素质友情槽+5\n「加快步伐」的启发等级+1\n"
+                        ]
+                    },
+                    {
+                        "option": "选项二",
+                        "gain_list": [
+                            "干劲+1\n最大体力上限+4\n优秀素质友情槽+5\n"
+                        ]
+                    }
+                ]
+            },
+            {
+                "story_id": 801060001,
+                "story_name": "（才不是）我的作风喵",
+                "story_type": 1,
+                "union_type": 2,
+                "related_skill_ids": null,
+                "gain_skill": null,
+                "select_value_list": [
+                    {
+                        "option": "选项一",
+                        "gain_list": [
+                            "体力+20\n优秀素质友情槽+5\n"
+                        ]
+                    },
+                    {
+                        "option": "选项二",
+                        "gain_list": [
+                            "体力+10\n智力+5\n优秀素质友情槽+5\n"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "no_branch_story": [],
+        "after_match_story": [],
+        "continuous_story": null,
+        "trip_story": [],
+        "story_skill_info": [
+            {
+                "skill_id": 200462,
+                "skill_name": "加快步伐",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/c44ceb01d2551e9cd2a82b7b1ca8b3f30e433902.png",
+                "rarity": 1,
+                "skill_desc": "在赛事中期赶超成功时\n速度略微提升",
+                "limitation": "通用",
+                "condition1": "中盘，至少超越一人",
+                "condition2": null,
+                "skill_type1": "目标速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    1500
+                ],
+                "ability_value2": [],
+                "ability_time1": 18000,
+                "ability_time2": null,
+                "need_skill_point": 170,
+                "pre_skill": 200461,
+                "pre_skill_name": "兴奋起来了！"
+            }
+        ],
+        "training_skill_info": [
+            {
+                "skill_id": 200122,
+                "skill_name": "小仓赛场○",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/762928d76f4cb135264040edacbc36eb0fb7708e.png",
+                "rarity": 1,
+                "skill_desc": "会变得稍微擅长小仓赛场的赛事",
+                "limitation": "通用",
+                "condition1": "小仓场",
+                "condition2": null,
+                "skill_type1": "耐力（属性）",
+                "skill_type2": null,
+                "ability_value1": [
+                    400000
+                ],
+                "ability_value2": [],
+                "ability_time1": -1,
+                "ability_time2": null,
+                "need_skill_point": 70,
+                "pre_skill": null,
+                "pre_skill_name": null
+            },
+            {
+                "skill_id": 200342,
+                "skill_name": "弯道加速○",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/bd338ecc1d33ec83d4e45977372f03c4d221c3e0.png",
+                "rarity": 1,
+                "skill_desc": "华丽的过弯\n让加速能力略微提升",
+                "limitation": "通用",
+                "condition1": "第1弯道；第2弯道；第3弯道；第4弯道",
+                "condition2": null,
+                "skill_type1": "加速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    2000
+                ],
+                "ability_value2": [],
+                "ability_time1": 18000,
+                "ability_time2": null,
+                "need_skill_point": 180,
+                "pre_skill": 200341,
+                "pre_skill_name": "曲线行家"
+            },
+            {
+                "skill_id": 200442,
+                "skill_name": "隐身衣",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/4c910489d09842c36b36fa521844dc37342d3d20.png",
+                "rarity": 1,
+                "skill_desc": "在赛事初期前方拥堵时\n隐藏实力，体力略微恢复",
+                "limitation": "通用",
+                "condition1": "序盘，赛事进行时间≥5，前方被阻挡时间≥1",
+                "condition2": null,
+                "skill_type1": "体力值（百分比）",
+                "skill_type2": null,
+                "ability_value1": [
+                    150
+                ],
+                "ability_value2": [],
+                "ability_time1": 0,
+                "ability_time2": null,
+                "need_skill_point": 160,
+                "pre_skill": 200441,
+                "pre_skill_name": "钢铁意志"
+            },
+            {
+                "skill_id": 200502,
+                "skill_name": "临机应变",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/71102427535809845ae98aa2d2238606645af8b7.png",
+                "rarity": 1,
+                "skill_desc": "赛事末期时\n稍微容易取得好路线",
+                "limitation": "通用",
+                "condition1": "终盘前半段随机位置",
+                "condition2": null,
+                "skill_type1": "变道速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    250
+                ],
+                "ability_value2": [],
+                "ability_time1": 30000,
+                "ability_time2": null,
+                "need_skill_point": 120,
+                "pre_skill": 200501,
+                "pre_skill_name": "赛道的魔术师"
+            },
+            {
+                "skill_id": 200911,
+                "skill_name": "居中踌躇",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/1612c4d4017143348c64c3a7830305aa46a8034e.png",
+                "rarity": 1,
+                "skill_desc": "在赛事末期让居中战术的优俊少女踌躇\n使其速度略微降低",
+                "limitation": "通用",
+                "condition1": "居中策略人数≥1，终盘前半段随机位置",
+                "condition2": null,
+                "skill_type1": "当前速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    -1500
+                ],
+                "ability_value2": [],
+                "ability_time1": 30000,
+                "ability_time2": null,
+                "need_skill_point": 130,
+                "pre_skill": null,
+                "pre_skill_name": null
+            },
+            {
+                "skill_id": 201162,
+                "skill_name": "低语",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/0c83e76b13b77ecb2daf700587c64c85a86fdaa3.png",
+                "rarity": 1,
+                "skill_desc": "在赛事中期使前方优俊少女\n略微感到困惑<中距离>",
+                "limitation": "中距离",
+                "condition1": "中距离，中盘，前方被阻挡时间≥1",
+                "condition2": null,
+                "skill_type1": "体力值（百分比）",
+                "skill_type2": null,
+                "ability_value1": [
+                    -100
+                ],
+                "ability_value2": [],
+                "ability_time1": 0,
+                "ability_time2": null,
+                "need_skill_point": 160,
+                "pre_skill": 201161,
+                "pre_skill_name": "魅惑低语"
+            },
+            {
+                "skill_id": 201422,
+                "skill_name": "稍作休息",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/4c910489d09842c36b36fa521844dc37342d3d20.png",
+                "rarity": 1,
+                "skill_desc": "在赛事末期体力略微恢复\n<战术：居中>",
+                "limitation": "居中",
+                "condition1": "居中，终盘前半段随机位置",
+                "condition2": null,
+                "skill_type1": "体力值（百分比）",
+                "skill_type2": null,
+                "ability_value1": [
+                    150
+                ],
+                "ability_value2": [],
+                "ability_time1": 0,
+                "ability_time2": null,
+                "need_skill_point": 180,
+                "pre_skill": 201421,
+                "pre_skill_name": "放松"
+            },
+            {
+                "skill_id": 201442,
+                "skill_name": "锐利目光",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/0c83e76b13b77ecb2daf700587c64c85a86fdaa3.png",
+                "rarity": 1,
+                "skill_desc": "在赛事末期\n使其他优俊少女略微产生动摇\n<战术：居中>",
+                "limitation": "居中",
+                "condition1": "居中，终盘前半段随机位置，名次>50%",
+                "condition2": null,
+                "skill_type1": "体力值（百分比）",
+                "skill_type2": null,
+                "ability_value1": [
+                    -100
+                ],
+                "ability_value2": [],
+                "ability_time1": 0,
+                "ability_time2": null,
+                "need_skill_point": 180,
+                "pre_skill": 201441,
+                "pre_skill_name": "紧盯八方"
+            }
+        ]
+    }
+]

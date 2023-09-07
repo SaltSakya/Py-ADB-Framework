@@ -1,0 +1,271 @@
+[
+    {
+        "support_card_info": {
+            "card_id": 20008,
+            "name": "[雨中独奏，我的独创]曼城茶座",
+            "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/c5f6fc20225f906c41eb3d577c31c87370d94f93.png",
+            "attr_id": 5,
+            "rarity": 2
+        },
+        "branch_story": [
+            {
+                "story_id": 801025002,
+                "story_name": "喜好静谧",
+                "story_type": 1,
+                "union_type": 2,
+                "related_skill_ids": [
+                    200142
+                ],
+                "gain_skill": "非标准距离○",
+                "select_value_list": [
+                    {
+                        "option": "选项一",
+                        "gain_list": [
+                            "耐力+5\n技能点数+15\n曼城茶座友情槽+5\n"
+                        ]
+                    },
+                    {
+                        "option": "选项二",
+                        "gain_list": [
+                            "曼城茶座友情槽+5\n「非标准距离○」的启发等级+1\n"
+                        ]
+                    }
+                ]
+            },
+            {
+                "story_id": 801025001,
+                "story_name": "于夜晚独自奔跑",
+                "story_type": 1,
+                "union_type": 2,
+                "related_skill_ids": null,
+                "gain_skill": null,
+                "select_value_list": [
+                    {
+                        "option": "选项一",
+                        "gain_list": [
+                            "耐力+10\n曼城茶座友情槽+5\n"
+                        ]
+                    },
+                    {
+                        "option": "选项二",
+                        "gain_list": [
+                            "体力+10\n耐力+5\n曼城茶座友情槽+5\n"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "no_branch_story": [],
+        "after_match_story": [],
+        "continuous_story": [
+            {
+                "story_id": 820008001,
+                "story_name": "雨的邀约",
+                "story_type": 4,
+                "union_type": 3,
+                "related_skill_ids": null,
+                "gain_skill": null,
+                "select_value_list": [
+                    {
+                        "option": "无选项",
+                        "gain_list": [
+                            "体力+15\n技能点数+15\n"
+                        ]
+                    }
+                ]
+            },
+            {
+                "story_id": 820008002,
+                "story_name": "大雨的邀约",
+                "story_type": 4,
+                "union_type": 3,
+                "related_skill_ids": [
+                    201432
+                ],
+                "gain_skill": "观察能力",
+                "select_value_list": [
+                    {
+                        "option": "无选项",
+                        "gain_list": [
+                            "耐力+15\n曼城茶座友情槽+5\n「观察能力」的启发等级+1\n"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "trip_story": [],
+        "story_skill_info": [
+            {
+                "skill_id": 200142,
+                "skill_name": "非标准距离○",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/762928d76f4cb135264040edacbc36eb0fb7708e.png",
+                "rarity": 1,
+                "skill_desc": "会变得稍微擅长\n非标准距离（除400米的倍数外）的赛事",
+                "limitation": "通用",
+                "condition1": "非标准距离",
+                "condition2": null,
+                "skill_type1": "耐力（属性）",
+                "skill_type2": null,
+                "ability_value1": [
+                    400000
+                ],
+                "ability_value2": [],
+                "ability_time1": -1,
+                "ability_time2": null,
+                "need_skill_point": 90,
+                "pre_skill": null,
+                "pre_skill_name": null
+            },
+            {
+                "skill_id": 201432,
+                "skill_name": "观察能力",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/10d52cb1987a5e8a95cf845f3460c3145490ecc3.png",
+                "rarity": 1,
+                "skill_desc": "在赛事中期观察力提高\n视野略微开阔<战术：居中>",
+                "limitation": "居中",
+                "condition1": "居中，中盘随机位置",
+                "condition2": null,
+                "skill_type1": "视野范围",
+                "skill_type2": null,
+                "ability_value1": [
+                    50000
+                ],
+                "ability_value2": [],
+                "ability_time1": 30000,
+                "ability_time2": null,
+                "need_skill_point": 120,
+                "pre_skill": 201431,
+                "pre_skill_name": "大局观"
+            }
+        ],
+        "training_skill_info": [
+            {
+                "skill_id": 200162,
+                "skill_name": "路况不佳○",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/673e0c0734bcdbee9cd2648df49bb77e2b3952fe.png",
+                "rarity": 1,
+                "skill_desc": "会变得稍微擅长\n“稍重”“重”“不良”的场地状态",
+                "limitation": "通用",
+                "condition1": "稍重场；重场；不良场",
+                "condition2": null,
+                "skill_type1": "力量（属性）",
+                "skill_type2": null,
+                "ability_value1": [
+                    400000
+                ],
+                "ability_value2": [],
+                "ability_time1": -1,
+                "ability_time2": null,
+                "need_skill_point": 90,
+                "pre_skill": null,
+                "pre_skill_name": null
+            },
+            {
+                "skill_id": 200232,
+                "skill_name": "雨天○",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/977e98772467a7d9ea51bd0ad54b9dc1d1e1e01e.png",
+                "rarity": 1,
+                "skill_desc": "会变得稍微擅长雨天的赛事",
+                "limitation": "通用",
+                "condition1": "雨",
+                "condition2": null,
+                "skill_type1": "毅力（属性）",
+                "skill_type2": null,
+                "ability_value1": [
+                    400000
+                ],
+                "ability_value2": [],
+                "ability_time1": -1,
+                "ability_time2": null,
+                "need_skill_point": 90,
+                "pre_skill": null,
+                "pre_skill_name": null
+            },
+            {
+                "skill_id": 201172,
+                "skill_name": "长距离直线○",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/c44ceb01d2551e9cd2a82b7b1ca8b3f30e433902.png",
+                "rarity": 1,
+                "skill_desc": "在直线上速度略微提升<长距离>",
+                "limitation": "长距离",
+                "condition1": "长距离，直线",
+                "condition2": null,
+                "skill_type1": "目标速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    1500
+                ],
+                "ability_value2": [],
+                "ability_time1": 30000,
+                "ability_time2": null,
+                "need_skill_point": 100,
+                "pre_skill": null,
+                "pre_skill_name": null
+            },
+            {
+                "skill_id": 201202,
+                "skill_name": "赶超能手",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/4c910489d09842c36b36fa521844dc37342d3d20.png",
+                "rarity": 1,
+                "skill_desc": "赶超的气势涌现出来\n会略微不容易疲劳<长距离>",
+                "limitation": "长距离",
+                "condition1": "长距离，正在超越，赛事进行时间≥5",
+                "condition2": null,
+                "skill_type1": "体力值（百分比）",
+                "skill_type2": null,
+                "ability_value1": [
+                    150
+                ],
+                "ability_value2": [],
+                "ability_time1": 0,
+                "ability_time2": null,
+                "need_skill_point": 160,
+                "pre_skill": null,
+                "pre_skill_name": null
+            },
+            {
+                "skill_id": 201222,
+                "skill_name": "吞噬体力",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/0c83e76b13b77ecb2daf700587c64c85a86fdaa3.png",
+                "rarity": 1,
+                "skill_desc": "在赛事中期位于后方时\n极小幅掠夺前方优俊少女的体力<长距离>",
+                "limitation": "长距离",
+                "condition1": "长距离，中盘随机位置，名次≥5",
+                "condition2": null,
+                "skill_type1": "体力值（百分比）、体力值（百分比）",
+                "skill_type2": null,
+                "ability_value1": [
+                    -50,
+                    150
+                ],
+                "ability_value2": [],
+                "ability_time1": 0,
+                "ability_time2": null,
+                "need_skill_point": 160,
+                "pre_skill": 201221,
+                "pre_skill_name": "掠夺体力"
+            },
+            {
+                "skill_id": 201581,
+                "skill_name": "登山家",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/bd338ecc1d33ec83d4e45977372f03c4d221c3e0.png",
+                "rarity": 1,
+                "skill_desc": "变得略微擅长上坡",
+                "limitation": "通用",
+                "condition1": "上坡",
+                "condition2": null,
+                "skill_type1": "加速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    2000
+                ],
+                "ability_value2": [],
+                "ability_time1": 30000,
+                "ability_time2": null,
+                "need_skill_point": 160,
+                "pre_skill": null,
+                "pre_skill_name": null
+            }
+        ]
+    }
+]

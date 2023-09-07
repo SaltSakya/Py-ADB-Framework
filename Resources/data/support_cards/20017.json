@@ -1,0 +1,298 @@
+[
+    {
+        "support_card_info": {
+            "card_id": 20017,
+            "name": "[与幸福背靠背]名将怒涛",
+            "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/03c2ceee99dcb6f1d29242d97c03f8480ff6f134.png",
+            "attr_id": 3,
+            "rarity": 2
+        },
+        "branch_story": [
+            {
+                "story_id": 801058002,
+                "story_name": "请……买些胡萝卜",
+                "story_type": 1,
+                "union_type": 2,
+                "related_skill_ids": [
+                    201322
+                ],
+                "gain_skill": "跟前弯道○",
+                "select_value_list": [
+                    {
+                        "option": "选项一",
+                        "gain_list": [
+                            "体力+10\n智力+5\n名将怒涛友情槽+5\n"
+                        ]
+                    },
+                    {
+                        "option": "选项二",
+                        "gain_list": [
+                            "名将怒涛友情槽+5\n「跟前弯道○」的启发等级+1\n"
+                        ]
+                    }
+                ]
+            },
+            {
+                "story_id": 801058001,
+                "story_name": "我……要改变",
+                "story_type": 1,
+                "union_type": 2,
+                "related_skill_ids": null,
+                "gain_skill": null,
+                "select_value_list": [
+                    {
+                        "option": "选项一",
+                        "gain_list": [
+                            "体力+10\n干劲+1\n名将怒涛友情槽+5\n"
+                        ]
+                    },
+                    {
+                        "option": "选项二",
+                        "gain_list": [
+                            "毅力+15\n名将怒涛友情槽+5\n"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "no_branch_story": [],
+        "after_match_story": [],
+        "continuous_story": [
+            {
+                "story_id": 820017001,
+                "story_name": "我的，运势……",
+                "story_type": 4,
+                "union_type": 3,
+                "related_skill_ids": null,
+                "gain_skill": null,
+                "select_value_list": [
+                    {
+                        "option": "选项一",
+                        "gain_list": [
+                            "体力+10\n毅力+5\n名将怒涛友情槽+5\n"
+                        ]
+                    },
+                    {
+                        "option": "选项二",
+                        "gain_list": [
+                            "毅力+5\n智力+5\n最大体力上限+4\n干劲+1\n名将怒涛友情槽+5\n",
+                            "体力-10\n智力+5\n"
+                        ]
+                    }
+                ]
+            },
+            {
+                "story_id": 820017002,
+                "story_name": "我想要的东西……",
+                "story_type": 4,
+                "union_type": 3,
+                "related_skill_ids": [
+                    200582
+                ],
+                "gain_skill": "准备突围",
+                "select_value_list": [
+                    {
+                        "option": "无选项",
+                        "gain_list": [
+                            "体力+10\n干劲+1\n技能点数+15\n「准备突围」的启发等级+1\n"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "trip_story": [],
+        "story_skill_info": [
+            {
+                "skill_id": 201322,
+                "skill_name": "跟前弯道○",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/c44ceb01d2551e9cd2a82b7b1ca8b3f30e433902.png",
+                "rarity": 1,
+                "skill_desc": "在弯道上的速度略微提升\n<战术：跟前>",
+                "limitation": "跟前",
+                "condition1": "跟前，第1弯道；跟前，第2弯道；跟前，第3弯道；跟前，第4弯道",
+                "condition2": null,
+                "skill_type1": "目标速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    1500
+                ],
+                "ability_value2": [],
+                "ability_time1": 30000,
+                "ability_time2": null,
+                "need_skill_point": 130,
+                "pre_skill": null,
+                "pre_skill_name": null
+            },
+            {
+                "skill_id": 200582,
+                "skill_name": "准备突围",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/c44ceb01d2551e9cd2a82b7b1ca8b3f30e433902.png",
+                "rarity": 1,
+                "skill_desc": "在最终弯道处\n会略微容易突围<战术：跟前>",
+                "limitation": "跟前",
+                "condition1": "跟前，最终弯道随机位置，名次≤50%",
+                "condition2": null,
+                "skill_type1": "目标速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    1500
+                ],
+                "ability_value2": [],
+                "ability_time1": 12000,
+                "ability_time2": null,
+                "need_skill_point": 180,
+                "pre_skill": 200581,
+                "pre_skill_name": "速度之星"
+            }
+        ],
+        "training_skill_info": [
+            {
+                "skill_id": 200142,
+                "skill_name": "非标准距离○",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/762928d76f4cb135264040edacbc36eb0fb7708e.png",
+                "rarity": 1,
+                "skill_desc": "会变得稍微擅长\n非标准距离（除400米的倍数外）的赛事",
+                "limitation": "通用",
+                "condition1": "非标准距离",
+                "condition2": null,
+                "skill_type1": "耐力（属性）",
+                "skill_type2": null,
+                "ability_value1": [
+                    400000
+                ],
+                "ability_value2": [],
+                "ability_time1": -1,
+                "ability_time2": null,
+                "need_skill_point": 90,
+                "pre_skill": null,
+                "pre_skill_name": null
+            },
+            {
+                "skill_id": 200152,
+                "skill_name": "良场地○",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/673e0c0734bcdbee9cd2648df49bb77e2b3952fe.png",
+                "rarity": 1,
+                "skill_desc": "会变得稍微擅长“良”的场地状态",
+                "limitation": "通用",
+                "condition1": "良场",
+                "condition2": null,
+                "skill_type1": "力量（属性）",
+                "skill_type2": null,
+                "ability_value1": [
+                    400000
+                ],
+                "ability_value2": [],
+                "ability_time1": -1,
+                "ability_time2": null,
+                "need_skill_point": 90,
+                "pre_skill": null,
+                "pre_skill_name": null
+            },
+            {
+                "skill_id": 200252,
+                "skill_name": "擅长内道○",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/1c9b9e90297efb32fd2d8baa70464e97c50f58b1.png",
+                "rarity": 1,
+                "skill_desc": "会变得稍微擅长道次1至3号的赛事",
+                "limitation": "通用",
+                "condition1": "道次≤3",
+                "condition2": null,
+                "skill_type1": "智力（属性）",
+                "skill_type2": null,
+                "ability_value1": [
+                    400000
+                ],
+                "ability_value2": [],
+                "ability_time1": -1,
+                "ability_time2": null,
+                "need_skill_point": 90,
+                "pre_skill": null,
+                "pre_skill_name": null
+            },
+            {
+                "skill_id": 200302,
+                "skill_name": "伏兵○",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/70f3c8fea3c651cb38d69df6e644872657a63cbf.png",
+                "rarity": 1,
+                "skill_desc": "在人气第4及以下的赛事中\n能力稍微容易发挥",
+                "limitation": "通用",
+                "condition1": "人气排名第四及以下",
+                "condition2": null,
+                "skill_type1": "速度（属性）",
+                "skill_type2": null,
+                "ability_value1": [
+                    400000
+                ],
+                "ability_value2": [],
+                "ability_time1": -1,
+                "ability_time2": null,
+                "need_skill_point": 90,
+                "pre_skill": null,
+                "pre_skill_name": null
+            },
+            {
+                "skill_id": 201122,
+                "skill_name": "鹰眼",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/10d52cb1987a5e8a95cf845f3460c3145490ecc3.png",
+                "rarity": 1,
+                "skill_desc": "在赛事初期观察力提高，\n视野稍微开阔<中距离>",
+                "limitation": "中距离",
+                "condition1": "中距离，序盘随机位置",
+                "condition2": null,
+                "skill_type1": "视野范围",
+                "skill_type2": null,
+                "ability_value1": [
+                    100000
+                ],
+                "ability_value2": [],
+                "ability_time1": 30000,
+                "ability_time2": null,
+                "need_skill_point": 110,
+                "pre_skill": 201121,
+                "pre_skill_name": "千里眼"
+            },
+            {
+                "skill_id": 201382,
+                "skill_name": "居中直线○",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/c44ceb01d2551e9cd2a82b7b1ca8b3f30e433902.png",
+                "rarity": 1,
+                "skill_desc": "在直线上的速度略微提升\n<战术：居中>",
+                "limitation": "居中",
+                "condition1": "居中，直线",
+                "condition2": null,
+                "skill_type1": "目标速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    1500
+                ],
+                "ability_value2": [],
+                "ability_time1": 30000,
+                "ability_time2": null,
+                "need_skill_point": 130,
+                "pre_skill": null,
+                "pre_skill_name": null
+            },
+            {
+                "skill_id": 201621,
+                "skill_name": "竭尽全力",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/4c910489d09842c36b36fa521844dc37342d3d20.png",
+                "rarity": 1,
+                "skill_desc": "在赛事末期发动多个技能时\n体力略微恢复",
+                "limitation": "通用",
+                "condition1": "终盘技能发动数量≥3",
+                "condition2": null,
+                "skill_type1": "体力值（百分比）",
+                "skill_type2": null,
+                "ability_value1": [
+                    150
+                ],
+                "ability_value2": [],
+                "ability_time1": 0,
+                "ability_time2": null,
+                "need_skill_point": 100,
+                "pre_skill": null,
+                "pre_skill_name": null
+            }
+        ]
+    }
+]

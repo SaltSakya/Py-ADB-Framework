@@ -1,0 +1,159 @@
+[
+    {
+        "support_card_info": {
+            "card_id": 30019,
+            "name": "[乌菈菈～的休息日]春乌菈菈",
+            "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/32e2dc746e435a068a6f53c338739dfbb92604f1.png",
+            "attr_id": 3,
+            "rarity": 3
+        },
+        "branch_story": [
+            {
+                "story_id": 801052002,
+                "story_name": "乌菈菈☆伏兵冲刺！",
+                "story_type": 1,
+                "union_type": 2,
+                "related_skill_ids": [
+                    200302
+                ],
+                "gain_skill": "伏兵○",
+                "select_value_list": [
+                    {
+                        "option": "选项一",
+                        "gain_list": [
+                            "春乌菈菈友情槽+5\n「伏兵○」的启发等级+1\n"
+                        ]
+                    },
+                    {
+                        "option": "选项二",
+                        "gain_list": [
+                            "体力+10\n干劲+1\n春乌菈菈友情槽+5\n"
+                        ]
+                    }
+                ]
+            },
+            {
+                "story_id": 801052001,
+                "story_name": "乌菈菈☆考试复习",
+                "story_type": 1,
+                "union_type": 2,
+                "related_skill_ids": null,
+                "gain_skill": null,
+                "select_value_list": [
+                    {
+                        "option": "选项一",
+                        "gain_list": [
+                            "体力+10\n智力+5\n春乌菈菈友情槽+5\n"
+                        ]
+                    },
+                    {
+                        "option": "选项二",
+                        "gain_list": [
+                            "干劲+1\n智力+5\n春乌菈菈友情槽+5\n"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "no_branch_story": [],
+        "after_match_story": [],
+        "continuous_story": [
+            {
+                "story_id": 830019001,
+                "story_name": "和小米一起加油！",
+                "story_type": 4,
+                "union_type": 3,
+                "related_skill_ids": null,
+                "gain_skill": null,
+                "select_value_list": [
+                    {
+                        "option": "无选项",
+                        "gain_list": [
+                            "体力+10\n春乌菈菈友情槽+5\n"
+                        ]
+                    }
+                ]
+            },
+            {
+                "story_id": 830019002,
+                "story_name": "和小光一起加油！",
+                "story_type": 4,
+                "union_type": 3,
+                "related_skill_ids": null,
+                "gain_skill": null,
+                "select_value_list": [
+                    {
+                        "option": "无选项",
+                        "gain_list": [
+                            "体力+10\n干劲+1\n春乌菈菈友情槽+5\n"
+                        ]
+                    }
+                ]
+            },
+            {
+                "story_id": 830019003,
+                "story_name": "在大家的声援中加油！",
+                "story_type": 4,
+                "union_type": 3,
+                "related_skill_ids": [
+                    200481
+                ],
+                "gain_skill": "耳边风",
+                "select_value_list": [
+                    {
+                        "option": "无选项",
+                        "gain_list": [
+                            "体力+15\n春乌菈菈友情槽+5\n「耳边风」的启发等级+1\n"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "trip_story": [],
+        "story_skill_info": [
+            {
+                "skill_id": 200302,
+                "skill_name": "伏兵○",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/70f3c8fea3c651cb38d69df6e644872657a63cbf.png",
+                "rarity": 1,
+                "skill_desc": "在人气第4及以下的赛事中\n能力稍微容易发挥",
+                "limitation": "通用",
+                "condition1": "人气排名第四及以下",
+                "condition2": null,
+                "skill_type1": "速度（属性）",
+                "skill_type2": null,
+                "ability_value1": [
+                    400000
+                ],
+                "ability_value2": [],
+                "ability_time1": -1,
+                "ability_time2": null,
+                "need_skill_point": 90,
+                "pre_skill": null,
+                "pre_skill_name": null
+            },
+            {
+                "skill_id": 200481,
+                "skill_name": "耳边风",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/df405a026fd17b46f8374d6ddbd36c8d13b54bb3.png",
+                "rarity": 2,
+                "skill_desc": "在赛事中期被包围时\n体力恢复",
+                "limitation": "通用",
+                "condition1": "中盘，被包围时间≥1",
+                "condition2": null,
+                "skill_type1": "体力值（百分比）",
+                "skill_type2": null,
+                "ability_value1": [
+                    550
+                ],
+                "ability_value2": [],
+                "ability_time1": 0,
+                "ability_time2": null,
+                "need_skill_point": 170,
+                "pre_skill": null,
+                "pre_skill_name": null
+            }
+        ],
+        "training_skill_info": null
+    }
+]

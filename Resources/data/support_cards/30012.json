@@ -1,0 +1,265 @@
+[
+    {
+        "support_card_info": {
+            "card_id": 30012,
+            "name": "[B·N·Winner！]胜利奖券",
+            "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/8f647a717f941832599ab65d257331f45297a2e9.png",
+            "attr_id": 3,
+            "rarity": 3
+        },
+        "branch_story": [
+            {
+                "story_id": 801035002,
+                "story_name": "全力追逐！",
+                "story_type": 1,
+                "union_type": 2,
+                "related_skill_ids": [
+                    201392
+                ],
+                "gain_skill": "居中弯道○",
+                "select_value_list": [
+                    {
+                        "option": "选项一",
+                        "gain_list": [
+                            "胜利奖券友情槽+5\n「居中弯道○」的启发等级+1\n"
+                        ]
+                    },
+                    {
+                        "option": "选项二",
+                        "gain_list": [
+                            "技能点数+30\n胜利奖券友情槽+5\n"
+                        ]
+                    }
+                ]
+            },
+            {
+                "story_id": 801035001,
+                "story_name": "全力锻炼肌肉！",
+                "story_type": 1,
+                "union_type": 2,
+                "related_skill_ids": null,
+                "gain_skill": null,
+                "select_value_list": [
+                    {
+                        "option": "选项一",
+                        "gain_list": [
+                            "耐力+5\n技能点数+15\n胜利奖券友情槽+5\n"
+                        ]
+                    },
+                    {
+                        "option": "选项二",
+                        "gain_list": [
+                            "干劲+1\n技能点数+15\n胜利奖券友情槽+5\n"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "no_branch_story": [],
+        "after_match_story": [],
+        "continuous_story": [
+            {
+                "story_id": 830012001,
+                "story_name": "用户名“S＆C”",
+                "story_type": 4,
+                "union_type": 3,
+                "related_skill_ids": null,
+                "gain_skill": null,
+                "select_value_list": [
+                    {
+                        "option": "无选项",
+                        "gain_list": [
+                            "毅力+10\n"
+                        ]
+                    }
+                ]
+            },
+            {
+                "story_id": 830012002,
+                "story_name": "事后，全员肌肉酸痛！",
+                "story_type": 4,
+                "union_type": 3,
+                "related_skill_ids": null,
+                "gain_skill": null,
+                "select_value_list": [
+                    {
+                        "option": "无选项",
+                        "gain_list": [
+                            "耐力+5\n毅力+5\n"
+                        ]
+                    }
+                ]
+            },
+            {
+                "story_id": 830012003,
+                "story_name": "We are BNW！！",
+                "story_type": 4,
+                "union_type": 3,
+                "related_skill_ids": [
+                    200601
+                ],
+                "gain_skill": "换乘能手",
+                "select_value_list": [
+                    {
+                        "option": "无选项",
+                        "gain_list": [
+                            "毅力+10\n「换乘能手」的启发等级+1\n"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "trip_story": [],
+        "story_skill_info": [
+            {
+                "skill_id": 201392,
+                "skill_name": "居中弯道○",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/c44ceb01d2551e9cd2a82b7b1ca8b3f30e433902.png",
+                "rarity": 1,
+                "skill_desc": "在弯道上的速度略微提升\n<战术：居中>",
+                "limitation": "居中",
+                "condition1": "居中，第1弯道；居中，第2弯道；居中，第3弯道；居中，第4弯道",
+                "condition2": null,
+                "skill_type1": "目标速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    1500
+                ],
+                "ability_value2": [],
+                "ability_time1": 30000,
+                "ability_time2": null,
+                "need_skill_point": 130,
+                "pre_skill": null,
+                "pre_skill_name": null
+            },
+            {
+                "skill_id": 200601,
+                "skill_name": "换乘能手",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/474b7f656caba23ad1448ff7bf804e5c348f4b67.png",
+                "rarity": 2,
+                "skill_desc": "在赛事末期时加速能力提升\n<战术：居中>",
+                "limitation": "居中",
+                "condition1": "居中，终盘前半段随机位置，名次>50%",
+                "condition2": null,
+                "skill_type1": "加速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    4000
+                ],
+                "ability_value2": [],
+                "ability_time1": 18000,
+                "ability_time2": null,
+                "need_skill_point": 180,
+                "pre_skill": null,
+                "pre_skill_name": null
+            }
+        ],
+        "training_skill_info": [
+            {
+                "skill_id": 200152,
+                "skill_name": "良场地○",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/673e0c0734bcdbee9cd2648df49bb77e2b3952fe.png",
+                "rarity": 1,
+                "skill_desc": "会变得稍微擅长“良”的场地状态",
+                "limitation": "通用",
+                "condition1": "良场",
+                "condition2": null,
+                "skill_type1": "力量（属性）",
+                "skill_type2": null,
+                "ability_value1": [
+                    400000
+                ],
+                "ability_value2": [],
+                "ability_time1": -1,
+                "ability_time2": null,
+                "need_skill_point": 90,
+                "pre_skill": null,
+                "pre_skill_name": null
+            },
+            {
+                "skill_id": 200222,
+                "skill_name": "阴天○",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/977e98772467a7d9ea51bd0ad54b9dc1d1e1e01e.png",
+                "rarity": 1,
+                "skill_desc": "会变得稍微擅长阴天的赛事",
+                "limitation": "通用",
+                "condition1": "阴",
+                "condition2": null,
+                "skill_type1": "毅力（属性）",
+                "skill_type2": null,
+                "ability_value1": [
+                    400000
+                ],
+                "ability_value2": [],
+                "ability_time1": -1,
+                "ability_time2": null,
+                "need_skill_point": 90,
+                "pre_skill": null,
+                "pre_skill_name": null
+            },
+            {
+                "skill_id": 200592,
+                "skill_name": "向前抢位",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/c44ceb01d2551e9cd2a82b7b1ca8b3f30e433902.png",
+                "rarity": 1,
+                "skill_desc": "在赛事中期时速度略微提升\n<战术：居中>",
+                "limitation": "居中",
+                "condition1": "居中，中盘随机位置，名次>50%",
+                "condition2": null,
+                "skill_type1": "目标速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    1500
+                ],
+                "ability_value2": [],
+                "ability_time1": 18000,
+                "ability_time2": null,
+                "need_skill_point": 180,
+                "pre_skill": 200591,
+                "pre_skill_name": "迅速果断"
+            },
+            {
+                "skill_id": 200602,
+                "skill_name": "超越架势",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/bd338ecc1d33ec83d4e45977372f03c4d221c3e0.png",
+                "rarity": 1,
+                "skill_desc": "在赛事末期时加速能力略微提升\n<战术：居中>",
+                "limitation": "居中",
+                "condition1": "居中，终盘前半段随机位置，名次>50%",
+                "condition2": null,
+                "skill_type1": "加速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    2000
+                ],
+                "ability_value2": [],
+                "ability_time1": 18000,
+                "ability_time2": null,
+                "need_skill_point": 180,
+                "pre_skill": 200601,
+                "pre_skill_name": "换乘能手"
+            },
+            {
+                "skill_id": 200612,
+                "skill_name": "准备外道超越",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/c44ceb01d2551e9cd2a82b7b1ca8b3f30e433902.png",
+                "rarity": 1,
+                "skill_desc": "在最终弯道从外侧赶超成功时\n速度略微提升<战术：居中>",
+                "limitation": "居中",
+                "condition1": "居中，最终拐角，弯道，从外侧，至少超越一人",
+                "condition2": null,
+                "skill_type1": "目标速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    1500
+                ],
+                "ability_value2": [],
+                "ability_time1": 30000,
+                "ability_time2": null,
+                "need_skill_point": 180,
+                "pre_skill": 200611,
+                "pre_skill_name": "登天之龙"
+            }
+        ]
+    }
+]

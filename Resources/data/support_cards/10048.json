@@ -1,0 +1,214 @@
+[
+    {
+        "support_card_info": {
+            "card_id": 10048,
+            "name": "[特雷森学园]帝王光辉",
+            "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/63eda4fbebdaa9de1bdd4c93c9e9028772bfb773.png",
+            "attr_id": 1,
+            "rarity": 1
+        },
+        "branch_story": [
+            {
+                "story_id": 801061002,
+                "story_name": "赐予你提议的权利！",
+                "story_type": 1,
+                "union_type": 2,
+                "related_skill_ids": [
+                    200512
+                ],
+                "gain_skill": "最后冲刺",
+                "select_value_list": [
+                    {
+                        "option": "选项一",
+                        "gain_list": [
+                            "毅力+10\n智力+5\n帝王光辉友情槽+5\n"
+                        ]
+                    },
+                    {
+                        "option": "选项二",
+                        "gain_list": [
+                            "帝王光辉友情槽+5\n「最后冲刺」的启发等级+1\n"
+                        ]
+                    }
+                ]
+            },
+            {
+                "story_id": 801061001,
+                "story_name": "赐予你陪我的权利！",
+                "story_type": 1,
+                "union_type": 2,
+                "related_skill_ids": null,
+                "gain_skill": null,
+                "select_value_list": [
+                    {
+                        "option": "选项一",
+                        "gain_list": [
+                            "体力-20\n速度+10\n力量+10\n智力+5\n帝王光辉友情槽+5\n"
+                        ]
+                    },
+                    {
+                        "option": "选项二",
+                        "gain_list": [
+                            "干劲-1\n毅力+25\n帝王光辉友情槽+5\n"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "no_branch_story": [],
+        "after_match_story": [],
+        "continuous_story": null,
+        "trip_story": [],
+        "story_skill_info": [
+            {
+                "skill_id": 200512,
+                "skill_name": "最后冲刺",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/c44ceb01d2551e9cd2a82b7b1ca8b3f30e433902.png",
+                "rarity": 1,
+                "skill_desc": "最后冲刺阶段速度略微提升",
+                "limitation": "通用",
+                "condition1": "最后冲刺，终盘后半段任意",
+                "condition2": null,
+                "skill_type1": "目标速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    1500
+                ],
+                "ability_value2": [],
+                "ability_time1": 18000,
+                "ability_time2": null,
+                "need_skill_point": 170,
+                "pre_skill": 200511,
+                "pre_skill_name": "全神贯注"
+            }
+        ],
+        "training_skill_info": [
+            {
+                "skill_id": 200152,
+                "skill_name": "良场地○",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/673e0c0734bcdbee9cd2648df49bb77e2b3952fe.png",
+                "rarity": 1,
+                "skill_desc": "会变得稍微擅长“良”的场地状态",
+                "limitation": "通用",
+                "condition1": "良场",
+                "condition2": null,
+                "skill_type1": "力量（属性）",
+                "skill_type2": null,
+                "ability_value1": [
+                    400000
+                ],
+                "ability_value2": [],
+                "ability_time1": -1,
+                "ability_time2": null,
+                "need_skill_point": 90,
+                "pre_skill": null,
+                "pre_skill_name": null
+            },
+            {
+                "skill_id": 200222,
+                "skill_name": "阴天○",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/977e98772467a7d9ea51bd0ad54b9dc1d1e1e01e.png",
+                "rarity": 1,
+                "skill_desc": "会变得稍微擅长阴天的赛事",
+                "limitation": "通用",
+                "condition1": "阴",
+                "condition2": null,
+                "skill_type1": "毅力（属性）",
+                "skill_type2": null,
+                "ability_value1": [
+                    400000
+                ],
+                "ability_value2": [],
+                "ability_time1": -1,
+                "ability_time2": null,
+                "need_skill_point": 90,
+                "pre_skill": null,
+                "pre_skill_name": null
+            },
+            {
+                "skill_id": 200262,
+                "skill_name": "擅长外道○",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/70f3c8fea3c651cb38d69df6e644872657a63cbf.png",
+                "rarity": 1,
+                "skill_desc": "会变得稍微擅长道次6至8号的赛事",
+                "limitation": "通用",
+                "condition1": "道次≥6",
+                "condition2": null,
+                "skill_type1": "速度（属性）",
+                "skill_type2": null,
+                "ability_value1": [
+                    400000
+                ],
+                "ability_value2": [],
+                "ability_time1": -1,
+                "ability_time2": null,
+                "need_skill_point": 90,
+                "pre_skill": null,
+                "pre_skill_name": null
+            },
+            {
+                "skill_id": 200352,
+                "skill_name": "弯道恢复○",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/4c910489d09842c36b36fa521844dc37342d3d20.png",
+                "rarity": 1,
+                "skill_desc": "利用高效的过弯略微恢复体力",
+                "limitation": "通用",
+                "condition1": "第1弯道；第2弯道；第3弯道；第4弯道",
+                "condition2": null,
+                "skill_type1": "体力值（百分比）",
+                "skill_type2": null,
+                "ability_value1": [
+                    150
+                ],
+                "ability_value2": [],
+                "ability_time1": 0,
+                "ability_time2": null,
+                "need_skill_point": 170,
+                "pre_skill": 200351,
+                "pre_skill_name": "圆弧艺术家"
+            },
+            {
+                "skill_id": 200662,
+                "skill_name": "观望",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/4c910489d09842c36b36fa521844dc37342d3d20.png",
+                "rarity": 1,
+                "skill_desc": "在赛事中期位于后方时\n会略微不容易疲劳<短距离>",
+                "limitation": "短距离",
+                "condition1": "短距离，中盘随机位置，名次>50%",
+                "condition2": null,
+                "skill_type1": "体力值（百分比）",
+                "skill_type2": null,
+                "ability_value1": [
+                    150
+                ],
+                "ability_value2": [],
+                "ability_time1": 0,
+                "ability_time2": null,
+                "need_skill_point": 160,
+                "pre_skill": null,
+                "pre_skill_name": null
+            },
+            {
+                "skill_id": 200672,
+                "skill_name": "逼近",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/c44ceb01d2551e9cd2a82b7b1ca8b3f30e433902.png",
+                "rarity": 1,
+                "skill_desc": "在赛事末期位于后方时\n冲刺会略微变得容易<短距离>",
+                "limitation": "短距离",
+                "condition1": "短距离，终盘前半段随机位置，名次>50%",
+                "condition2": null,
+                "skill_type1": "目标速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    1500
+                ],
+                "ability_value2": [],
+                "ability_time1": 30000,
+                "ability_time2": null,
+                "need_skill_point": 160,
+                "pre_skill": 200671,
+                "pre_skill_name": "电击光辉"
+            }
+        ]
+    }
+]

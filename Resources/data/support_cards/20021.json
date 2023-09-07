@@ -1,0 +1,319 @@
+[
+    {
+        "support_card_info": {
+            "card_id": 20021,
+            "name": "[并肩同行！]桐生院葵",
+            "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/e3cee25ba6e950542f337e08e5fae3892c7eeef1.png",
+            "attr_id": 0,
+            "rarity": 2
+        },
+        "branch_story": [
+            {
+                "story_id": 809004001,
+                "story_name": "训练员心得“要时常改良指导方法”",
+                "story_type": 1,
+                "union_type": 2,
+                "related_skill_ids": null,
+                "gain_skill": null,
+                "select_value_list": [
+                    {
+                        "option": "选项一",
+                        "gain_list": [
+                            "体力+10\n技能点数+15\n桐生院训练员友情槽+5\n"
+                        ]
+                    },
+                    {
+                        "option": "选项二",
+                        "gain_list": [
+                            "速度+5\n智力+5\n桐生院训练员友情槽+5\n"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "no_branch_story": [
+            {
+                "story_id": 809004010,
+                "story_name": "派对要在那个地方开",
+                "story_type": 2,
+                "union_type": 2,
+                "related_skill_ids": null,
+                "gain_skill": null,
+                "select_value_list": [
+                    {
+                        "option": "无选项",
+                        "gain_list": [
+                            "速度+5\n耐力+5\n力量+5\n",
+                            "速度+7\n",
+                            "速度+5\n",
+                            "速度+7\n耐力+7\n力量+7\n"
+                        ]
+                    }
+                ]
+            },
+            {
+                "story_id": 809004011,
+                "story_name": "与葵的友情：要成为优秀的指导者",
+                "story_type": 2,
+                "union_type": 2,
+                "related_skill_ids": [
+                    201621
+                ],
+                "gain_skill": "竭尽全力",
+                "select_value_list": [
+                    {
+                        "option": "无选项",
+                        "gain_list": [
+                            "干劲+1\n智力+20\n技能点数+20\n桐生院训练员友情槽+5\n「竭尽全力」的启发等级+3\n",
+                            "干劲+1\n智力+15\n技能点数+15\n桐生院训练员友情槽+5\n「竭尽全力」的启发等级+3\n"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "after_match_story": [],
+        "continuous_story": [
+            {
+                "story_id": 809004002,
+                "story_name": "同届的桐生院训练员",
+                "story_type": 4,
+                "union_type": 2,
+                "related_skill_ids": null,
+                "gain_skill": null,
+                "select_value_list": [
+                    {
+                        "option": "无选项",
+                        "gain_list": [
+                            "干劲+1\n技能点数+15\n桐生院训练员友情槽+5\n",
+                            "干劲+1\n技能点数+30\n桐生院训练员友情槽+10\n"
+                        ]
+                    }
+                ]
+            },
+            {
+                "story_id": 809004004,
+                "story_name": "寻找兴趣爱好",
+                "story_type": 4,
+                "union_type": 2,
+                "related_skill_ids": [
+                    200272
+                ],
+                "gain_skill": "独行侠○",
+                "select_value_list": [
+                    {
+                        "option": "选项一",
+                        "gain_list": [
+                            "体力+20\n干劲+1\n技能点数+15\n桐生院训练员友情槽+5\n触发出行事件"
+                        ]
+                    },
+                    {
+                        "option": "选项二",
+                        "gain_list": [
+                            "干劲-1\n桐生院训练员友情槽-5\n「独行侠○」的启发等级+1\n"
+                        ]
+                    }
+                ]
+            },
+            {
+                "story_id": 809004009,
+                "story_name": "第一本一定给你",
+                "story_type": 4,
+                "union_type": 2,
+                "related_skill_ids": [
+                    200941
+                ],
+                "gain_skill": "后追踌躇",
+                "select_value_list": [
+                    {
+                        "option": "无选项",
+                        "gain_list": [
+                            "速度+5\n耐力+5\n力量+5\n毅力+5\n智力+5\n「后追踌躇」的启发等级+1\n",
+                            "速度+5\n耐力+5\n力量+5\n毅力+5\n智力+5\n「后追踌躇」的启发等级+3\n",
+                            "速度+7\n耐力+7\n力量+7\n毅力+7\n智力+7\n「后追踌躇」的启发等级+3\n",
+                            "速度+7\n耐力+7\n力量+7\n毅力+7\n智力+7\n「后追踌躇」的启发等级+1\n"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "trip_story": [
+            {
+                "story_id": 820021001,
+                "story_name": "只要不断追寻梦想",
+                "story_type": 5,
+                "union_type": 3,
+                "related_skill_ids": [
+                    200831
+                ],
+                "gain_skill": "领跑牵制",
+                "select_value_list": [
+                    {
+                        "option": "无选项",
+                        "gain_list": [
+                            "耐力+5\n技能点数+15\n桐生院训练员友情槽+5\n触发出行事件",
+                            "干劲+1\n耐力+5\n力量+5\n毅力+5\n技能点数+45\n桐生院训练员友情槽+5\n「领跑牵制」的启发等级+3\n触发出行事件"
+                        ]
+                    }
+                ]
+            },
+            {
+                "story_id": 809004008,
+                "story_name": "名为尊重的幸福",
+                "story_type": 5,
+                "union_type": 2,
+                "related_skill_ids": null,
+                "gain_skill": null,
+                "select_value_list": [
+                    {
+                        "option": "无选项",
+                        "gain_list": [
+                            "力量+10\n技能点数+45\n干劲+1\n桐生院训练员友情槽+5\n触发出行事件"
+                        ]
+                    }
+                ]
+            },
+            {
+                "story_id": 809004005,
+                "story_name": "亲身学习！",
+                "story_type": 5,
+                "union_type": 2,
+                "related_skill_ids": null,
+                "gain_skill": null,
+                "select_value_list": [
+                    {
+                        "option": "无选项",
+                        "gain_list": [
+                            "体力+25\n干劲+2\n技能点数+30\n桐生院训练员友情槽+5\n触发出行事件"
+                        ]
+                    }
+                ]
+            },
+            {
+                "story_id": 809004006,
+                "story_name": "在公园玩耍的方式",
+                "story_type": 5,
+                "union_type": 2,
+                "related_skill_ids": null,
+                "gain_skill": null,
+                "select_value_list": [
+                    {
+                        "option": "选项一",
+                        "gain_list": [
+                            "体力+25\n干劲+1\n智力+5\n桐生院训练员友情槽+5\n触发出行事件"
+                        ]
+                    },
+                    {
+                        "option": "选项二",
+                        "gain_list": [
+                            "技能点数+15\n桐生院训练员友情槽+5\n触发出行事件",
+                            "干劲+1\n速度+5\n技能点数+45\n桐生院训练员友情槽+5\n触发出行事件"
+                        ]
+                    }
+                ]
+            },
+            {
+                "story_id": 809004007,
+                "story_name": "失控的训练",
+                "story_type": 5,
+                "union_type": 2,
+                "related_skill_ids": null,
+                "gain_skill": null,
+                "select_value_list": [
+                    {
+                        "option": "无选项",
+                        "gain_list": [
+                            "体力+20\n干劲+1\n技能点数+30\n桐生院训练员友情槽+5\n触发出行事件"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "story_skill_info": [
+            {
+                "skill_id": 201621,
+                "skill_name": "竭尽全力",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/4c910489d09842c36b36fa521844dc37342d3d20.png",
+                "rarity": 1,
+                "skill_desc": "在赛事末期发动多个技能时\n体力略微恢复",
+                "limitation": "通用",
+                "condition1": "终盘技能发动数量≥3",
+                "condition2": null,
+                "skill_type1": "体力值（百分比）",
+                "skill_type2": null,
+                "ability_value1": [
+                    150
+                ],
+                "ability_value2": [],
+                "ability_time1": 0,
+                "ability_time2": null,
+                "need_skill_point": 100,
+                "pre_skill": null,
+                "pre_skill_name": null
+            },
+            {
+                "skill_id": 200941,
+                "skill_name": "后追踌躇",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/1612c4d4017143348c64c3a7830305aa46a8034e.png",
+                "rarity": 1,
+                "skill_desc": "在赛事末期让后追战术的优俊少女踌躇\n使其速度略微降低",
+                "limitation": "通用",
+                "condition1": "后追策略人数≥1，终盘前半段随机位置",
+                "condition2": null,
+                "skill_type1": "当前速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    -1500
+                ],
+                "ability_value2": [],
+                "ability_time1": 30000,
+                "ability_time2": null,
+                "need_skill_point": 130,
+                "pre_skill": null,
+                "pre_skill_name": null
+            },
+            {
+                "skill_id": 200272,
+                "skill_name": "独行侠○",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/70f3c8fea3c651cb38d69df6e644872657a63cbf.png",
+                "rarity": 1,
+                "skill_desc": "在没有优俊少女与自己战术相同时\n能力稍微容易发挥",
+                "limitation": "通用",
+                "condition1": "相同跑法人数≤1",
+                "condition2": null,
+                "skill_type1": "速度（属性）",
+                "skill_type2": null,
+                "ability_value1": [
+                    400000
+                ],
+                "ability_value2": [],
+                "ability_time1": -1,
+                "ability_time2": null,
+                "need_skill_point": 90,
+                "pre_skill": null,
+                "pre_skill_name": null
+            },
+            {
+                "skill_id": 200831,
+                "skill_name": "领跑牵制",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/0c83e76b13b77ecb2daf700587c64c85a86fdaa3.png",
+                "rarity": 1,
+                "skill_desc": "在赛事初期对领跑战术的优俊少女\n进行牵制使其略微容易疲劳",
+                "limitation": "通用",
+                "condition1": "领跑策略人数≥1，序盘随机位置，赛事进行时间≥5",
+                "condition2": null,
+                "skill_type1": "体力值（百分比）",
+                "skill_type2": null,
+                "ability_value1": [
+                    -100
+                ],
+                "ability_value2": [],
+                "ability_time1": 0,
+                "ability_time2": null,
+                "need_skill_point": 130,
+                "pre_skill": null,
+                "pre_skill_name": null
+            }
+        ],
+        "training_skill_info": null
+    }
+]

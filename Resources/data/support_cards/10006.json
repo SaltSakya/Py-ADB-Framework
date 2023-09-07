@@ -1,0 +1,383 @@
+[
+    {
+        "support_card_info": {
+            "card_id": 10006,
+            "name": "[特雷森学园]黄金船",
+            "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/53f1af4649d3521048ff98b1e4f6b5d335c459f1.png",
+            "attr_id": 5,
+            "rarity": 1
+        },
+        "branch_story": [
+            {
+                "story_id": 801007002,
+                "story_name": "复活吧！黄金船特制酱汁炒面！",
+                "story_type": 1,
+                "union_type": 2,
+                "related_skill_ids": [
+                    200052
+                ],
+                "gain_skill": "阪神赛场○",
+                "select_value_list": [
+                    {
+                        "option": "选项一",
+                        "gain_list": [
+                            "干劲+1\n耐力+5\n"
+                        ]
+                    },
+                    {
+                        "option": "选项二",
+                        "gain_list": [
+                            "黄金船友情槽+5\n「阪神赛场○」的启发等级+1\n"
+                        ]
+                    }
+                ]
+            },
+            {
+                "story_id": 801007001,
+                "story_name": "冒险家黄金船",
+                "story_type": 1,
+                "union_type": 2,
+                "related_skill_ids": null,
+                "gain_skill": null,
+                "select_value_list": [
+                    {
+                        "option": "选项一",
+                        "gain_list": [
+                            "耐力+15\n黄金船友情槽+5\n"
+                        ]
+                    },
+                    {
+                        "option": "选项二",
+                        "gain_list": [
+                            "毅力+10\n技能点数+15\n黄金船友情槽+5\n"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "no_branch_story": [],
+        "after_match_story": [],
+        "continuous_story": null,
+        "trip_story": [],
+        "story_skill_info": [
+            {
+                "skill_id": 200052,
+                "skill_name": "阪神赛场○",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/762928d76f4cb135264040edacbc36eb0fb7708e.png",
+                "rarity": 1,
+                "skill_desc": "会变得稍微擅长阪神赛场的赛事",
+                "limitation": "通用",
+                "condition1": "阪神场",
+                "condition2": null,
+                "skill_type1": "耐力（属性）",
+                "skill_type2": null,
+                "ability_value1": [
+                    400000
+                ],
+                "ability_value2": [],
+                "ability_time1": -1,
+                "ability_time2": null,
+                "need_skill_point": 90,
+                "pre_skill": null,
+                "pre_skill_name": null
+            }
+        ],
+        "training_skill_info": [
+            {
+                "skill_id": 200622,
+                "skill_name": "后方待机",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/4c910489d09842c36b36fa521844dc37342d3d20.png",
+                "rarity": 1,
+                "skill_desc": "在赛事中期保存体力\n会略微不容易疲劳<战术：后追>",
+                "limitation": "后追",
+                "condition1": "后追，中盘随机位置，自身处于队伍位置≥75%",
+                "condition2": null,
+                "skill_type1": "体力值（百分比）",
+                "skill_type2": null,
+                "ability_value1": [
+                    150
+                ],
+                "ability_value2": [],
+                "ability_time1": 0,
+                "ability_time2": null,
+                "need_skill_point": 180,
+                "pre_skill": 200621,
+                "pre_skill_name": "沉睡的狮子"
+            },
+            {
+                "skill_id": 200642,
+                "skill_name": "一鼓作气",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/bd338ecc1d33ec83d4e45977372f03c4d221c3e0.png",
+                "rarity": 1,
+                "skill_desc": "在最后冲刺阶段的直线上\n加速能力略微提升<战术：后追>",
+                "limitation": "后追",
+                "condition1": "后追，最后冲刺，直线",
+                "condition2": null,
+                "skill_type1": "加速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    2000
+                ],
+                "ability_value2": [],
+                "ability_time1": 9000,
+                "ability_time2": null,
+                "need_skill_point": 180,
+                "pre_skill": 200641,
+                "pre_skill_name": "迫近的暗影"
+            },
+            {
+                "skill_id": 200752,
+                "skill_name": "弯里横",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/c44ceb01d2551e9cd2a82b7b1ca8b3f30e433902.png",
+                "rarity": 1,
+                "skill_desc": "在最终弯道位于内侧时\n速度略微提升<长距离>",
+                "limitation": "长距离",
+                "condition1": "长距离，最终拐角，弯道，处于内侧",
+                "condition2": null,
+                "skill_type1": "目标速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    1500
+                ],
+                "ability_value2": [],
+                "ability_time1": 30000,
+                "ability_time2": null,
+                "need_skill_point": 160,
+                "pre_skill": 200751,
+                "pre_skill_name": "内侧体验"
+            },
+            {
+                "skill_id": 201212,
+                "skill_name": "追击",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/c44ceb01d2551e9cd2a82b7b1ca8b3f30e433902.png",
+                "rarity": 1,
+                "skill_desc": "在赛事末期赶超成功时\n速度略微提升<长距离>",
+                "limitation": "长距离",
+                "condition1": "长距离，终盘前端，至少超越一人",
+                "condition2": null,
+                "skill_type1": "目标速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    1500
+                ],
+                "ability_value2": [],
+                "ability_time1": 30000,
+                "ability_time2": null,
+                "need_skill_point": 160,
+                "pre_skill": 201211,
+                "pre_skill_name": "怒涛般的追击"
+            },
+            {
+                "skill_id": 201232,
+                "skill_name": "障眼法",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/4536d871977091d2d7959a88450e6e1a2cd493a6.png",
+                "rarity": 1,
+                "skill_desc": "在赛事末期时使前方优俊少女\n视野稍微变窄<长距离>",
+                "limitation": "长距离",
+                "condition1": "长距离，终盘前半段随机位置",
+                "condition2": null,
+                "skill_type1": "视野范围",
+                "skill_type2": null,
+                "ability_value1": [
+                    -50000
+                ],
+                "ability_value2": [],
+                "ability_time1": 30000,
+                "ability_time2": null,
+                "need_skill_point": 110,
+                "pre_skill": 201231,
+                "pre_skill_name": "奇术师"
+            },
+            {
+                "skill_id": 201472,
+                "skill_name": "看穿",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/10d52cb1987a5e8a95cf845f3460c3145490ecc3.png",
+                "rarity": 1,
+                "skill_desc": "左右移动时掌握情况，\n视野略微变得开阔<战术：后追>",
+                "limitation": "后追",
+                "condition1": "后追，变换跑道；后追，变换跑道",
+                "condition2": null,
+                "skill_type1": "视野范围",
+                "skill_type2": null,
+                "ability_value1": [
+                    50000
+                ],
+                "ability_value2": [],
+                "ability_time1": 30000,
+                "ability_time2": null,
+                "need_skill_point": 110,
+                "pre_skill": 201471,
+                "pre_skill_name": "视野良好！没有异常！"
+            },
+            {
+                "skill_id": 201482,
+                "skill_name": "放学后的乐趣",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/4c910489d09842c36b36fa521844dc37342d3d20.png",
+                "rarity": 1,
+                "skill_desc": "下坡的时候略微不容易疲劳\n<战术：后追>",
+                "limitation": "后追",
+                "condition1": "后追，下坡，赛事进行时间≥10",
+                "condition2": null,
+                "skill_type1": "体力值（百分比）",
+                "skill_type2": null,
+                "ability_value1": [
+                    150
+                ],
+                "ability_value2": [],
+                "ability_time1": 0,
+                "ability_time2": null,
+                "need_skill_point": 170,
+                "pre_skill": 201481,
+                "pre_skill_name": "放学后的专家"
+            },
+            {
+                "skill_id": 201502,
+                "skill_name": "策士",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/10d52cb1987a5e8a95cf845f3460c3145490ecc3.png",
+                "rarity": 1,
+                "skill_desc": "在赛事末期位于后方时\n视野略微变得开阔<战术：后追>",
+                "limitation": "后追",
+                "condition1": "后追，终盘前半段随机位置，名次>50%",
+                "condition2": null,
+                "skill_type1": "视野范围",
+                "skill_type2": null,
+                "ability_value1": [
+                    50000
+                ],
+                "ability_value2": [],
+                "ability_time1": 30000,
+                "ability_time2": null,
+                "need_skill_point": 110,
+                "pre_skill": 201501,
+                "pre_skill_name": "知天命者"
+            },
+            {
+                "skill_id": 201512,
+                "skill_name": "视线",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/1612c4d4017143348c64c3a7830305aa46a8034e.png",
+                "rarity": 1,
+                "skill_desc": "在赛事末期使被自己盯上的优俊少女\n紧张感略微提升<战术：后追>",
+                "limitation": "后追",
+                "condition1": "后追，终盘前半段随机位置，名次≥2",
+                "condition2": null,
+                "skill_type1": "当前速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    -1500
+                ],
+                "ability_value2": [],
+                "ability_time1": 30000,
+                "ability_time2": null,
+                "need_skill_point": 180,
+                "pre_skill": 201511,
+                "pre_skill_name": "炙热视线"
+            },
+            {
+                "skill_id": 201552,
+                "skill_name": "后追诀窍○",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/1c9b9e90297efb32fd2d8baa70464e97c50f58b1.png",
+                "rarity": 1,
+                "skill_desc": "稍微容易占据良好位置\n<战术：后追>",
+                "limitation": "后追",
+                "condition1": "后追",
+                "condition2": null,
+                "skill_type1": "智力（属性）、视野范围",
+                "skill_type2": null,
+                "ability_value1": [
+                    400000,
+                    50000
+                ],
+                "ability_value2": [],
+                "ability_time1": -1,
+                "ability_time2": null,
+                "need_skill_point": 110,
+                "pre_skill": null,
+                "pre_skill_name": null
+            },
+            {
+                "skill_id": 201581,
+                "skill_name": "登山家",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/bd338ecc1d33ec83d4e45977372f03c4d221c3e0.png",
+                "rarity": 1,
+                "skill_desc": "变得略微擅长上坡",
+                "limitation": "通用",
+                "condition1": "上坡",
+                "condition2": null,
+                "skill_type1": "加速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    2000
+                ],
+                "ability_value2": [],
+                "ability_time1": 30000,
+                "ability_time2": null,
+                "need_skill_point": 160,
+                "pre_skill": null,
+                "pre_skill_name": null
+            },
+            {
+                "skill_id": 201591,
+                "skill_name": "优俊少女爱好者",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/c44ceb01d2551e9cd2a82b7b1ca8b3f30e433902.png",
+                "rarity": 1,
+                "skill_desc": "附近有很多优俊少女时\n速度略微提升",
+                "limitation": "通用",
+                "condition1": "附近人数=4；附近人数=5；附近人数=6；附近人数=7",
+                "condition2": null,
+                "skill_type1": "目标速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    1500
+                ],
+                "ability_value2": [],
+                "ability_time1": 30000,
+                "ability_time2": null,
+                "need_skill_point": 160,
+                "pre_skill": null,
+                "pre_skill_name": null
+            },
+            {
+                "skill_id": 201601,
+                "skill_name": "打基础",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/bd338ecc1d33ec83d4e45977372f03c4d221c3e0.png",
+                "rarity": 1,
+                "skill_desc": "在赛事初期发动多个技能时\n加速能力略微提升",
+                "limitation": "通用",
+                "condition1": "序盘技能发动数量≥3",
+                "condition2": null,
+                "skill_type1": "加速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    2000
+                ],
+                "ability_value2": [],
+                "ability_time1": 30000,
+                "ability_time2": null,
+                "need_skill_point": 100,
+                "pre_skill": null,
+                "pre_skill_name": null
+            },
+            {
+                "skill_id": 201631,
+                "skill_name": "共鸣",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/70f3c8fea3c651cb38d69df6e644872657a63cbf.png",
+                "rarity": 1,
+                "skill_desc": "有很多拥有共鸣之心的优俊少女时\n能力少量提升",
+                "limitation": "通用",
+                "condition1": "持有相同技能人数（含自身）≥5",
+                "condition2": null,
+                "skill_type1": "速度（属性）",
+                "skill_type2": null,
+                "ability_value1": [
+                    400000
+                ],
+                "ability_value2": [],
+                "ability_time1": -1,
+                "ability_time2": null,
+                "need_skill_point": 70,
+                "pre_skill": null,
+                "pre_skill_name": null
+            }
+        ]
+    }
+]

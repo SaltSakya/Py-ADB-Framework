@@ -1,0 +1,214 @@
+[
+    {
+        "support_card_info": {
+            "card_id": 10014,
+            "name": "[特雷森学园]青云天空",
+            "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/5f6a468a55ccb77b9651fc97a72ab8596db67ef0.png",
+            "attr_id": 5,
+            "rarity": 1
+        },
+        "branch_story": [
+            {
+                "story_id": 801020002,
+                "story_name": "悠哉征集谏言者",
+                "story_type": 1,
+                "union_type": 2,
+                "related_skill_ids": [
+                    201192
+                ],
+                "gain_skill": "保持领先",
+                "select_value_list": [
+                    {
+                        "option": "选项一",
+                        "gain_list": [
+                            "智力+15\n青云天空友情槽+5\n"
+                        ]
+                    },
+                    {
+                        "option": "选项二",
+                        "gain_list": [
+                            "青云天空友情槽+5\n「保持领先」的启发等级+1\n"
+                        ]
+                    }
+                ]
+            },
+            {
+                "story_id": 801020001,
+                "story_name": "悠哉征集捉猫法",
+                "story_type": 1,
+                "union_type": 2,
+                "related_skill_ids": null,
+                "gain_skill": null,
+                "select_value_list": [
+                    {
+                        "option": "选项一",
+                        "gain_list": [
+                            "体力+10\n智力+5\n青云天空友情槽+5\n"
+                        ]
+                    },
+                    {
+                        "option": "选项二",
+                        "gain_list": [
+                            "体力-10\n速度+15\n耐力+5\n青云天空友情槽+5\n"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "no_branch_story": [],
+        "after_match_story": [],
+        "continuous_story": null,
+        "trip_story": [],
+        "story_skill_info": [
+            {
+                "skill_id": 201192,
+                "skill_name": "保持领先",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/c44ceb01d2551e9cd2a82b7b1ca8b3f30e433902.png",
+                "rarity": 1,
+                "skill_desc": "在赛事中期遥遥领先时\n略微容易保持领跑位置<长距离>",
+                "limitation": "长距离",
+                "condition1": "长距离，中盘随机位置，距离后方马身≥3，名次=1",
+                "condition2": null,
+                "skill_type1": "目标速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    1500
+                ],
+                "ability_value2": [],
+                "ability_time1": 30000,
+                "ability_time2": null,
+                "need_skill_point": 160,
+                "pre_skill": 201191,
+                "pre_skill_name": "领头心得"
+            }
+        ],
+        "training_skill_info": [
+            {
+                "skill_id": 200252,
+                "skill_name": "擅长内道○",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/1c9b9e90297efb32fd2d8baa70464e97c50f58b1.png",
+                "rarity": 1,
+                "skill_desc": "会变得稍微擅长道次1至3号的赛事",
+                "limitation": "通用",
+                "condition1": "道次≤3",
+                "condition2": null,
+                "skill_type1": "智力（属性）",
+                "skill_type2": null,
+                "ability_value1": [
+                    400000
+                ],
+                "ability_value2": [],
+                "ability_time1": -1,
+                "ability_time2": null,
+                "need_skill_point": 90,
+                "pre_skill": null,
+                "pre_skill_name": null
+            },
+            {
+                "skill_id": 200302,
+                "skill_name": "伏兵○",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/70f3c8fea3c651cb38d69df6e644872657a63cbf.png",
+                "rarity": 1,
+                "skill_desc": "在人气第4及以下的赛事中\n能力稍微容易发挥",
+                "limitation": "通用",
+                "condition1": "人气排名第四及以下",
+                "condition2": null,
+                "skill_type1": "速度（属性）",
+                "skill_type2": null,
+                "ability_value1": [
+                    400000
+                ],
+                "ability_value2": [],
+                "ability_time1": -1,
+                "ability_time2": null,
+                "need_skill_point": 90,
+                "pre_skill": null,
+                "pre_skill_name": null
+            },
+            {
+                "skill_id": 200771,
+                "skill_name": "诡计（前）",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/0c83e76b13b77ecb2daf700587c64c85a86fdaa3.png",
+                "rarity": 1,
+                "skill_desc": "在赛事中期位于前列时\n后方产生过焦躁的优俊少女会略微感到疲劳",
+                "limitation": "通用",
+                "condition1": "中盘，名次≤50%，后方的debuff数量≥1",
+                "condition2": null,
+                "skill_type1": "体力值（百分比）",
+                "skill_type2": null,
+                "ability_value1": [
+                    -100
+                ],
+                "ability_value2": [],
+                "ability_time1": 0,
+                "ability_time2": null,
+                "need_skill_point": 140,
+                "pre_skill": null,
+                "pre_skill_name": null
+            },
+            {
+                "skill_id": 200811,
+                "skill_name": "居中策略",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/2c1a2298d667aec9efc1dcb29be462e14a5015b6.png",
+                "rarity": 1,
+                "skill_desc": "战术是居中的优俊少女陷入焦躁时\n恢复冷静需要耗费时间",
+                "limitation": "通用",
+                "condition1": "居中策略焦躁人数≥1，未进入过焦躁状态",
+                "condition2": null,
+                "skill_type1": "焦躁持续时间",
+                "skill_type2": null,
+                "ability_value1": [
+                    50000
+                ],
+                "ability_value2": [],
+                "ability_time1": 0,
+                "ability_time2": null,
+                "need_skill_point": 130,
+                "pre_skill": null,
+                "pre_skill_name": null
+            },
+            {
+                "skill_id": 200881,
+                "skill_name": "跟前踌躇",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/1612c4d4017143348c64c3a7830305aa46a8034e.png",
+                "rarity": 1,
+                "skill_desc": "在赛事末期让跟前战术的优俊少女踌躇\n使其速度略微降低",
+                "limitation": "通用",
+                "condition1": "跟前策略人数≥1，终盘前半段随机位置",
+                "condition2": null,
+                "skill_type1": "当前速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    -1500
+                ],
+                "ability_value2": [],
+                "ability_time1": 30000,
+                "ability_time2": null,
+                "need_skill_point": 130,
+                "pre_skill": null,
+                "pre_skill_name": null
+            },
+            {
+                "skill_id": 201611,
+                "skill_name": "翘尾巴",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/c44ceb01d2551e9cd2a82b7b1ca8b3f30e433902.png",
+                "rarity": 1,
+                "skill_desc": "在赛事中期发动多个技能时\n速度略微提升",
+                "limitation": "通用",
+                "condition1": "中盘技能发动数量≥3",
+                "condition2": null,
+                "skill_type1": "目标速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    1500
+                ],
+                "ability_value2": [],
+                "ability_time1": 30000,
+                "ability_time2": null,
+                "need_skill_point": 100,
+                "pre_skill": null,
+                "pre_skill_name": null
+            }
+        ]
+    }
+]

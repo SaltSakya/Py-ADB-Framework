@@ -1,0 +1,193 @@
+[
+    {
+        "support_card_info": {
+            "card_id": 10004,
+            "name": "[特雷森学园]丸善斯基",
+            "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/a46a965e56c1bb306b0d4f1446674a99022c5122.png",
+            "attr_id": 1,
+            "rarity": 1
+        },
+        "branch_story": [
+            {
+                "story_id": 801004002,
+                "story_name": "开车兜风妙哉妙哉",
+                "story_type": 1,
+                "union_type": 2,
+                "related_skill_ids": null,
+                "gain_skill": null,
+                "select_value_list": [
+                    {
+                        "option": "选项一",
+                        "gain_list": [
+                            "干劲+1\n速度+5\n"
+                        ]
+                    },
+                    {
+                        "option": "选项二",
+                        "gain_list": [
+                            "干劲+1\n智力+5\n"
+                        ]
+                    }
+                ]
+            },
+            {
+                "story_id": 801004001,
+                "story_name": "为了可爱的后辈嘛",
+                "story_type": 1,
+                "union_type": 2,
+                "related_skill_ids": [
+                    200532
+                ],
+                "gain_skill": "抢先",
+                "select_value_list": [
+                    {
+                        "option": "选项一",
+                        "gain_list": [
+                            "「抢先」的启发等级+1\n"
+                        ]
+                    },
+                    {
+                        "option": "选项二",
+                        "gain_list": [
+                            "体力+5\n速度+10\n"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "no_branch_story": [],
+        "after_match_story": [],
+        "continuous_story": null,
+        "trip_story": [],
+        "story_skill_info": [
+            {
+                "skill_id": 200532,
+                "skill_name": "抢先",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/bd338ecc1d33ec83d4e45977372f03c4d221c3e0.png",
+                "rarity": 1,
+                "skill_desc": "在赛事初期时\n会略微容易取得领先<战术：领跑>",
+                "limitation": "领跑",
+                "condition1": "领跑，序盘，赛事进行时间≥5",
+                "condition2": null,
+                "skill_type1": "加速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    2000
+                ],
+                "ability_value2": [],
+                "ability_time1": 12000,
+                "ability_time2": null,
+                "need_skill_point": 120,
+                "pre_skill": 200531,
+                "pre_skill_name": "先发制人"
+            }
+        ],
+        "training_skill_info": [
+            {
+                "skill_id": 200532,
+                "skill_name": "抢先",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/bd338ecc1d33ec83d4e45977372f03c4d221c3e0.png",
+                "rarity": 1,
+                "skill_desc": "在赛事初期时\n会略微容易取得领先<战术：领跑>",
+                "limitation": "领跑",
+                "condition1": "领跑，序盘，赛事进行时间≥5",
+                "condition2": null,
+                "skill_type1": "加速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    2000
+                ],
+                "ability_value2": [],
+                "ability_time1": 12000,
+                "ability_time2": null,
+                "need_skill_point": 120,
+                "pre_skill": 200531,
+                "pre_skill_name": "先发制人"
+            },
+            {
+                "skill_id": 200682,
+                "skill_name": "积极行动",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/c44ceb01d2551e9cd2a82b7b1ca8b3f30e433902.png",
+                "rarity": 1,
+                "skill_desc": "在赛事初期位于领先位置时\n会略微容易拉开差距<英里>",
+                "limitation": "英里",
+                "condition1": "英里，序盘随机位置，赛事进行时间≥5，名次=1",
+                "condition2": null,
+                "skill_type1": "目标速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    1500
+                ],
+                "ability_value2": [],
+                "ability_time1": 30000,
+                "ability_time2": null,
+                "need_skill_point": 160,
+                "pre_skill": 200681,
+                "pre_skill_name": "英里统治者"
+            },
+            {
+                "skill_id": 201042,
+                "skill_name": "英里弯道○",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/c44ceb01d2551e9cd2a82b7b1ca8b3f30e433902.png",
+                "rarity": 1,
+                "skill_desc": "在弯道上的速度略微提升\n<英里>",
+                "limitation": "英里",
+                "condition1": "英里，第1弯道；英里，第2弯道；英里，第3弯道；英里，第4弯道",
+                "condition2": null,
+                "skill_type1": "目标速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    1500
+                ],
+                "ability_value2": [],
+                "ability_time1": 30000,
+                "ability_time2": null,
+                "need_skill_point": 100,
+                "pre_skill": null,
+                "pre_skill_name": null
+            },
+            {
+                "skill_id": 201052,
+                "skill_name": "变速",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/c44ceb01d2551e9cd2a82b7b1ca8b3f30e433902.png",
+                "rarity": 1,
+                "skill_desc": "在赛事中期位于前列时\n会略微容易赶超<英里>",
+                "limitation": "英里",
+                "condition1": "英里，中盘随机位置，名次≤50%",
+                "condition2": null,
+                "skill_type1": "目标速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    1500
+                ],
+                "ability_value2": [],
+                "ability_time1": 12000,
+                "ability_time2": null,
+                "need_skill_point": 160,
+                "pre_skill": 201051,
+                "pre_skill_name": "换挡"
+            },
+            {
+                "skill_id": 201062,
+                "skill_name": "加快速度",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/bd338ecc1d33ec83d4e45977372f03c4d221c3e0.png",
+                "rarity": 1,
+                "skill_desc": "在赛事中期赶超成功时\n加速能力略微提升<英里>",
+                "limitation": "英里",
+                "condition1": "英里，中盘，至少超越一人",
+                "condition2": null,
+                "skill_type1": "加速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    2000
+                ],
+                "ability_value2": [],
+                "ability_time1": 12000,
+                "ability_time2": null,
+                "need_skill_point": 160,
+                "pre_skill": 201061,
+                "pre_skill_name": "马力全开！"
+            }
+        ]
+    }
+]

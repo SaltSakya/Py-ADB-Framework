@@ -1,0 +1,236 @@
+[
+    {
+        "support_card_info": {
+            "card_id": 10001,
+            "name": "[特雷森学园]特别周",
+            "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/401ec23110c69c427daaadae023f532afb209922.png",
+            "attr_id": 3,
+            "rarity": 1
+        },
+        "branch_story": [
+            {
+                "story_id": 801001002,
+                "story_name": "这也烦恼，那也烦恼！",
+                "story_type": 1,
+                "union_type": 2,
+                "related_skill_ids": null,
+                "gain_skill": null,
+                "select_value_list": [
+                    {
+                        "option": "选项一",
+                        "gain_list": [
+                            "体力+10\n干劲+1\n特别周友情槽+5\n"
+                        ]
+                    },
+                    {
+                        "option": "选项二",
+                        "gain_list": [
+                            "体力-10\n耐力+15\n技能点数+15\n特别周友情槽+5\n"
+                        ]
+                    }
+                ]
+            },
+            {
+                "story_id": 801001001,
+                "story_name": "我会注意转角处的！",
+                "story_type": 1,
+                "union_type": 2,
+                "related_skill_ids": [
+                    200762
+                ],
+                "gain_skill": "大胃储备",
+                "select_value_list": [
+                    {
+                        "option": "选项一",
+                        "gain_list": [
+                            "特别周友情槽+5\n「大胃储备」的启发等级+1\n"
+                        ]
+                    },
+                    {
+                        "option": "选项二",
+                        "gain_list": [
+                            "毅力+15\n特别周友情槽+5\n"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "no_branch_story": [],
+        "after_match_story": [],
+        "continuous_story": null,
+        "trip_story": [],
+        "story_skill_info": [
+            {
+                "skill_id": 200762,
+                "skill_name": "大胃储备",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/4c910489d09842c36b36fa521844dc37342d3d20.png",
+                "rarity": 1,
+                "skill_desc": "在体力耗尽时\n略微恢复奔跑的气力<长距离>",
+                "limitation": "长距离",
+                "condition1": "长距离，耐力耗尽",
+                "condition2": null,
+                "skill_type1": "体力值（百分比）",
+                "skill_type2": null,
+                "ability_value1": [
+                    150
+                ],
+                "ability_value2": [],
+                "ability_time1": 0,
+                "ability_time2": null,
+                "need_skill_point": 160,
+                "pre_skill": 200761,
+                "pre_skill_name": "破釜沉舟"
+            }
+        ],
+        "training_skill_info": [
+            {
+                "skill_id": 200162,
+                "skill_name": "路况不佳○",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/673e0c0734bcdbee9cd2648df49bb77e2b3952fe.png",
+                "rarity": 1,
+                "skill_desc": "会变得稍微擅长\n“稍重”“重”“不良”的场地状态",
+                "limitation": "通用",
+                "condition1": "稍重场；重场；不良场",
+                "condition2": null,
+                "skill_type1": "力量（属性）",
+                "skill_type2": null,
+                "ability_value1": [
+                    400000
+                ],
+                "ability_value2": [],
+                "ability_time1": -1,
+                "ability_time2": null,
+                "need_skill_point": 90,
+                "pre_skill": null,
+                "pre_skill_name": null
+            },
+            {
+                "skill_id": 200232,
+                "skill_name": "雨天○",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/977e98772467a7d9ea51bd0ad54b9dc1d1e1e01e.png",
+                "rarity": 1,
+                "skill_desc": "会变得稍微擅长雨天的赛事",
+                "limitation": "通用",
+                "condition1": "雨",
+                "condition2": null,
+                "skill_type1": "毅力（属性）",
+                "skill_type2": null,
+                "ability_value1": [
+                    400000
+                ],
+                "ability_value2": [],
+                "ability_time1": -1,
+                "ability_time2": null,
+                "need_skill_point": 90,
+                "pre_skill": null,
+                "pre_skill_name": null
+            },
+            {
+                "skill_id": 200512,
+                "skill_name": "最后冲刺",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/c44ceb01d2551e9cd2a82b7b1ca8b3f30e433902.png",
+                "rarity": 1,
+                "skill_desc": "最后冲刺阶段速度略微提升",
+                "limitation": "通用",
+                "condition1": "最后冲刺，终盘后半段任意",
+                "condition2": null,
+                "skill_type1": "目标速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    1500
+                ],
+                "ability_value2": [],
+                "ability_time1": 18000,
+                "ability_time2": null,
+                "need_skill_point": 170,
+                "pre_skill": 200511,
+                "pre_skill_name": "全神贯注"
+            },
+            {
+                "skill_id": 200612,
+                "skill_name": "准备外道超越",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/c44ceb01d2551e9cd2a82b7b1ca8b3f30e433902.png",
+                "rarity": 1,
+                "skill_desc": "在最终弯道从外侧赶超成功时\n速度略微提升<战术：居中>",
+                "limitation": "居中",
+                "condition1": "居中，最终拐角，弯道，从外侧，至少超越一人",
+                "condition2": null,
+                "skill_type1": "目标速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    1500
+                ],
+                "ability_value2": [],
+                "ability_time1": 30000,
+                "ability_time2": null,
+                "need_skill_point": 180,
+                "pre_skill": 200611,
+                "pre_skill_name": "登天之龙"
+            },
+            {
+                "skill_id": 200732,
+                "skill_name": "紧追不舍",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/c44ceb01d2551e9cd2a82b7b1ca8b3f30e433902.png",
+                "rarity": 1,
+                "skill_desc": "在最终弯道被赶超时\n略微容易反超回来<中距离>",
+                "limitation": "中距离",
+                "condition1": "中距离，最终拐角，弯道，被超越次数＞0",
+                "condition2": null,
+                "skill_type1": "目标速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    1500
+                ],
+                "ability_value2": [],
+                "ability_time1": 30000,
+                "ability_time2": null,
+                "need_skill_point": 160,
+                "pre_skill": 200731,
+                "pre_skill_name": "对胜利的执念"
+            },
+            {
+                "skill_id": 201352,
+                "skill_name": "营养补给",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/4c910489d09842c36b36fa521844dc37342d3d20.png",
+                "rarity": 1,
+                "skill_desc": "在赛事中期体力略微恢复\n<战术：跟前>",
+                "limitation": "跟前",
+                "condition1": "跟前，中盘随机位置",
+                "condition2": null,
+                "skill_type1": "体力值（百分比）",
+                "skill_type2": null,
+                "ability_value1": [
+                    150
+                ],
+                "ability_value2": [],
+                "ability_time1": 0,
+                "ability_time2": null,
+                "need_skill_point": 180,
+                "pre_skill": 201351,
+                "pre_skill_name": "大胃王"
+            },
+            {
+                "skill_id": 201542,
+                "skill_name": "居中诀窍○",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/1c9b9e90297efb32fd2d8baa70464e97c50f58b1.png",
+                "rarity": 1,
+                "skill_desc": "稍微容易占据良好位置\n<战术：居中>",
+                "limitation": "居中",
+                "condition1": "居中",
+                "condition2": null,
+                "skill_type1": "智力（属性）、视野范围",
+                "skill_type2": null,
+                "ability_value1": [
+                    400000,
+                    50000
+                ],
+                "ability_value2": [],
+                "ability_time1": -1,
+                "ability_time2": null,
+                "need_skill_point": 110,
+                "pre_skill": null,
+                "pre_skill_name": null
+            }
+        ]
+    }
+]

@@ -1,0 +1,299 @@
+[
+    {
+        "support_card_info": {
+            "card_id": 10005,
+            "name": "[特雷森学园]小栗帽",
+            "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/a87faeaa9eb5ff2424727f57316205d3bbf52454.png",
+            "attr_id": 2,
+            "rarity": 1
+        },
+        "branch_story": [
+            {
+                "story_id": 801006002,
+                "story_name": "人潮可真够呛的……",
+                "story_type": 1,
+                "union_type": 2,
+                "related_skill_ids": [
+                    200042
+                ],
+                "gain_skill": "中山赛场○",
+                "select_value_list": [
+                    {
+                        "option": "选项一",
+                        "gain_list": [
+                            "力量+5\n技能点数+15\n"
+                        ]
+                    },
+                    {
+                        "option": "选项二",
+                        "gain_list": [
+                            "「中山赛场○」的启发等级+1\n"
+                        ]
+                    }
+                ]
+            },
+            {
+                "story_id": 801006001,
+                "story_name": "怎么回答才好呢……",
+                "story_type": 1,
+                "union_type": 2,
+                "related_skill_ids": null,
+                "gain_skill": null,
+                "select_value_list": [
+                    {
+                        "option": "选项一",
+                        "gain_list": [
+                            "体力+5\n力量+5\n"
+                        ]
+                    },
+                    {
+                        "option": "选项二",
+                        "gain_list": [
+                            "体力-10\n毅力+15\n"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "no_branch_story": [],
+        "after_match_story": [],
+        "continuous_story": null,
+        "trip_story": [],
+        "story_skill_info": [
+            {
+                "skill_id": 200042,
+                "skill_name": "中山赛场○",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/762928d76f4cb135264040edacbc36eb0fb7708e.png",
+                "rarity": 1,
+                "skill_desc": "会变得稍微擅长中山赛场的赛事",
+                "limitation": "通用",
+                "condition1": "中山场",
+                "condition2": null,
+                "skill_type1": "耐力（属性）",
+                "skill_type2": null,
+                "ability_value1": [
+                    400000
+                ],
+                "ability_value2": [],
+                "ability_time1": -1,
+                "ability_time2": null,
+                "need_skill_point": 90,
+                "pre_skill": null,
+                "pre_skill_name": null
+            }
+        ],
+        "training_skill_info": [
+            {
+                "skill_id": 200222,
+                "skill_name": "阴天○",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/977e98772467a7d9ea51bd0ad54b9dc1d1e1e01e.png",
+                "rarity": 1,
+                "skill_desc": "会变得稍微擅长阴天的赛事",
+                "limitation": "通用",
+                "condition1": "阴",
+                "condition2": null,
+                "skill_type1": "毅力（属性）",
+                "skill_type2": null,
+                "ability_value1": [
+                    400000
+                ],
+                "ability_value2": [],
+                "ability_time1": -1,
+                "ability_time2": null,
+                "need_skill_point": 90,
+                "pre_skill": null,
+                "pre_skill_name": null
+            },
+            {
+                "skill_id": 200332,
+                "skill_name": "弯道能手○",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/c44ceb01d2551e9cd2a82b7b1ca8b3f30e433902.png",
+                "rarity": 1,
+                "skill_desc": "会变得擅长弯道，\n速度略微提升",
+                "limitation": "通用",
+                "condition1": "第1弯道；第2弯道；第3弯道；第4弯道",
+                "condition2": null,
+                "skill_type1": "目标速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    1500
+                ],
+                "ability_value2": [],
+                "ability_time1": 18000,
+                "ability_time2": null,
+                "need_skill_point": 180,
+                "pre_skill": 200331,
+                "pre_skill_name": "弧线大师"
+            },
+            {
+                "skill_id": 200342,
+                "skill_name": "弯道加速○",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/bd338ecc1d33ec83d4e45977372f03c4d221c3e0.png",
+                "rarity": 1,
+                "skill_desc": "华丽的过弯\n让加速能力略微提升",
+                "limitation": "通用",
+                "condition1": "第1弯道；第2弯道；第3弯道；第4弯道",
+                "condition2": null,
+                "skill_type1": "加速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    2000
+                ],
+                "ability_value2": [],
+                "ability_time1": 18000,
+                "ability_time2": null,
+                "need_skill_point": 180,
+                "pre_skill": 200341,
+                "pre_skill_name": "曲线行家"
+            },
+            {
+                "skill_id": 200432,
+                "skill_name": "专注力",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/23c1b9bb9cfde7225e7ce94b2fa4a688b4faf8b8.png",
+                "rarity": 1,
+                "skill_desc": "会变得擅长起跑\n起跑失误的时间会略微减少",
+                "limitation": "通用",
+                "condition1": "无特殊条件",
+                "condition2": null,
+                "skill_type1": "起跑",
+                "skill_type2": null,
+                "ability_value1": [
+                    9000
+                ],
+                "ability_value2": [],
+                "ability_time1": 0,
+                "ability_time2": null,
+                "need_skill_point": 140,
+                "pre_skill": 200431,
+                "pre_skill_name": "专心一意"
+            },
+            {
+                "skill_id": 200492,
+                "skill_name": "回避失速优俊少女",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/bd338ecc1d33ec83d4e45977372f03c4d221c3e0.png",
+                "rarity": 1,
+                "skill_desc": "最后冲刺阶段前方被阻挡时\n会略微擅长回避",
+                "limitation": "通用",
+                "condition1": "前方被阻挡时间≥1，最后冲刺，体力剩余≥1%",
+                "condition2": null,
+                "skill_type1": "加速度、变道速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    2000,
+                    50
+                ],
+                "ability_value2": [],
+                "ability_time1": 30000,
+                "ability_time2": null,
+                "need_skill_point": 150,
+                "pre_skill": 200491,
+                "pre_skill_name": "不停步的女孩"
+            },
+            {
+                "skill_id": 200512,
+                "skill_name": "最后冲刺",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/c44ceb01d2551e9cd2a82b7b1ca8b3f30e433902.png",
+                "rarity": 1,
+                "skill_desc": "最后冲刺阶段速度略微提升",
+                "limitation": "通用",
+                "condition1": "最后冲刺，终盘后半段任意",
+                "condition2": null,
+                "skill_type1": "目标速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    1500
+                ],
+                "ability_value2": [],
+                "ability_time1": 18000,
+                "ability_time2": null,
+                "need_skill_point": 170,
+                "pre_skill": 200511,
+                "pre_skill_name": "全神贯注"
+            },
+            {
+                "skill_id": 200722,
+                "skill_name": "加快节奏",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/c44ceb01d2551e9cd2a82b7b1ca8b3f30e433902.png",
+                "rarity": 1,
+                "skill_desc": "在赛事中期位于前列时\n略微容易取得良好位置<中距离>",
+                "limitation": "中距离",
+                "condition1": "中距离，中盘随机位置，名次≤50%",
+                "condition2": null,
+                "skill_type1": "目标速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    1500
+                ],
+                "ability_value2": [],
+                "ability_time1": 9000,
+                "ability_time2": null,
+                "need_skill_point": 160,
+                "pre_skill": 200721,
+                "pre_skill_name": "绝妙韵律"
+            },
+            {
+                "skill_id": 201062,
+                "skill_name": "加快速度",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/bd338ecc1d33ec83d4e45977372f03c4d221c3e0.png",
+                "rarity": 1,
+                "skill_desc": "在赛事中期赶超成功时\n加速能力略微提升<英里>",
+                "limitation": "英里",
+                "condition1": "英里，中盘，至少超越一人",
+                "condition2": null,
+                "skill_type1": "加速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    2000
+                ],
+                "ability_value2": [],
+                "ability_time1": 12000,
+                "ability_time2": null,
+                "need_skill_point": 160,
+                "pre_skill": 201061,
+                "pre_skill_name": "马力全开！"
+            },
+            {
+                "skill_id": 201352,
+                "skill_name": "营养补给",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/4c910489d09842c36b36fa521844dc37342d3d20.png",
+                "rarity": 1,
+                "skill_desc": "在赛事中期体力略微恢复\n<战术：跟前>",
+                "limitation": "跟前",
+                "condition1": "跟前，中盘随机位置",
+                "condition2": null,
+                "skill_type1": "体力值（百分比）",
+                "skill_type2": null,
+                "ability_value1": [
+                    150
+                ],
+                "ability_value2": [],
+                "ability_time1": 0,
+                "ability_time2": null,
+                "need_skill_point": 180,
+                "pre_skill": 201351,
+                "pre_skill_name": "大胃王"
+            },
+            {
+                "skill_id": 201601,
+                "skill_name": "打基础",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/bd338ecc1d33ec83d4e45977372f03c4d221c3e0.png",
+                "rarity": 1,
+                "skill_desc": "在赛事初期发动多个技能时\n加速能力略微提升",
+                "limitation": "通用",
+                "condition1": "序盘技能发动数量≥3",
+                "condition2": null,
+                "skill_type1": "加速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    2000
+                ],
+                "ability_value2": [],
+                "ability_time1": 30000,
+                "ability_time2": null,
+                "need_skill_point": 100,
+                "pre_skill": null,
+                "pre_skill_name": null
+            }
+        ]
+    }
+]

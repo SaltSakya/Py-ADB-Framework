@@ -1,0 +1,292 @@
+[
+    {
+        "support_card_info": {
+            "card_id": 20005,
+            "name": "[数码充电中+]爱丽数码",
+            "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/6aa08589f245c1a7e1dd103a84b26305c3998b8a.png",
+            "attr_id": 2,
+            "rarity": 2
+        },
+        "branch_story": [
+            {
+                "story_id": 801019002,
+                "story_name": "为了宝贵瞬间，淋雨也不怕！",
+                "story_type": 1,
+                "union_type": 2,
+                "related_skill_ids": [
+                    200232,
+                    200162
+                ],
+                "gain_skill": "雨天○、路况不佳○",
+                "select_value_list": [
+                    {
+                        "option": "选项一",
+                        "gain_list": [
+                            "爱丽数码友情槽+5\n「雨天○」的启发等级+1\n"
+                        ]
+                    },
+                    {
+                        "option": "选项二",
+                        "gain_list": [
+                            "爱丽数码友情槽+5\n「路况不佳○」的启发等级+1\n"
+                        ]
+                    }
+                ]
+            },
+            {
+                "story_id": 801019001,
+                "story_name": "缺乏优俊少女养分！",
+                "story_type": 1,
+                "union_type": 2,
+                "related_skill_ids": null,
+                "gain_skill": null,
+                "select_value_list": [
+                    {
+                        "option": "选项一",
+                        "gain_list": [
+                            "体力+5\n速度+5\n爱丽数码友情槽+5\n"
+                        ]
+                    },
+                    {
+                        "option": "选项二",
+                        "gain_list": [
+                            "速度+5\n力量+5\n爱丽数码友情槽+5\n"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "no_branch_story": [],
+        "after_match_story": [],
+        "continuous_story": [
+            {
+                "story_id": 820005001,
+                "story_name": "幸福的偶像宅生活",
+                "story_type": 4,
+                "union_type": 3,
+                "related_skill_ids": null,
+                "gain_skill": null,
+                "select_value_list": [
+                    {
+                        "option": "无选项",
+                        "gain_list": [
+                            "力量+10\n"
+                        ]
+                    }
+                ]
+            },
+            {
+                "story_id": 820005002,
+                "story_name": "对优俊少女的爱永不变！",
+                "story_type": 4,
+                "union_type": 3,
+                "related_skill_ids": [
+                    200821
+                ],
+                "gain_skill": "后追对策",
+                "select_value_list": [
+                    {
+                        "option": "无选项",
+                        "gain_list": [
+                            "速度+5\n力量+10\n「后追对策」的启发等级+1\n"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "trip_story": [],
+        "story_skill_info": [
+            {
+                "skill_id": 200232,
+                "skill_name": "雨天○",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/977e98772467a7d9ea51bd0ad54b9dc1d1e1e01e.png",
+                "rarity": 1,
+                "skill_desc": "会变得稍微擅长雨天的赛事",
+                "limitation": "通用",
+                "condition1": "雨",
+                "condition2": null,
+                "skill_type1": "毅力（属性）",
+                "skill_type2": null,
+                "ability_value1": [
+                    400000
+                ],
+                "ability_value2": [],
+                "ability_time1": -1,
+                "ability_time2": null,
+                "need_skill_point": 90,
+                "pre_skill": null,
+                "pre_skill_name": null
+            },
+            {
+                "skill_id": 200162,
+                "skill_name": "路况不佳○",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/673e0c0734bcdbee9cd2648df49bb77e2b3952fe.png",
+                "rarity": 1,
+                "skill_desc": "会变得稍微擅长\n“稍重”“重”“不良”的场地状态",
+                "limitation": "通用",
+                "condition1": "稍重场；重场；不良场",
+                "condition2": null,
+                "skill_type1": "力量（属性）",
+                "skill_type2": null,
+                "ability_value1": [
+                    400000
+                ],
+                "ability_value2": [],
+                "ability_time1": -1,
+                "ability_time2": null,
+                "need_skill_point": 90,
+                "pre_skill": null,
+                "pre_skill_name": null
+            },
+            {
+                "skill_id": 200821,
+                "skill_name": "后追对策",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/2c1a2298d667aec9efc1dcb29be462e14a5015b6.png",
+                "rarity": 1,
+                "skill_desc": "战术是后追的优俊少女陷入焦躁时\n恢复冷静需要耗费时间",
+                "limitation": "通用",
+                "condition1": "后追策略焦躁人数≥1，未进入过焦躁状态",
+                "condition2": null,
+                "skill_type1": "焦躁持续时间",
+                "skill_type2": null,
+                "ability_value1": [
+                    50000
+                ],
+                "ability_value2": [],
+                "ability_time1": 0,
+                "ability_time2": null,
+                "need_skill_point": 130,
+                "pre_skill": null,
+                "pre_skill_name": null
+            }
+        ],
+        "training_skill_info": [
+            {
+                "skill_id": 200442,
+                "skill_name": "隐身衣",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/4c910489d09842c36b36fa521844dc37342d3d20.png",
+                "rarity": 1,
+                "skill_desc": "在赛事初期前方拥堵时\n隐藏实力，体力略微恢复",
+                "limitation": "通用",
+                "condition1": "序盘，赛事进行时间≥5，前方被阻挡时间≥1",
+                "condition2": null,
+                "skill_type1": "体力值（百分比）",
+                "skill_type2": null,
+                "ability_value1": [
+                    150
+                ],
+                "ability_value2": [],
+                "ability_time1": 0,
+                "ability_time2": null,
+                "need_skill_point": 160,
+                "pre_skill": 200441,
+                "pre_skill_name": "钢铁意志"
+            },
+            {
+                "skill_id": 200482,
+                "skill_name": "临危不乱",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/4c910489d09842c36b36fa521844dc37342d3d20.png",
+                "rarity": 1,
+                "skill_desc": "在赛事中期被包围时\n体力略微恢复",
+                "limitation": "通用",
+                "condition1": "中盘，被包围时间≥1",
+                "condition2": null,
+                "skill_type1": "体力值（百分比）",
+                "skill_type2": null,
+                "ability_value1": [
+                    150
+                ],
+                "ability_value2": [],
+                "ability_time1": 0,
+                "ability_time2": null,
+                "need_skill_point": 170,
+                "pre_skill": 200481,
+                "pre_skill_name": "耳边风"
+            },
+            {
+                "skill_id": 201032,
+                "skill_name": "英里直线○",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/c44ceb01d2551e9cd2a82b7b1ca8b3f30e433902.png",
+                "rarity": 1,
+                "skill_desc": "在直线上的速度略微提升<英里>",
+                "limitation": "英里",
+                "condition1": "英里，直线",
+                "condition2": null,
+                "skill_type1": "目标速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    1500
+                ],
+                "ability_value2": [],
+                "ability_time1": 30000,
+                "ability_time2": null,
+                "need_skill_point": 100,
+                "pre_skill": null,
+                "pre_skill_name": null
+            },
+            {
+                "skill_id": 201092,
+                "skill_name": "布局",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/2438c874e5e1ec735caf934b743fb36154db385e.png",
+                "rarity": 1,
+                "skill_desc": "在赛事初期位于后方时\n使前方优俊少女动作略微变迟缓<英里>",
+                "limitation": "英里",
+                "condition1": "英里，序盘随机位置，名次>50%，赛事进行时间≥5",
+                "condition2": null,
+                "skill_type1": "加速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    -1000
+                ],
+                "ability_value2": [],
+                "ability_time1": 30000,
+                "ability_time2": null,
+                "need_skill_point": 160,
+                "pre_skill": 201091,
+                "pre_skill_name": "布阵"
+            },
+            {
+                "skill_id": 201102,
+                "skill_name": "中距离直线○",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/c44ceb01d2551e9cd2a82b7b1ca8b3f30e433902.png",
+                "rarity": 1,
+                "skill_desc": "在直线上的速度略微提升<中距离>",
+                "limitation": "中距离",
+                "condition1": "中距离，直线",
+                "condition2": null,
+                "skill_type1": "目标速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    1500
+                ],
+                "ability_value2": [],
+                "ability_time1": 30000,
+                "ability_time2": null,
+                "need_skill_point": 100,
+                "pre_skill": null,
+                "pre_skill_name": null
+            },
+            {
+                "skill_id": 201382,
+                "skill_name": "居中直线○",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/c44ceb01d2551e9cd2a82b7b1ca8b3f30e433902.png",
+                "rarity": 1,
+                "skill_desc": "在直线上的速度略微提升\n<战术：居中>",
+                "limitation": "居中",
+                "condition1": "居中，直线",
+                "condition2": null,
+                "skill_type1": "目标速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    1500
+                ],
+                "ability_value2": [],
+                "ability_time1": 30000,
+                "ability_time2": null,
+                "need_skill_point": 130,
+                "pre_skill": null,
+                "pre_skill_name": null
+            }
+        ]
+    }
+]

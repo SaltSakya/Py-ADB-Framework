@@ -1,0 +1,158 @@
+[
+    {
+        "card_id": 100101,
+        "name": "[特别追梦者]特别周",
+        "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/b6382a3c4d7f990e2ad841eaa8a49c2fe5ef7325.png",
+        "rarity": 3
+    },
+    {
+        "card_id": 100201,
+        "name": "[无声无瑕]无声铃鹿",
+        "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/1b6953597216dcfb6a9c0b4df56a70fa4a23b10e.png",
+        "rarity": 3
+    },
+    {
+        "card_id": 100301,
+        "name": "[喜乐无边]东海帝王",
+        "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/7b4c0c0140d9efd144c1ff90badd0406511e0554.png",
+        "rarity": 3
+    },
+    {
+        "card_id": 100401,
+        "name": "[绯红方程式]丸善斯基",
+        "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/1e51cbaf92a00e91a15c862097bc48afad970357.png",
+        "rarity": 3
+    },
+    {
+        "card_id": 100601,
+        "name": "[星光跃动]小栗帽",
+        "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/f732266744d61976b1811fd44429e045d8e20bca.png",
+        "rarity": 3
+    },
+    {
+        "card_id": 100701,
+        "name": "[赤色纷争]黄金船",
+        "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/5cbe22165f912066b4a201bd8ee210a1088982cf.png",
+        "rarity": 2
+    },
+    {
+        "card_id": 100801,
+        "name": "[极速狂飙]伏特加",
+        "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/463b45a4b8566fc1d4cd7a3647f4ef3c80c978f9.png",
+        "rarity": 2
+    },
+    {
+        "card_id": 100901,
+        "name": "[蔚蓝顶点]大和赤骥",
+        "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/25cc089111c2202a2392c0ce53a60b43ccc62b6b.png",
+        "rarity": 2
+    },
+    {
+        "card_id": 101001,
+        "name": "[狂野前线]大树快车",
+        "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/63e18f6bc8da561952662d13e6752e34556567fb.png",
+        "rarity": 3
+    },
+    {
+        "card_id": 101101,
+        "name": "[穿岩绀蓝]草上飞",
+        "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/6b417a547edbc99d6e0373b0f270d9df8c2af5b6.png",
+        "rarity": 2
+    },
+    {
+        "card_id": 101301,
+        "name": "[优雅曲线]目白麦昆",
+        "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/8b46a15d934a696de1d7b513b60fe679c29587e4.png",
+        "rarity": 3
+    },
+    {
+        "card_id": 101401,
+        "name": "[小鹰☆Número 1]神鹰",
+        "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/733631511ddb62c546d2baf114397e23c020b603.png",
+        "rarity": 2
+    },
+    {
+        "card_id": 101501,
+        "name": "[O sole suo！]好歌剧",
+        "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/bd6964aa2a10a4c1687aee202b9e8ef20ae20020.png",
+        "rarity": 3
+    },
+    {
+        "card_id": 101701,
+        "name": "[皇帝]鲁道夫象征",
+        "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/6950a2d21e31954c6dd82ab8240f8a577405efc5.png",
+        "rarity": 3
+    },
+    {
+        "card_id": 101801,
+        "name": "[女帝之路]气槽",
+        "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/a4f0f7bc61896cd8b02d1142eaa5d71ced631d9d.png",
+        "rarity": 2
+    },
+    {
+        "card_id": 102401,
+        "name": "[竞争☆领域]重炮",
+        "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/b883a5d00512205f8a9dd85150537e1096ccb4b4.png",
+        "rarity": 2
+    },
+    {
+        "card_id": 102701,
+        "name": "[一往无前]目白莱恩",
+        "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/17bc52b098667444055b992ae17eb4d6abe52dda.png",
+        "rarity": 1
+    },
+    {
+        "card_id": 103001,
+        "name": "[玫瑰之梦]米浴",
+        "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/8aa774ed8ab7efa40c03fb9dc5fd55830d77c903.png",
+        "rarity": 3
+    },
+    {
+        "card_id": 103201,
+        "name": "[tach-nology]爱丽速子",
+        "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/3d37a5522aff9ab7baa52c9977a70132968291aa.png",
+        "rarity": 1
+    },
+    {
+        "card_id": 103501,
+        "name": "[Go To Winning！]胜利奖券",
+        "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/a07c6fe68381953d80307c947ee11773c182a6df.png",
+        "rarity": 1
+    },
+    {
+        "card_id": 104101,
+        "name": "[樱花，前进！]樱花进王",
+        "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/a6aa7836a2311a5f04286a447cb784e55c3b6f08.png",
+        "rarity": 1
+    },
+    {
+        "card_id": 104501,
+        "name": "[潺潺溪流]超级溪流",
+        "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/799dd6f107a10daf72380a2973a4fd6d07e5aa0e.png",
+        "rarity": 2
+    },
+    {
+        "card_id": 105201,
+        "name": "[乌菈菈一等奖♪]春乌菈菈",
+        "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/bb8fe7a274dbc8277dcc821054719ffcbf456a41.png",
+        "rarity": 1
+    },
+    {
+        "card_id": 105601,
+        "name": "[运气高升☆祈福运来]待兼福来",
+        "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/b6905f354f04d0bbaa23fbc82d1cd2181a773806.png",
+        "rarity": 1
+    },
+    {
+        "card_id": 106001,
+        "name": "[绯青缎带]优秀素质",
+        "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/3b926cb5b9ab0129a76e9055953c349c1fc8583b.png",
+        "rarity": 1
+    },
+    {
+        "card_id": 106101,
+        "name": "[翠玉之王]帝王光辉",
+        "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/3a3f6c9dcc0a0a60a0596dd04de0426101b2ac29.png",
+        "rarity": 1
+    }
+]

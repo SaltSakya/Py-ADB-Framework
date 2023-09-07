@@ -1,0 +1,277 @@
+[
+    {
+        "support_card_info": {
+            "card_id": 20016,
+            "name": "[运气的走向]待兼福来",
+            "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/ae60ad45359e30c83ffba49247c8bd92ff4e9473.png",
+            "attr_id": 6,
+            "rarity": 2
+        },
+        "branch_story": [
+            {
+                "story_id": 801056002,
+                "story_name": "信仰与好心交汇之时——",
+                "story_type": 1,
+                "union_type": 2,
+                "related_skill_ids": null,
+                "gain_skill": null,
+                "select_value_list": [
+                    {
+                        "option": "选项一",
+                        "gain_list": [
+                            "技能点数+30\n待兼福来友情槽+5\n"
+                        ]
+                    },
+                    {
+                        "option": "选项二",
+                        "gain_list": [
+                            "体力+20\n待兼福来友情槽+5\n"
+                        ]
+                    }
+                ]
+            },
+            {
+                "story_id": 801056001,
+                "story_name": "全魂贯注！",
+                "story_type": 1,
+                "union_type": 2,
+                "related_skill_ids": null,
+                "gain_skill": null,
+                "select_value_list": [
+                    {
+                        "option": "选项一",
+                        "gain_list": [
+                            "智力+5\n技能点数+15\n待兼福来友情槽+5\n"
+                        ]
+                    },
+                    {
+                        "option": "选项二",
+                        "gain_list": [
+                            "体力-10\n速度+5\n耐力+5\n力量+5\n待兼福来友情槽+5\n"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "no_branch_story": [],
+        "after_match_story": [],
+        "continuous_story": [
+            {
+                "story_id": 820016001,
+                "story_name": "帮帮我吧，神灵大人！",
+                "story_type": 4,
+                "union_type": 3,
+                "related_skill_ids": null,
+                "gain_skill": null,
+                "select_value_list": [
+                    {
+                        "option": "无选项",
+                        "gain_list": [
+                            "体力+5\n干劲+1\n技能点数+15\n待兼福来友情槽+5\n"
+                        ]
+                    }
+                ]
+            },
+            {
+                "story_id": 820016002,
+                "story_name": "指引与朋友",
+                "story_type": 4,
+                "union_type": 3,
+                "related_skill_ids": [
+                    200012
+                ],
+                "gain_skill": "顺时针○",
+                "select_value_list": [
+                    {
+                        "option": "选项一",
+                        "gain_list": [
+                            "技能点数+45\n待兼福来友情槽+5\n"
+                        ]
+                    },
+                    {
+                        "option": "选项二",
+                        "gain_list": [
+                            "体力-20\n待兼福来友情槽+5\n「顺时针○」的启发等级+1\n",
+                            "体力+10\n干劲+1\n待兼福来友情槽+5\n「顺时针○」的启发等级+3\n"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "trip_story": [],
+        "story_skill_info": [
+            {
+                "skill_id": 200012,
+                "skill_name": "顺时针○",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/70f3c8fea3c651cb38d69df6e644872657a63cbf.png",
+                "rarity": 1,
+                "skill_desc": "会变得稍微擅长顺时针赛道",
+                "limitation": "通用",
+                "condition1": "顺时针（右转）跑道",
+                "condition2": null,
+                "skill_type1": "速度（属性）",
+                "skill_type2": null,
+                "ability_value1": [
+                    400000
+                ],
+                "ability_value2": [],
+                "ability_time1": -1,
+                "ability_time2": null,
+                "need_skill_point": 90,
+                "pre_skill": null,
+                "pre_skill_name": null
+            }
+        ],
+        "training_skill_info": [
+            {
+                "skill_id": 200092,
+                "skill_name": "函馆赛场○",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/762928d76f4cb135264040edacbc36eb0fb7708e.png",
+                "rarity": 1,
+                "skill_desc": "会变得稍微擅长函馆赛场的赛事",
+                "limitation": "通用",
+                "condition1": "函馆场",
+                "condition2": null,
+                "skill_type1": "耐力（属性）",
+                "skill_type2": null,
+                "ability_value1": [
+                    400000
+                ],
+                "ability_value2": [],
+                "ability_time1": -1,
+                "ability_time2": null,
+                "need_skill_point": 70,
+                "pre_skill": null,
+                "pre_skill_name": null
+            },
+            {
+                "skill_id": 200482,
+                "skill_name": "临危不乱",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/4c910489d09842c36b36fa521844dc37342d3d20.png",
+                "rarity": 1,
+                "skill_desc": "在赛事中期被包围时\n体力略微恢复",
+                "limitation": "通用",
+                "condition1": "中盘，被包围时间≥1",
+                "condition2": null,
+                "skill_type1": "体力值（百分比）",
+                "skill_type2": null,
+                "ability_value1": [
+                    150
+                ],
+                "ability_value2": [],
+                "ability_time1": 0,
+                "ability_time2": null,
+                "need_skill_point": 170,
+                "pre_skill": 200481,
+                "pre_skill_name": "耳边风"
+            },
+            {
+                "skill_id": 200781,
+                "skill_name": "诡计（后）",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/0c83e76b13b77ecb2daf700587c64c85a86fdaa3.png",
+                "rarity": 1,
+                "skill_desc": "在赛事中期位于后方时\n前方产生过焦躁的优俊少女会略微感到疲劳",
+                "limitation": "通用",
+                "condition1": "中盘，名次>50%，前方的debuff数量≥1",
+                "condition2": null,
+                "skill_type1": "体力值（百分比）",
+                "skill_type2": null,
+                "ability_value1": [
+                    -100
+                ],
+                "ability_value2": [],
+                "ability_time1": 0,
+                "ability_time2": null,
+                "need_skill_point": 140,
+                "pre_skill": null,
+                "pre_skill_name": null
+            },
+            {
+                "skill_id": 201392,
+                "skill_name": "居中弯道○",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/c44ceb01d2551e9cd2a82b7b1ca8b3f30e433902.png",
+                "rarity": 1,
+                "skill_desc": "在弯道上的速度略微提升\n<战术：居中>",
+                "limitation": "居中",
+                "condition1": "居中，第1弯道；居中，第2弯道；居中，第3弯道；居中，第4弯道",
+                "condition2": null,
+                "skill_type1": "目标速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    1500
+                ],
+                "ability_value2": [],
+                "ability_time1": 30000,
+                "ability_time2": null,
+                "need_skill_point": 130,
+                "pre_skill": null,
+                "pre_skill_name": null
+            },
+            {
+                "skill_id": 201422,
+                "skill_name": "稍作休息",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/4c910489d09842c36b36fa521844dc37342d3d20.png",
+                "rarity": 1,
+                "skill_desc": "在赛事末期体力略微恢复\n<战术：居中>",
+                "limitation": "居中",
+                "condition1": "居中，终盘前半段随机位置",
+                "condition2": null,
+                "skill_type1": "体力值（百分比）",
+                "skill_type2": null,
+                "ability_value1": [
+                    150
+                ],
+                "ability_value2": [],
+                "ability_time1": 0,
+                "ability_time2": null,
+                "need_skill_point": 180,
+                "pre_skill": 201421,
+                "pre_skill_name": "放松"
+            },
+            {
+                "skill_id": 201562,
+                "skill_name": "幸运7",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/9173bd35d567031b298d0ecf6e3a21e67d20cfeb.png",
+                "rarity": 1,
+                "skill_desc": "道次为7时\n有可能稍微发生点好事",
+                "limitation": "通用",
+                "condition1": "一半概率触发，道次=7",
+                "condition2": null,
+                "skill_type1": "速度（属性）、耐力（属性）",
+                "skill_type2": null,
+                "ability_value1": [
+                    400000,
+                    400000,
+                    400000
+                ],
+                "ability_value2": [],
+                "ability_time1": -1,
+                "ability_time2": null,
+                "need_skill_point": 110,
+                "pre_skill": 201561,
+                "pre_skill_name": "超级幸运7"
+            },
+            {
+                "skill_id": 201571,
+                "skill_name": "777",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/4c910489d09842c36b36fa521844dc37342d3d20.png",
+                "rarity": 1,
+                "skill_desc": "距离终点777米时\n略微打起精神",
+                "limitation": "通用",
+                "condition1": "剩余距离≤778，剩余距离≥777",
+                "condition2": null,
+                "skill_type1": "体力值（百分比）",
+                "skill_type2": null,
+                "ability_value1": [
+                    150
+                ],
+                "ability_value2": [],
+                "ability_time1": 0,
+                "ability_time2": null,
+                "need_skill_point": 160,
+                "pre_skill": null,
+                "pre_skill_name": null
+            }
+        ]
+    }
+]

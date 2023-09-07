@@ -1,0 +1,172 @@
+[
+    {
+        "support_card_info": {
+            "card_id": 10033,
+            "name": "[特雷森学园]目白莱恩",
+            "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/3f9eacf5f78039a2b24aa466f67f7fab7a429f75.png",
+            "attr_id": 2,
+            "rarity": 1
+        },
+        "branch_story": [
+            {
+                "story_id": 801027002,
+                "story_name": "只是被推荐了而已",
+                "story_type": 1,
+                "union_type": 2,
+                "related_skill_ids": [
+                    200472
+                ],
+                "gain_skill": "保持步伐",
+                "select_value_list": [
+                    {
+                        "option": "选项一",
+                        "gain_list": [
+                            "目白莱恩友情槽+5\n「保持步伐」的启发等级+1\n"
+                        ]
+                    },
+                    {
+                        "option": "选项二",
+                        "gain_list": [
+                            "体力+30\n目白莱恩友情槽+5\n"
+                        ]
+                    }
+                ]
+            },
+            {
+                "story_id": 801027001,
+                "story_name": "与肌肉共同迈向明天！",
+                "story_type": 1,
+                "union_type": 2,
+                "related_skill_ids": null,
+                "gain_skill": null,
+                "select_value_list": [
+                    {
+                        "option": "选项一",
+                        "gain_list": [
+                            "体力-10\n力量+15\n目白莱恩友情槽+5\n"
+                        ]
+                    },
+                    {
+                        "option": "选项二",
+                        "gain_list": [
+                            "最大体力上限+4\n力量+5\n目白莱恩友情槽+5\n"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "no_branch_story": [],
+        "after_match_story": [],
+        "continuous_story": null,
+        "trip_story": [],
+        "story_skill_info": [
+            {
+                "skill_id": 200472,
+                "skill_name": "保持步伐",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/4c910489d09842c36b36fa521844dc37342d3d20.png",
+                "rarity": 1,
+                "skill_desc": "在赛事中期被赶超时\n体力略微恢复",
+                "limitation": "通用",
+                "condition1": "中盘，被超越次数＞0",
+                "condition2": null,
+                "skill_type1": "体力值（百分比）",
+                "skill_type2": null,
+                "ability_value1": [
+                    150
+                ],
+                "ability_value2": [],
+                "ability_time1": 0,
+                "ability_time2": null,
+                "need_skill_point": 170,
+                "pre_skill": 200471,
+                "pre_skill_name": "不屈之心"
+            }
+        ],
+        "training_skill_info": [
+            {
+                "skill_id": 200162,
+                "skill_name": "路况不佳○",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/673e0c0734bcdbee9cd2648df49bb77e2b3952fe.png",
+                "rarity": 1,
+                "skill_desc": "会变得稍微擅长\n“稍重”“重”“不良”的场地状态",
+                "limitation": "通用",
+                "condition1": "稍重场；重场；不良场",
+                "condition2": null,
+                "skill_type1": "力量（属性）",
+                "skill_type2": null,
+                "ability_value1": [
+                    400000
+                ],
+                "ability_value2": [],
+                "ability_time1": -1,
+                "ability_time2": null,
+                "need_skill_point": 90,
+                "pre_skill": null,
+                "pre_skill_name": null
+            },
+            {
+                "skill_id": 200232,
+                "skill_name": "雨天○",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/977e98772467a7d9ea51bd0ad54b9dc1d1e1e01e.png",
+                "rarity": 1,
+                "skill_desc": "会变得稍微擅长雨天的赛事",
+                "limitation": "通用",
+                "condition1": "雨",
+                "condition2": null,
+                "skill_type1": "毅力（属性）",
+                "skill_type2": null,
+                "ability_value1": [
+                    400000
+                ],
+                "ability_value2": [],
+                "ability_time1": -1,
+                "ability_time2": null,
+                "need_skill_point": 90,
+                "pre_skill": null,
+                "pre_skill_name": null
+            },
+            {
+                "skill_id": 200722,
+                "skill_name": "加快节奏",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/c44ceb01d2551e9cd2a82b7b1ca8b3f30e433902.png",
+                "rarity": 1,
+                "skill_desc": "在赛事中期位于前列时\n略微容易取得良好位置<中距离>",
+                "limitation": "中距离",
+                "condition1": "中距离，中盘随机位置，名次≤50%",
+                "condition2": null,
+                "skill_type1": "目标速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    1500
+                ],
+                "ability_value2": [],
+                "ability_time1": 9000,
+                "ability_time2": null,
+                "need_skill_point": 160,
+                "pre_skill": 200721,
+                "pre_skill_name": "绝妙韵律"
+            },
+            {
+                "skill_id": 201102,
+                "skill_name": "中距离直线○",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/c44ceb01d2551e9cd2a82b7b1ca8b3f30e433902.png",
+                "rarity": 1,
+                "skill_desc": "在直线上的速度略微提升<中距离>",
+                "limitation": "中距离",
+                "condition1": "中距离，直线",
+                "condition2": null,
+                "skill_type1": "目标速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    1500
+                ],
+                "ability_value2": [],
+                "ability_time1": 30000,
+                "ability_time2": null,
+                "need_skill_point": 100,
+                "pre_skill": null,
+                "pre_skill_name": null
+            }
+        ]
+    }
+]

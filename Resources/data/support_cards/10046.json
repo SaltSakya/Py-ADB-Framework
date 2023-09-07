@@ -1,0 +1,194 @@
+[
+    {
+        "support_card_info": {
+            "card_id": 10046,
+            "name": "[特雷森学园]目白多伯",
+            "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/cdf4fbb54d4dbdd5bfc4922eaadb93879aec2d52.png",
+            "attr_id": 6,
+            "rarity": 1
+        },
+        "branch_story": [
+            {
+                "story_id": 801059002,
+                "story_name": "她会喜欢吗……",
+                "story_type": 1,
+                "union_type": 2,
+                "related_skill_ids": [
+                    201072
+                ],
+                "gain_skill": "要强",
+                "select_value_list": [
+                    {
+                        "option": "选项一",
+                        "gain_list": [
+                            "技能点数+45\n目白多伯友情槽+5\n"
+                        ]
+                    },
+                    {
+                        "option": "选项二",
+                        "gain_list": [
+                            "目白多伯友情槽+5\n「要强」的启发等级+1\n"
+                        ]
+                    }
+                ]
+            },
+            {
+                "story_id": 801059001,
+                "story_name": "试试看也行",
+                "story_type": 1,
+                "union_type": 2,
+                "related_skill_ids": null,
+                "gain_skill": null,
+                "select_value_list": [
+                    {
+                        "option": "选项一",
+                        "gain_list": [
+                            "体力+15\n目白多伯友情槽+5\n"
+                        ]
+                    },
+                    {
+                        "option": "选项二",
+                        "gain_list": [
+                            "干劲+1\n技能点数+15\n目白多伯友情槽+5\n"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "no_branch_story": [],
+        "after_match_story": [],
+        "continuous_story": null,
+        "trip_story": [],
+        "story_skill_info": [
+            {
+                "skill_id": 201072,
+                "skill_name": "要强",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/c44ceb01d2551e9cd2a82b7b1ca8b3f30e433902.png",
+                "rarity": 1,
+                "skill_desc": "略微容易赶超成功\n<英里>",
+                "limitation": "英里",
+                "condition1": "英里，正在超越，赛事进行时间≥5",
+                "condition2": null,
+                "skill_type1": "目标速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    1500
+                ],
+                "ability_value2": [],
+                "ability_time1": 18000,
+                "ability_time2": null,
+                "need_skill_point": 120,
+                "pre_skill": 201071,
+                "pre_skill_name": "大姐头气质"
+            }
+        ],
+        "training_skill_info": [
+            {
+                "skill_id": 200062,
+                "skill_name": "京都赛场○",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/762928d76f4cb135264040edacbc36eb0fb7708e.png",
+                "rarity": 1,
+                "skill_desc": "会变得稍微擅长京都赛场的赛事",
+                "limitation": "通用",
+                "condition1": "京都场",
+                "condition2": null,
+                "skill_type1": "耐力（属性）",
+                "skill_type2": null,
+                "ability_value1": [
+                    400000
+                ],
+                "ability_value2": [],
+                "ability_time1": -1,
+                "ability_time2": null,
+                "need_skill_point": 90,
+                "pre_skill": null,
+                "pre_skill_name": null
+            },
+            {
+                "skill_id": 200212,
+                "skill_name": "晴天○",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/977e98772467a7d9ea51bd0ad54b9dc1d1e1e01e.png",
+                "rarity": 1,
+                "skill_desc": "会变得稍微擅长晴天的赛事",
+                "limitation": "通用",
+                "condition1": "晴",
+                "condition2": null,
+                "skill_type1": "毅力（属性）",
+                "skill_type2": null,
+                "ability_value1": [
+                    400000
+                ],
+                "ability_value2": [],
+                "ability_time1": -1,
+                "ability_time2": null,
+                "need_skill_point": 90,
+                "pre_skill": null,
+                "pre_skill_name": null
+            },
+            {
+                "skill_id": 200722,
+                "skill_name": "加快节奏",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/c44ceb01d2551e9cd2a82b7b1ca8b3f30e433902.png",
+                "rarity": 1,
+                "skill_desc": "在赛事中期位于前列时\n略微容易取得良好位置<中距离>",
+                "limitation": "中距离",
+                "condition1": "中距离，中盘随机位置，名次≤50%",
+                "condition2": null,
+                "skill_type1": "目标速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    1500
+                ],
+                "ability_value2": [],
+                "ability_time1": 9000,
+                "ability_time2": null,
+                "need_skill_point": 160,
+                "pre_skill": 200721,
+                "pre_skill_name": "绝妙韵律"
+            },
+            {
+                "skill_id": 200732,
+                "skill_name": "紧追不舍",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/c44ceb01d2551e9cd2a82b7b1ca8b3f30e433902.png",
+                "rarity": 1,
+                "skill_desc": "在最终弯道被赶超时\n略微容易反超回来<中距离>",
+                "limitation": "中距离",
+                "condition1": "中距离，最终拐角，弯道，被超越次数＞0",
+                "condition2": null,
+                "skill_type1": "目标速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    1500
+                ],
+                "ability_value2": [],
+                "ability_time1": 30000,
+                "ability_time2": null,
+                "need_skill_point": 160,
+                "pre_skill": 200731,
+                "pre_skill_name": "对胜利的执念"
+            },
+            {
+                "skill_id": 201542,
+                "skill_name": "居中诀窍○",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/1c9b9e90297efb32fd2d8baa70464e97c50f58b1.png",
+                "rarity": 1,
+                "skill_desc": "稍微容易占据良好位置\n<战术：居中>",
+                "limitation": "居中",
+                "condition1": "居中",
+                "condition2": null,
+                "skill_type1": "智力（属性）、视野范围",
+                "skill_type2": null,
+                "ability_value1": [
+                    400000,
+                    50000
+                ],
+                "ability_value2": [],
+                "ability_time1": -1,
+                "ability_time2": null,
+                "need_skill_point": 110,
+                "pre_skill": null,
+                "pre_skill_name": null
+            }
+        ]
+    }
+]

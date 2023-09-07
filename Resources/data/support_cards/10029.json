@@ -1,0 +1,193 @@
+[
+    {
+        "support_card_info": {
+            "card_id": 10029,
+            "name": "[特雷森学园]琵琶晨光",
+            "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/a7150b6c397fe9d94cfa8b932983211fa877b645.png",
+            "attr_id": 2,
+            "rarity": 1
+        },
+        "branch_story": [
+            {
+                "story_id": 801023002,
+                "story_name": "摒弃稳妥论",
+                "story_type": 1,
+                "union_type": 2,
+                "related_skill_ids": [
+                    200752
+                ],
+                "gain_skill": "弯里横",
+                "select_value_list": [
+                    {
+                        "option": "选项一",
+                        "gain_list": [
+                            "体力-10\n琵琶晨光友情槽+5\n「弯里横」的启发等级+1\n"
+                        ]
+                    },
+                    {
+                        "option": "选项二",
+                        "gain_list": [
+                            "体力+10\n耐力+10\n琵琶晨光友情槽+5\n"
+                        ]
+                    }
+                ]
+            },
+            {
+                "story_id": 801023001,
+                "story_name": "临界形态论",
+                "story_type": 1,
+                "union_type": 2,
+                "related_skill_ids": null,
+                "gain_skill": null,
+                "select_value_list": [
+                    {
+                        "option": "选项一",
+                        "gain_list": [
+                            "力量+15\n琵琶晨光友情槽+5\n"
+                        ]
+                    },
+                    {
+                        "option": "选项二",
+                        "gain_list": [
+                            "速度+10\n技能点数+15\n琵琶晨光友情槽+5\n"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "no_branch_story": [],
+        "after_match_story": [],
+        "continuous_story": null,
+        "trip_story": [],
+        "story_skill_info": [
+            {
+                "skill_id": 200752,
+                "skill_name": "弯里横",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/c44ceb01d2551e9cd2a82b7b1ca8b3f30e433902.png",
+                "rarity": 1,
+                "skill_desc": "在最终弯道位于内侧时\n速度略微提升<长距离>",
+                "limitation": "长距离",
+                "condition1": "长距离，最终拐角，弯道，处于内侧",
+                "condition2": null,
+                "skill_type1": "目标速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    1500
+                ],
+                "ability_value2": [],
+                "ability_time1": 30000,
+                "ability_time2": null,
+                "need_skill_point": 160,
+                "pre_skill": 200751,
+                "pre_skill_name": "内侧体验"
+            }
+        ],
+        "training_skill_info": [
+            {
+                "skill_id": 200052,
+                "skill_name": "阪神赛场○",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/762928d76f4cb135264040edacbc36eb0fb7708e.png",
+                "rarity": 1,
+                "skill_desc": "会变得稍微擅长阪神赛场的赛事",
+                "limitation": "通用",
+                "condition1": "阪神场",
+                "condition2": null,
+                "skill_type1": "耐力（属性）",
+                "skill_type2": null,
+                "ability_value1": [
+                    400000
+                ],
+                "ability_value2": [],
+                "ability_time1": -1,
+                "ability_time2": null,
+                "need_skill_point": 90,
+                "pre_skill": null,
+                "pre_skill_name": null
+            },
+            {
+                "skill_id": 200162,
+                "skill_name": "路况不佳○",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/673e0c0734bcdbee9cd2648df49bb77e2b3952fe.png",
+                "rarity": 1,
+                "skill_desc": "会变得稍微擅长\n“稍重”“重”“不良”的场地状态",
+                "limitation": "通用",
+                "condition1": "稍重场；重场；不良场",
+                "condition2": null,
+                "skill_type1": "力量（属性）",
+                "skill_type2": null,
+                "ability_value1": [
+                    400000
+                ],
+                "ability_value2": [],
+                "ability_time1": -1,
+                "ability_time2": null,
+                "need_skill_point": 90,
+                "pre_skill": null,
+                "pre_skill_name": null
+            },
+            {
+                "skill_id": 200222,
+                "skill_name": "阴天○",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/977e98772467a7d9ea51bd0ad54b9dc1d1e1e01e.png",
+                "rarity": 1,
+                "skill_desc": "会变得稍微擅长阴天的赛事",
+                "limitation": "通用",
+                "condition1": "阴",
+                "condition2": null,
+                "skill_type1": "毅力（属性）",
+                "skill_type2": null,
+                "ability_value1": [
+                    400000
+                ],
+                "ability_value2": [],
+                "ability_time1": -1,
+                "ability_time2": null,
+                "need_skill_point": 90,
+                "pre_skill": null,
+                "pre_skill_name": null
+            },
+            {
+                "skill_id": 200262,
+                "skill_name": "擅长外道○",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/70f3c8fea3c651cb38d69df6e644872657a63cbf.png",
+                "rarity": 1,
+                "skill_desc": "会变得稍微擅长道次6至8号的赛事",
+                "limitation": "通用",
+                "condition1": "道次≥6",
+                "condition2": null,
+                "skill_type1": "速度（属性）",
+                "skill_type2": null,
+                "ability_value1": [
+                    400000
+                ],
+                "ability_value2": [],
+                "ability_time1": -1,
+                "ability_time2": null,
+                "need_skill_point": 90,
+                "pre_skill": null,
+                "pre_skill_name": null
+            },
+            {
+                "skill_id": 200821,
+                "skill_name": "后追对策",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/2c1a2298d667aec9efc1dcb29be462e14a5015b6.png",
+                "rarity": 1,
+                "skill_desc": "战术是后追的优俊少女陷入焦躁时\n恢复冷静需要耗费时间",
+                "limitation": "通用",
+                "condition1": "后追策略焦躁人数≥1，未进入过焦躁状态",
+                "condition2": null,
+                "skill_type1": "焦躁持续时间",
+                "skill_type2": null,
+                "ability_value1": [
+                    50000
+                ],
+                "ability_value2": [],
+                "ability_time1": 0,
+                "ability_time2": null,
+                "need_skill_point": 130,
+                "pre_skill": null,
+                "pre_skill_name": null
+            }
+        ]
+    }
+]

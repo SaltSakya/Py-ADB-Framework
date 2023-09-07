@@ -1,0 +1,249 @@
+[
+    {
+        "support_card_info": {
+            "card_id": 20001,
+            "name": "[哎呀呀，欢迎回来]富士奇石",
+            "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/2f9a7e693be8d8413b6cd0b0ea1921c0b012aeae.png",
+            "attr_id": 6,
+            "rarity": 2
+        },
+        "branch_story": [
+            {
+                "story_id": 801005002,
+                "story_name": "错误引导",
+                "story_type": 1,
+                "union_type": 2,
+                "related_skill_ids": [
+                    200582
+                ],
+                "gain_skill": "准备突围",
+                "select_value_list": [
+                    {
+                        "option": "选项一",
+                        "gain_list": [
+                            "富士奇石友情槽+5\n「准备突围」的启发等级+1\n"
+                        ]
+                    },
+                    {
+                        "option": "选项二",
+                        "gain_list": [
+                            "技能点数+30\n富士奇石友情槽+5\n"
+                        ]
+                    }
+                ]
+            },
+            {
+                "story_id": 801005001,
+                "story_name": "魔术快手",
+                "story_type": 1,
+                "union_type": 2,
+                "related_skill_ids": null,
+                "gain_skill": null,
+                "select_value_list": [
+                    {
+                        "option": "选项一",
+                        "gain_list": [
+                            "智力+5\n技能点数+15\n富士奇石友情槽+5\n"
+                        ]
+                    },
+                    {
+                        "option": "选项二",
+                        "gain_list": [
+                            "力量+5\n技能点数+15\n富士奇石友情槽+5\n"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "no_branch_story": [],
+        "after_match_story": [],
+        "continuous_story": [
+            {
+                "story_id": 820001001,
+                "story_name": "语言不通",
+                "story_type": 4,
+                "union_type": 3,
+                "related_skill_ids": null,
+                "gain_skill": null,
+                "select_value_list": [
+                    {
+                        "option": "无选项",
+                        "gain_list": [
+                            "智力+10\n"
+                        ]
+                    }
+                ]
+            },
+            {
+                "story_id": 820001002,
+                "story_name": "精彩绝伦",
+                "story_type": 4,
+                "union_type": 3,
+                "related_skill_ids": [
+                    200931
+                ],
+                "gain_skill": "后追焦躁",
+                "select_value_list": [
+                    {
+                        "option": "无选项",
+                        "gain_list": [
+                            "智力+10\n技能点数+15\n「后追焦躁」的启发等级+1\n"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "trip_story": [],
+        "story_skill_info": [
+            {
+                "skill_id": 200582,
+                "skill_name": "准备突围",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/c44ceb01d2551e9cd2a82b7b1ca8b3f30e433902.png",
+                "rarity": 1,
+                "skill_desc": "在最终弯道处\n会略微容易突围<战术：跟前>",
+                "limitation": "跟前",
+                "condition1": "跟前，最终弯道随机位置，名次≤50%",
+                "condition2": null,
+                "skill_type1": "目标速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    1500
+                ],
+                "ability_value2": [],
+                "ability_time1": 12000,
+                "ability_time2": null,
+                "need_skill_point": 180,
+                "pre_skill": 200581,
+                "pre_skill_name": "速度之星"
+            },
+            {
+                "skill_id": 200931,
+                "skill_name": "后追焦躁",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/0c83e76b13b77ecb2daf700587c64c85a86fdaa3.png",
+                "rarity": 1,
+                "skill_desc": "在赛事中期让后追战术的优俊少女\n焦躁使其略微容易疲劳",
+                "limitation": "通用",
+                "condition1": "后追策略人数≥1，中盘随机位置",
+                "condition2": null,
+                "skill_type1": "体力值（百分比）",
+                "skill_type2": null,
+                "ability_value1": [
+                    -100
+                ],
+                "ability_value2": [],
+                "ability_time1": 0,
+                "ability_time2": null,
+                "need_skill_point": 130,
+                "pre_skill": null,
+                "pre_skill_name": null
+            }
+        ],
+        "training_skill_info": [
+            {
+                "skill_id": 200182,
+                "skill_name": "夏季优俊少女○",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/70f3c8fea3c651cb38d69df6e644872657a63cbf.png",
+                "rarity": 1,
+                "skill_desc": "会变得稍微擅长夏季赛事",
+                "limitation": "通用",
+                "condition1": "夏",
+                "condition2": null,
+                "skill_type1": "速度（属性）",
+                "skill_type2": null,
+                "ability_value1": [
+                    400000
+                ],
+                "ability_value2": [],
+                "ability_time1": -1,
+                "ability_time2": null,
+                "need_skill_point": 90,
+                "pre_skill": null,
+                "pre_skill_name": null
+            },
+            {
+                "skill_id": 200222,
+                "skill_name": "阴天○",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/977e98772467a7d9ea51bd0ad54b9dc1d1e1e01e.png",
+                "rarity": 1,
+                "skill_desc": "会变得稍微擅长阴天的赛事",
+                "limitation": "通用",
+                "condition1": "阴",
+                "condition2": null,
+                "skill_type1": "毅力（属性）",
+                "skill_type2": null,
+                "ability_value1": [
+                    400000
+                ],
+                "ability_value2": [],
+                "ability_time1": -1,
+                "ability_time2": null,
+                "need_skill_point": 90,
+                "pre_skill": null,
+                "pre_skill_name": null
+            },
+            {
+                "skill_id": 200771,
+                "skill_name": "诡计（前）",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/0c83e76b13b77ecb2daf700587c64c85a86fdaa3.png",
+                "rarity": 1,
+                "skill_desc": "在赛事中期位于前列时\n后方产生过焦躁的优俊少女会略微感到疲劳",
+                "limitation": "通用",
+                "condition1": "中盘，名次≤50%，后方的debuff数量≥1",
+                "condition2": null,
+                "skill_type1": "体力值（百分比）",
+                "skill_type2": null,
+                "ability_value1": [
+                    -100
+                ],
+                "ability_value2": [],
+                "ability_time1": 0,
+                "ability_time2": null,
+                "need_skill_point": 140,
+                "pre_skill": null,
+                "pre_skill_name": null
+            },
+            {
+                "skill_id": 201042,
+                "skill_name": "英里弯道○",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/c44ceb01d2551e9cd2a82b7b1ca8b3f30e433902.png",
+                "rarity": 1,
+                "skill_desc": "在弯道上的速度略微提升\n<英里>",
+                "limitation": "英里",
+                "condition1": "英里，第1弯道；英里，第2弯道；英里，第3弯道；英里，第4弯道",
+                "condition2": null,
+                "skill_type1": "目标速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    1500
+                ],
+                "ability_value2": [],
+                "ability_time1": 30000,
+                "ability_time2": null,
+                "need_skill_point": 100,
+                "pre_skill": null,
+                "pre_skill_name": null
+            },
+            {
+                "skill_id": 201072,
+                "skill_name": "要强",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/c44ceb01d2551e9cd2a82b7b1ca8b3f30e433902.png",
+                "rarity": 1,
+                "skill_desc": "略微容易赶超成功\n<英里>",
+                "limitation": "英里",
+                "condition1": "英里，正在超越，赛事进行时间≥5",
+                "condition2": null,
+                "skill_type1": "目标速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    1500
+                ],
+                "ability_value2": [],
+                "ability_time1": 18000,
+                "ability_time2": null,
+                "need_skill_point": 120,
+                "pre_skill": 201071,
+                "pre_skill_name": "大姐头气质"
+            }
+        ]
+    }
+]

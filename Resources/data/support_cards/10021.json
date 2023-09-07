@@ -1,0 +1,248 @@
+[
+    {
+        "support_card_info": {
+            "card_id": 10021,
+            "name": "[特雷森学园]骏川手纲",
+            "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/9020b4ee219af82a20635c6030c836ada11c0d1e.png",
+            "attr_id": 0,
+            "rarity": 1
+        },
+        "branch_story": [
+            {
+                "story_id": 809001004,
+                "story_name": "充满热情的二人",
+                "story_type": 1,
+                "union_type": 2,
+                "related_skill_ids": [
+                    200692
+                ],
+                "gain_skill": "窥视展开",
+                "select_value_list": [
+                    {
+                        "option": "选项一",
+                        "gain_list": [
+                            "体力+10\n干劲+1\n智力+5\n骏川手纲友情槽+5\n触发出行事件"
+                        ]
+                    },
+                    {
+                        "option": "选项二",
+                        "gain_list": [
+                            "干劲-1\n骏川手纲友情槽-5\n「窥视展开」的启发等级+1\n"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "no_branch_story": [
+            {
+                "story_id": 809001009,
+                "story_name": "更近一点",
+                "story_type": 2,
+                "union_type": 2,
+                "related_skill_ids": null,
+                "gain_skill": null,
+                "select_value_list": [
+                    {
+                        "option": "无选项",
+                        "gain_list": [
+                            "速度+5\n耐力+5\n力量+5\n毅力+5\n智力+5\n技能点数+20\n"
+                        ]
+                    }
+                ]
+            },
+            {
+                "story_id": 809001010,
+                "story_name": "请给我“平时那个”！",
+                "story_type": 2,
+                "union_type": 2,
+                "related_skill_ids": null,
+                "gain_skill": null,
+                "select_value_list": [
+                    {
+                        "option": "无选项",
+                        "gain_list": [
+                            "技能点数+10\n",
+                            "技能点数+5\n"
+                        ]
+                    }
+                ]
+            },
+            {
+                "story_id": 809001011,
+                "story_name": "与手纲的友情：托付憧憬",
+                "story_type": 2,
+                "union_type": 2,
+                "related_skill_ids": [
+                    201611
+                ],
+                "gain_skill": "翘尾巴",
+                "select_value_list": [
+                    {
+                        "option": "无选项",
+                        "gain_list": [
+                            "体力+10\n干劲+1\n速度+15\n骏川手纲友情槽+5\n「翘尾巴」的启发等级+3\n"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "after_match_story": [],
+        "continuous_story": [
+            {
+                "story_id": 809001001,
+                "story_name": "我选择的生活方式",
+                "story_type": 4,
+                "union_type": 2,
+                "related_skill_ids": null,
+                "gain_skill": null,
+                "select_value_list": [
+                    {
+                        "option": "选项一",
+                        "gain_list": [
+                            "体力+10\n干劲+1\n骏川手纲友情槽+5\n"
+                        ]
+                    },
+                    {
+                        "option": "选项二",
+                        "gain_list": [
+                            "干劲+1\n智力+5\n骏川手纲友情槽+5\n"
+                        ]
+                    }
+                ]
+            },
+            {
+                "story_id": 809001002,
+                "story_name": "理事长秘书手纲小姐",
+                "story_type": 4,
+                "union_type": 2,
+                "related_skill_ids": null,
+                "gain_skill": null,
+                "select_value_list": [
+                    {
+                        "option": "无选项",
+                        "gain_list": [
+                            "干劲+1\n技能点数+15\n骏川手纲友情槽+5\n"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "trip_story": [
+            {
+                "story_id": 809001005,
+                "story_name": "牛奶，偶尔来个苹果",
+                "story_type": 5,
+                "union_type": 2,
+                "related_skill_ids": null,
+                "gain_skill": null,
+                "select_value_list": [
+                    {
+                        "option": "无选项",
+                        "gain_list": [
+                            "体力+25\n干劲+1\n速度+5\n骏川手纲友情槽+5\n触发出行事件"
+                        ]
+                    }
+                ]
+            },
+            {
+                "story_id": 809001006,
+                "story_name": "惊人的速度？",
+                "story_type": 5,
+                "union_type": 2,
+                "related_skill_ids": null,
+                "gain_skill": null,
+                "select_value_list": [
+                    {
+                        "option": "无选项",
+                        "gain_list": [
+                            "体力+25\n骏川手纲友情槽+5\n触发出行事件随机解除负面状态\n"
+                        ]
+                    }
+                ]
+            },
+            {
+                "story_id": 809001007,
+                "story_name": "关于电影的回忆",
+                "story_type": 5,
+                "union_type": 2,
+                "related_skill_ids": null,
+                "gain_skill": null,
+                "select_value_list": [
+                    {
+                        "option": "选项一",
+                        "gain_list": [
+                            "体力+25\n干劲+1\n耐力+5\n骏川手纲友情槽+5\n触发出行事件"
+                        ]
+                    },
+                    {
+                        "option": "选项二",
+                        "gain_list": [
+                            "干劲+1\n耐力+10\n毅力+10\n骏川手纲友情槽+5\n触发出行事件"
+                        ]
+                    }
+                ]
+            },
+            {
+                "story_id": 809001008,
+                "story_name": "叹息与创口贴",
+                "story_type": 5,
+                "union_type": 2,
+                "related_skill_ids": null,
+                "gain_skill": null,
+                "select_value_list": [
+                    {
+                        "option": "无选项",
+                        "gain_list": [
+                            "体力+35\n干劲+1\n智力+5\n骏川手纲友情槽+5\n触发出行事件随机解除负面状态\n"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "story_skill_info": [
+            {
+                "skill_id": 200692,
+                "skill_name": "窥视展开",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/4c910489d09842c36b36fa521844dc37342d3d20.png",
+                "rarity": 1,
+                "skill_desc": "在赛事初期位于后方时\n会略微不容易疲劳<英里>",
+                "limitation": "英里",
+                "condition1": "英里，序盘随机位置，赛事进行时间≥5，名次>50%",
+                "condition2": null,
+                "skill_type1": "体力值（百分比）",
+                "skill_type2": null,
+                "ability_value1": [
+                    150
+                ],
+                "ability_value2": [],
+                "ability_time1": 0,
+                "ability_time2": null,
+                "need_skill_point": 160,
+                "pre_skill": 200691,
+                "pre_skill_name": "慧眼"
+            },
+            {
+                "skill_id": 201611,
+                "skill_name": "翘尾巴",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/c44ceb01d2551e9cd2a82b7b1ca8b3f30e433902.png",
+                "rarity": 1,
+                "skill_desc": "在赛事中期发动多个技能时\n速度略微提升",
+                "limitation": "通用",
+                "condition1": "中盘技能发动数量≥3",
+                "condition2": null,
+                "skill_type1": "目标速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    1500
+                ],
+                "ability_value2": [],
+                "ability_time1": 30000,
+                "ability_time2": null,
+                "need_skill_point": 100,
+                "pre_skill": null,
+                "pre_skill_name": null
+            }
+        ],
+        "training_skill_info": null
+    }
+]

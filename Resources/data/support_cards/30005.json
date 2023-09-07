@@ -1,0 +1,350 @@
+[
+    {
+        "support_card_info": {
+            "card_id": 30005,
+            "name": "[伏特加之路]伏特加",
+            "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/43c41e3b230d1cdebdbfefd76512591e6117714f.png",
+            "attr_id": 2,
+            "rarity": 3
+        },
+        "branch_story": [
+            {
+                "story_id": 801008002,
+                "story_name": "大街上的劲敌",
+                "story_type": 1,
+                "union_type": 2,
+                "related_skill_ids": [
+                    200492
+                ],
+                "gain_skill": "回避失速优俊少女",
+                "select_value_list": [
+                    {
+                        "option": "选项一",
+                        "gain_list": [
+                            "伏特加友情槽+5\n「回避失速优俊少女」的启发等级+1\n"
+                        ]
+                    },
+                    {
+                        "option": "选项二",
+                        "gain_list": [
+                            "力量+5\n技能点数+15\n伏特加友情槽+5\n"
+                        ]
+                    }
+                ]
+            },
+            {
+                "story_id": 801008001,
+                "story_name": "憧憬的台词",
+                "story_type": 1,
+                "union_type": 2,
+                "related_skill_ids": null,
+                "gain_skill": null,
+                "select_value_list": [
+                    {
+                        "option": "选项一",
+                        "gain_list": [
+                            "力量+10\n伏特加友情槽+5\n"
+                        ]
+                    },
+                    {
+                        "option": "选项二",
+                        "gain_list": [
+                            "力量+5\n技能点数+15\n伏特加友情槽+5\n"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "no_branch_story": [],
+        "after_match_story": [],
+        "continuous_story": [
+            {
+                "story_id": 830005001,
+                "story_name": "遵从自己的内心",
+                "story_type": 4,
+                "union_type": 3,
+                "related_skill_ids": null,
+                "gain_skill": null,
+                "select_value_list": [
+                    {
+                        "option": "无选项",
+                        "gain_list": [
+                            "力量+5\n技能点数+15\n"
+                        ]
+                    }
+                ]
+            },
+            {
+                "story_id": 830005002,
+                "story_name": "对夕阳起誓的光辉",
+                "story_type": 4,
+                "union_type": 3,
+                "related_skill_ids": null,
+                "gain_skill": null,
+                "select_value_list": [
+                    {
+                        "option": "无选项",
+                        "gain_list": [
+                            "力量+5\n技能点数+15\n"
+                        ]
+                    }
+                ]
+            },
+            {
+                "story_id": 830005003,
+                "story_name": "要留下记录哦？",
+                "story_type": 4,
+                "union_type": 3,
+                "related_skill_ids": [
+                    200381
+                ],
+                "gain_skill": "喘口气",
+                "select_value_list": [
+                    {
+                        "option": "无选项",
+                        "gain_list": [
+                            "力量+5\n技能点数+30\n「喘口气」的启发等级+1\n"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "trip_story": [],
+        "story_skill_info": [
+            {
+                "skill_id": 200492,
+                "skill_name": "回避失速优俊少女",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/bd338ecc1d33ec83d4e45977372f03c4d221c3e0.png",
+                "rarity": 1,
+                "skill_desc": "最后冲刺阶段前方被阻挡时\n会略微擅长回避",
+                "limitation": "通用",
+                "condition1": "前方被阻挡时间≥1，最后冲刺，体力剩余≥1%",
+                "condition2": null,
+                "skill_type1": "加速度、变道速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    2000,
+                    50
+                ],
+                "ability_value2": [],
+                "ability_time1": 30000,
+                "ability_time2": null,
+                "need_skill_point": 150,
+                "pre_skill": 200491,
+                "pre_skill_name": "不停步的女孩"
+            },
+            {
+                "skill_id": 200381,
+                "skill_name": "喘口气",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/df405a026fd17b46f8374d6ddbd36c8d13b54bb3.png",
+                "rarity": 2,
+                "skill_desc": "直线上体力恢复",
+                "limitation": "通用",
+                "condition1": "直线",
+                "condition2": null,
+                "skill_type1": "体力值（百分比）",
+                "skill_type2": null,
+                "ability_value1": [
+                    550
+                ],
+                "ability_value2": [],
+                "ability_time1": 0,
+                "ability_time2": null,
+                "need_skill_point": 170,
+                "pre_skill": null,
+                "pre_skill_name": null
+            }
+        ],
+        "training_skill_info": [
+            {
+                "skill_id": 200032,
+                "skill_name": "东京赛场○",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/762928d76f4cb135264040edacbc36eb0fb7708e.png",
+                "rarity": 1,
+                "skill_desc": "会变得稍微擅长东京赛场的赛事",
+                "limitation": "通用",
+                "condition1": "东京场",
+                "condition2": null,
+                "skill_type1": "耐力（属性）",
+                "skill_type2": null,
+                "ability_value1": [
+                    400000
+                ],
+                "ability_value2": [],
+                "ability_time1": -1,
+                "ability_time2": null,
+                "need_skill_point": 90,
+                "pre_skill": null,
+                "pre_skill_name": null
+            },
+            {
+                "skill_id": 200362,
+                "skill_name": "直线能手",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/c44ceb01d2551e9cd2a82b7b1ca8b3f30e433902.png",
+                "rarity": 1,
+                "skill_desc": "直线上速度略微提升",
+                "limitation": "通用",
+                "condition1": "直线",
+                "condition2": null,
+                "skill_type1": "目标速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    1500
+                ],
+                "ability_value2": [],
+                "ability_time1": 9000,
+                "ability_time2": null,
+                "need_skill_point": 170,
+                "pre_skill": 200361,
+                "pre_skill_name": "迅疾如风"
+            },
+            {
+                "skill_id": 200372,
+                "skill_name": "直线加速",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/bd338ecc1d33ec83d4e45977372f03c4d221c3e0.png",
+                "rarity": 1,
+                "skill_desc": "直线上加速能力略微提升",
+                "limitation": "通用",
+                "condition1": "直线",
+                "condition2": null,
+                "skill_type1": "加速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    2000
+                ],
+                "ability_value2": [],
+                "ability_time1": 18000,
+                "ability_time2": null,
+                "need_skill_point": 170,
+                "pre_skill": 200371,
+                "pre_skill_name": "一阵狂风"
+            },
+            {
+                "skill_id": 200382,
+                "skill_name": "直线恢复",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/4c910489d09842c36b36fa521844dc37342d3d20.png",
+                "rarity": 1,
+                "skill_desc": "直线上体力略微恢复",
+                "limitation": "通用",
+                "condition1": "直线",
+                "condition2": null,
+                "skill_type1": "体力值（百分比）",
+                "skill_type2": null,
+                "ability_value1": [
+                    150
+                ],
+                "ability_value2": [],
+                "ability_time1": 0,
+                "ability_time2": null,
+                "need_skill_point": 170,
+                "pre_skill": 200381,
+                "pre_skill_name": "喘口气"
+            },
+            {
+                "skill_id": 200512,
+                "skill_name": "最后冲刺",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/c44ceb01d2551e9cd2a82b7b1ca8b3f30e433902.png",
+                "rarity": 1,
+                "skill_desc": "最后冲刺阶段速度略微提升",
+                "limitation": "通用",
+                "condition1": "最后冲刺，终盘后半段任意",
+                "condition2": null,
+                "skill_type1": "目标速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    1500
+                ],
+                "ability_value2": [],
+                "ability_time1": 18000,
+                "ability_time2": null,
+                "need_skill_point": 170,
+                "pre_skill": 200511,
+                "pre_skill_name": "全神贯注"
+            },
+            {
+                "skill_id": 200602,
+                "skill_name": "超越架势",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/bd338ecc1d33ec83d4e45977372f03c4d221c3e0.png",
+                "rarity": 1,
+                "skill_desc": "在赛事末期时加速能力略微提升\n<战术：居中>",
+                "limitation": "居中",
+                "condition1": "居中，终盘前半段随机位置，名次>50%",
+                "condition2": null,
+                "skill_type1": "加速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    2000
+                ],
+                "ability_value2": [],
+                "ability_time1": 18000,
+                "ability_time2": null,
+                "need_skill_point": 180,
+                "pre_skill": 200601,
+                "pre_skill_name": "换乘能手"
+            },
+            {
+                "skill_id": 200702,
+                "skill_name": "上升气流",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/bd338ecc1d33ec83d4e45977372f03c4d221c3e0.png",
+                "rarity": 1,
+                "skill_desc": "在赛事末期位于后方时\n赶超能力略微提升<英里>",
+                "limitation": "英里",
+                "condition1": "英里，终盘前半段随机位置，名次>50%",
+                "condition2": null,
+                "skill_type1": "加速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    2000
+                ],
+                "ability_value2": [],
+                "ability_time1": 30000,
+                "ability_time2": null,
+                "need_skill_point": 160,
+                "pre_skill": 200701,
+                "pre_skill_name": "奋力一搏"
+            },
+            {
+                "skill_id": 201032,
+                "skill_name": "英里直线○",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/c44ceb01d2551e9cd2a82b7b1ca8b3f30e433902.png",
+                "rarity": 1,
+                "skill_desc": "在直线上的速度略微提升<英里>",
+                "limitation": "英里",
+                "condition1": "英里，直线",
+                "condition2": null,
+                "skill_type1": "目标速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    1500
+                ],
+                "ability_value2": [],
+                "ability_time1": 30000,
+                "ability_time2": null,
+                "need_skill_point": 100,
+                "pre_skill": null,
+                "pre_skill_name": null
+            },
+            {
+                "skill_id": 201102,
+                "skill_name": "中距离直线○",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/c44ceb01d2551e9cd2a82b7b1ca8b3f30e433902.png",
+                "rarity": 1,
+                "skill_desc": "在直线上的速度略微提升<中距离>",
+                "limitation": "中距离",
+                "condition1": "中距离，直线",
+                "condition2": null,
+                "skill_type1": "目标速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    1500
+                ],
+                "ability_value2": [],
+                "ability_time1": 30000,
+                "ability_time2": null,
+                "need_skill_point": 100,
+                "pre_skill": null,
+                "pre_skill_name": null
+            }
+        ]
+    }
+]

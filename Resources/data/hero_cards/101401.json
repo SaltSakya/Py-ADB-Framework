@@ -1,0 +1,1610 @@
+{
+    "hero_card_info": {
+        "card_id": 101401,
+        "name": "[小鹰☆Número 1]神鹰",
+        "icon_url_w": "https://i0.hdslb.com/bfs/game/player/tools/uma/733631511ddb62c546d2baf114397e23c020b603.png",
+        "icon_url_g": "https://i0.hdslb.com/bfs/game/player/tools/uma/95fc77f4c486a2a89e5ea327bc847dfa87d6d2de.png",
+        "rarity": 2,
+        "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/733631511ddb62c546d2baf114397e23c020b603.png"
+    },
+    "hero_skill_info": [
+        {
+            "skill_id": 200362,
+            "skill_name": "直线能手",
+            "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/c44ceb01d2551e9cd2a82b7b1ca8b3f30e433902.png",
+            "rarity": 1,
+            "skill_desc": "直线上速度略微提升",
+            "limitation": "通用",
+            "condition1": "直线",
+            "condition2": null,
+            "skill_type1": "目标速度",
+            "skill_type2": null,
+            "ability_value1": [
+                1500
+            ],
+            "ability_value2": [],
+            "ability_time1": 9000,
+            "ability_time2": null,
+            "need_skill_point": 170,
+            "pre_skill": 200361,
+            "pre_skill_name": "迅疾如风"
+        },
+        {
+            "skill_id": 201122,
+            "skill_name": "鹰眼",
+            "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/10d52cb1987a5e8a95cf845f3460c3145490ecc3.png",
+            "rarity": 1,
+            "skill_desc": "在赛事初期观察力提高，\n视野稍微开阔<中距离>",
+            "limitation": "中距离",
+            "condition1": "中距离，序盘随机位置",
+            "condition2": null,
+            "skill_type1": "视野范围",
+            "skill_type2": null,
+            "ability_value1": [
+                100000
+            ],
+            "ability_value2": [],
+            "ability_time1": 30000,
+            "ability_time2": null,
+            "need_skill_point": 110,
+            "pre_skill": 201121,
+            "pre_skill_name": "千里眼"
+        },
+        {
+            "skill_id": 201312,
+            "skill_name": "跟前直线○",
+            "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/c44ceb01d2551e9cd2a82b7b1ca8b3f30e433902.png",
+            "rarity": 1,
+            "skill_desc": "在直线上的速度略微提升\n<战术：跟前>",
+            "limitation": "跟前",
+            "condition1": "跟前，直线",
+            "condition2": null,
+            "skill_type1": "目标速度",
+            "skill_type2": null,
+            "ability_value1": [
+                1500
+            ],
+            "ability_value2": [],
+            "ability_time1": 30000,
+            "ability_time2": null,
+            "need_skill_point": 130,
+            "pre_skill": null,
+            "pre_skill_name": null
+        },
+        {
+            "skill_id": 200562,
+            "skill_name": "保留体力",
+            "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/4c910489d09842c36b36fa521844dc37342d3d20.png",
+            "rarity": 1,
+            "skill_desc": "在赛事初期时会略微不容易疲劳\n<战术：跟前>",
+            "limitation": "跟前",
+            "condition1": "跟前，序盘随机位置，赛事进行时间≥5，名次≤50%",
+            "condition2": null,
+            "skill_type1": "体力值（百分比）",
+            "skill_type2": null,
+            "ability_value1": [
+                150
+            ],
+            "ability_value2": [],
+            "ability_time1": 0,
+            "ability_time2": null,
+            "need_skill_point": 180,
+            "pre_skill": 200561,
+            "pre_skill_name": "游刃有余"
+        },
+        {
+            "skill_id": 201121,
+            "skill_name": "千里眼",
+            "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/23be5f4723bc92678d073914eb1e3d7628df8237.png",
+            "rarity": 2,
+            "skill_desc": "在赛事初期观察力提高，\n视野开阔<中距离>",
+            "limitation": "中距离",
+            "condition1": "中距离，序盘随机位置",
+            "condition2": null,
+            "skill_type1": "视野范围",
+            "skill_type2": null,
+            "ability_value1": [
+                150000
+            ],
+            "ability_value2": [],
+            "ability_time1": 30000,
+            "ability_time2": null,
+            "need_skill_point": 110,
+            "pre_skill": null,
+            "pre_skill_name": null
+        },
+        {
+            "skill_id": 200722,
+            "skill_name": "加快节奏",
+            "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/c44ceb01d2551e9cd2a82b7b1ca8b3f30e433902.png",
+            "rarity": 1,
+            "skill_desc": "在赛事中期位于前列时\n略微容易取得良好位置<中距离>",
+            "limitation": "中距离",
+            "condition1": "中距离，中盘随机位置，名次≤50%",
+            "condition2": null,
+            "skill_type1": "目标速度",
+            "skill_type2": null,
+            "ability_value1": [
+                1500
+            ],
+            "ability_value2": [],
+            "ability_time1": 9000,
+            "ability_time2": null,
+            "need_skill_point": 160,
+            "pre_skill": 200721,
+            "pre_skill_name": "绝妙韵律"
+        },
+        {
+            "skill_id": 200561,
+            "skill_name": "游刃有余",
+            "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/df405a026fd17b46f8374d6ddbd36c8d13b54bb3.png",
+            "rarity": 2,
+            "skill_desc": "在赛事初期时会不容易疲劳\n<战术：跟前>",
+            "limitation": "跟前",
+            "condition1": "跟前，序盘随机位置，赛事进行时间≥5，名次≤50%",
+            "condition2": null,
+            "skill_type1": "体力值（百分比）",
+            "skill_type2": null,
+            "ability_value1": [
+                550
+            ],
+            "ability_value2": [],
+            "ability_time1": 0,
+            "ability_time2": null,
+            "need_skill_point": 180,
+            "pre_skill": null,
+            "pre_skill_name": null
+        },
+        {
+            "skill_id": 10141,
+            "skill_name": "热血☆挚友",
+            "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/692955980e946b192dd811790e5021781b19e55e.png",
+            "rarity": 3,
+            "skill_desc": "在最后直道位于前列且保有余力时\n略微容易保持优势",
+            "limitation": "通用",
+            "condition1": "最终拐角，直线，体力剩余≥30%，名次≤2",
+            "condition2": null,
+            "skill_type1": "目标速度、加速度",
+            "skill_type2": null,
+            "ability_value1": [
+                1500,
+                2000
+            ],
+            "ability_value2": [],
+            "ability_time1": 50000,
+            "ability_time2": null,
+            "need_skill_point": 0,
+            "pre_skill": null,
+            "pre_skill_name": null
+        },
+        {
+            "skill_id": 100141,
+            "skill_name": "胜利者☆飞扑",
+            "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/692955980e946b192dd811790e5021781b19e55e.png",
+            "rarity": 4,
+            "skill_desc": "在最后直道位于前列且保有余力时\n容易保持优势",
+            "limitation": "通用",
+            "condition1": "最终拐角，直线，体力剩余≥30%，名次≤2",
+            "condition2": null,
+            "skill_type1": "目标速度、加速度",
+            "skill_type2": null,
+            "ability_value1": [
+                2500,
+                3000
+            ],
+            "ability_value2": [],
+            "ability_time1": 50000,
+            "ability_time2": null,
+            "need_skill_point": 0,
+            "pre_skill": null,
+            "pre_skill_name": null
+        }
+    ],
+    "branch_story": [
+        {
+            "story_id": 501014513,
+            "story_name": "成为世界最强的决心",
+            "story_type": 1,
+            "union_type": 5,
+            "related_skill_ids": null,
+            "gain_skill": null,
+            "select_value_list": [
+                {
+                    "option": "选项一",
+                    "gain_list": [
+                        "力量+20\n"
+                    ]
+                },
+                {
+                    "option": "选项二",
+                    "gain_list": [
+                        "耐力+20\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "story_id": 501014514,
+            "story_name": "请大家吃仙人掌料理！",
+            "story_type": 1,
+            "union_type": 5,
+            "related_skill_ids": null,
+            "gain_skill": null,
+            "select_value_list": [
+                {
+                    "option": "选项一",
+                    "gain_list": [
+                        "速度+10\n耐力+10\n"
+                    ]
+                },
+                {
+                    "option": "选项二",
+                    "gain_list": [
+                        "智力+20\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "story_id": 501014515,
+            "story_name": "勇气的入场曲",
+            "story_type": 1,
+            "union_type": 5,
+            "related_skill_ids": null,
+            "gain_skill": null,
+            "select_value_list": [
+                {
+                    "option": "选项一",
+                    "gain_list": [
+                        "力量+20\n获得“才能出众”\n",
+                        "力量+20\n"
+                    ]
+                },
+                {
+                    "option": "选项二",
+                    "gain_list": [
+                        "力量+10\n速度+10\n获得“才能出众”\n",
+                        "力量+10\n速度+10\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "story_id": 501014520,
+            "story_name": "目标是特大披萨！",
+            "story_type": 1,
+            "union_type": 1,
+            "related_skill_ids": [
+                201142
+            ],
+            "gain_skill": "轻盈步伐",
+            "select_value_list": [
+                {
+                    "option": "选项一",
+                    "gain_list": [
+                        "力量+10\n技能点数+15\n"
+                    ]
+                },
+                {
+                    "option": "选项二",
+                    "gain_list": [
+                        "「轻盈步伐」的启发等级+1\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "story_id": 501014516,
+            "story_name": "热辣＆飞天！",
+            "story_type": 1,
+            "union_type": 1,
+            "related_skill_ids": null,
+            "gain_skill": null,
+            "select_value_list": [
+                {
+                    "option": "选项一",
+                    "gain_list": [
+                        "体力+10\n技能点数+5\n"
+                    ]
+                },
+                {
+                    "option": "选项二",
+                    "gain_list": [
+                        "体力+30\n速度-5\n力量+5\n技能点数+10\n获得“长胖倾向”\n",
+                        "体力+30\n技能点数+10\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "story_id": 501014510,
+            "story_name": "原创面具",
+            "story_type": 1,
+            "union_type": 1,
+            "related_skill_ids": null,
+            "gain_skill": null,
+            "select_value_list": [
+                {
+                    "option": "选项一",
+                    "gain_list": [
+                        "速度+10\n"
+                    ]
+                },
+                {
+                    "option": "选项二",
+                    "gain_list": [
+                        "力量+10\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "story_id": 501014511,
+            "story_name": "萨尔萨辣酱",
+            "story_type": 1,
+            "union_type": 1,
+            "related_skill_ids": null,
+            "gain_skill": null,
+            "select_value_list": [
+                {
+                    "option": "选项一",
+                    "gain_list": [
+                        "耐力+10\n"
+                    ]
+                },
+                {
+                    "option": "选项二",
+                    "gain_list": [
+                        "力量+10\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "story_id": 501014506,
+            "story_name": "舞蹈课",
+            "story_type": 1,
+            "union_type": 1,
+            "related_skill_ids": null,
+            "gain_skill": null,
+            "select_value_list": [
+                {
+                    "option": "选项一",
+                    "gain_list": [
+                        "耐力+10\n"
+                    ]
+                },
+                {
+                    "option": "选项二",
+                    "gain_list": [
+                        "智力+10\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "story_id": 501014104,
+            "story_name": "夏季集训（第2年）期间",
+            "story_type": 1,
+            "union_type": 1,
+            "related_skill_ids": null,
+            "gain_skill": null,
+            "select_value_list": [
+                {
+                    "option": "选项一",
+                    "gain_list": [
+                        "力量+10\n"
+                    ]
+                },
+                {
+                    "option": "选项二",
+                    "gain_list": [
+                        "毅力+10\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "story_id": 501014101,
+            "story_name": "新年的抱负",
+            "story_type": 1,
+            "union_type": 1,
+            "related_skill_ids": null,
+            "gain_skill": null,
+            "select_value_list": [
+                {
+                    "option": "选项一",
+                    "gain_list": [
+                        "力量+10\n"
+                    ]
+                },
+                {
+                    "option": "选项二",
+                    "gain_list": [
+                        "体力+20\n"
+                    ]
+                },
+                {
+                    "option": "选项三",
+                    "gain_list": [
+                        "技能点数+20\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "story_id": 501014102,
+            "story_name": "新年祈福",
+            "story_type": 1,
+            "union_type": 1,
+            "related_skill_ids": null,
+            "gain_skill": null,
+            "select_value_list": [
+                {
+                    "option": "选项一",
+                    "gain_list": [
+                        "体力+30\n"
+                    ]
+                },
+                {
+                    "option": "选项二",
+                    "gain_list": [
+                        "速度+5\n毅力+5\n智力+5\n耐力+5\n力量+5\n"
+                    ]
+                },
+                {
+                    "option": "选项三",
+                    "gain_list": [
+                        "技能点数+35\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "story_id": 501014720,
+            "story_name": "安心～针灸师，登☆场",
+            "story_type": 1,
+            "union_type": 1,
+            "related_skill_ids": [
+                200352,
+                200382
+            ],
+            "gain_skill": "弯道恢复○、直线恢复",
+            "select_value_list": [
+                {
+                    "option": "选项一",
+                    "gain_list": [
+                        "干劲-2\n速度-15\n耐力-15\n力量-15\n毅力-15\n智力-15\n获得“熬夜倾向”\n",
+                        "速度+20\n耐力+20\n力量+20\n毅力+20\n智力+20\n"
+                    ]
+                },
+                {
+                    "option": "选项二",
+                    "gain_list": [
+                        "获得「弯道恢复○」\n获得「直线恢复」\n",
+                        "体力-20\n干劲-2\n"
+                    ]
+                },
+                {
+                    "option": "选项三",
+                    "gain_list": [
+                        "体力-20\n干劲-2\n获得“拙于练习”\n",
+                        "最大体力上限+12\n体力+40\n随机解除负面状态\n"
+                    ]
+                },
+                {
+                    "option": "选项四",
+                    "gain_list": [
+                        "体力+20\n干劲+1\n获得“惹人喜爱◯”\n",
+                        "体力-10\n干劲-1\n"
+                    ]
+                },
+                {
+                    "option": "选项五",
+                    "gain_list": [
+                        "体力+10\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "story_id": 501014713,
+            "story_name": "保重身体！",
+            "story_type": 1,
+            "union_type": 1,
+            "related_skill_ids": null,
+            "gain_skill": null,
+            "select_value_list": [
+                {
+                    "option": "选项一",
+                    "gain_list": [
+                        "干劲-1\n获得“拙于练习”\n上一次训练属性-5\n",
+                        "干劲-1\n上一次训练属性-5\n"
+                    ]
+                },
+                {
+                    "option": "选项二",
+                    "gain_list": [
+                        "干劲-1\n上一次训练属性-10\n",
+                        "获得“善于练习◯”\n",
+                        "干劲-1\n获得“拙于练习”\n上一次训练属性-10\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "story_id": 501014714,
+            "story_name": "不许逞强！",
+            "story_type": 1,
+            "union_type": 1,
+            "related_skill_ids": null,
+            "gain_skill": null,
+            "select_value_list": [
+                {
+                    "option": "选项一",
+                    "gain_list": [
+                        "体力+10\n干劲-3\n随机获得2个属性-10\n上一次训练属性-10\n",
+                        "体力+10\n干劲-3\n获得“拙于练习”\n随机获得2个属性-10\n上一次训练属性-10\n"
+                    ]
+                },
+                {
+                    "option": "选项二",
+                    "gain_list": [
+                        "体力+10\n获得“善于练习◯”\n",
+                        "干劲-3\n获得“拙于练习”\n随机获得2个属性-10\n上一次训练属性-10\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "story_id": 501014715,
+            "story_name": "追加的自主训练",
+            "story_type": 1,
+            "union_type": 1,
+            "related_skill_ids": null,
+            "gain_skill": null,
+            "select_value_list": [
+                {
+                    "option": "选项一",
+                    "gain_list": [
+                        "体力-5\n秋川理事长友情槽+5\n上一次训练属性+5\n"
+                    ]
+                },
+                {
+                    "option": "选项二",
+                    "gain_list": [
+                        "体力+5\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "story_id": 501014705,
+            "story_name": "深夜学园里的老爷爷？",
+            "story_type": 1,
+            "union_type": 1,
+            "related_skill_ids": null,
+            "gain_skill": null,
+            "select_value_list": [
+                {
+                    "option": "选项一",
+                    "gain_list": [
+                        "干劲+1\n毅力+5\n"
+                    ]
+                },
+                {
+                    "option": "选项二",
+                    "gain_list": [
+                        "体力+10\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "story_id": 501014706,
+            "story_name": "赠礼的花语",
+            "story_type": 1,
+            "union_type": 1,
+            "related_skill_ids": null,
+            "gain_skill": null,
+            "select_value_list": [
+                {
+                    "option": "选项一",
+                    "gain_list": [
+                        "干劲+1\n智力+5\n"
+                    ]
+                },
+                {
+                    "option": "选项二",
+                    "gain_list": [
+                        "体力+10\n"
+                    ]
+                }
+            ]
+        }
+    ],
+    "no_branch_story": [
+        {
+            "story_id": 501014521,
+            "story_name": "熬夜倾向……",
+            "story_type": 2,
+            "union_type": 1,
+            "related_skill_ids": null,
+            "gain_skill": null,
+            "select_value_list": [
+                {
+                    "option": "无选项",
+                    "gain_list": [
+                        "体力-10\n",
+                        "体力-10\n干劲-1\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "story_id": 501014522,
+            "story_name": "皮肤的状态……",
+            "story_type": 2,
+            "union_type": 1,
+            "related_skill_ids": null,
+            "gain_skill": null,
+            "select_value_list": [
+                {
+                    "option": "无选项",
+                    "gain_list": [
+                        "干劲-1\n",
+                        "干劲-2\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "story_id": 501014523,
+            "story_name": "神鹰突袭，炸裂！",
+            "story_type": 2,
+            "union_type": 1,
+            "related_skill_ids": null,
+            "gain_skill": null,
+            "select_value_list": [
+                {
+                    "option": "无选项",
+                    "gain_list": [
+                        "干劲+2\n速度+5\n耐力+5\n力量+5\n毅力+5\n智力+5\n技能点数+30\n获得“才能出众”\n",
+                        "干劲+2\n速度+5\n耐力+5\n力量+5\n智力+5\n技能点数+30\n毅力+5\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "story_id": 501014517,
+            "story_name": "时差之仇",
+            "story_type": 2,
+            "union_type": 1,
+            "related_skill_ids": null,
+            "gain_skill": null,
+            "select_value_list": [
+                {
+                    "option": "无选项",
+                    "gain_list": [
+                        "干劲-1\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "story_id": 501014518,
+            "story_name": "力量之源",
+            "story_type": 2,
+            "union_type": 1,
+            "related_skill_ids": null,
+            "gain_skill": null,
+            "select_value_list": [
+                {
+                    "option": "无选项",
+                    "gain_list": [
+                        "体力-10\n干劲-1\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "story_id": 501014519,
+            "story_name": "曼波飞走了",
+            "story_type": 2,
+            "union_type": 1,
+            "related_skill_ids": null,
+            "gain_skill": null,
+            "select_value_list": [
+                {
+                    "option": "无选项",
+                    "gain_list": [
+                        "耐力-5\n干劲-1\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "story_id": 501014508,
+            "story_name": "比赛的疲惫",
+            "story_type": 2,
+            "union_type": 1,
+            "related_skill_ids": null,
+            "gain_skill": null,
+            "select_value_list": [
+                {
+                    "option": "无选项",
+                    "gain_list": [
+                        "干劲-1\n获得“皮肤粗糙”\n",
+                        "干劲-1\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "story_id": 501014509,
+            "story_name": "接连参赛导致……",
+            "story_type": 2,
+            "union_type": 1,
+            "related_skill_ids": null,
+            "gain_skill": null,
+            "select_value_list": [
+                {
+                    "option": "无选项",
+                    "gain_list": [
+                        "干劲-1\n获得“皮肤粗糙”\n随机获得3个属性-10\n",
+                        "干劲-1\n随机获得3个属性-10\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "story_id": 501014507,
+            "story_name": "粉丝来信",
+            "story_type": 2,
+            "union_type": 1,
+            "related_skill_ids": null,
+            "gain_skill": null,
+            "select_value_list": [
+                {
+                    "option": "无选项",
+                    "gain_list": [
+                        "干劲+1\n技能点数+30\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "story_id": 501014500,
+            "story_name": "名指导",
+            "story_type": 2,
+            "union_type": 1,
+            "related_skill_ids": null,
+            "gain_skill": null,
+            "select_value_list": [
+                {
+                    "option": "无选项",
+                    "gain_list": [
+                        "力量+10\n获得“善于练习◯”\n",
+                        "力量+10\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "story_id": 501014300,
+            "story_name": "夏季集训（第2年）结束",
+            "story_type": 2,
+            "union_type": 1,
+            "related_skill_ids": null,
+            "gain_skill": null,
+            "select_value_list": [
+                {
+                    "option": "无选项",
+                    "gain_list": [
+                        "随机获得3个属性+5\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "story_id": 501014301,
+            "story_name": "夏季集训（第3年）结束",
+            "story_type": 2,
+            "union_type": 1,
+            "related_skill_ids": null,
+            "gain_skill": null,
+            "select_value_list": [
+                {
+                    "option": "无选项",
+                    "gain_list": [
+                        "随机获得3个属性+5\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "story_id": 501014302,
+            "story_name": "抽奖机会！",
+            "story_type": 2,
+            "union_type": 1,
+            "related_skill_ids": null,
+            "gain_skill": null,
+            "select_value_list": [
+                {
+                    "option": "无选项",
+                    "gain_list": [
+                        "体力+30\n干劲+2\n速度+10\n耐力+10\n力量+10\n毅力+10\n智力+10\n",
+                        "体力+20\n干劲+1\n速度+5\n耐力+5\n力量+5\n毅力+5\n智力+5\n",
+                        "体力+20\n",
+                        "干劲-1\n",
+                        "速度+10\n耐力+10\n力量+10\n毅力+10\n智力+10\n体力+30\n干劲+2\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "story_id": 501014108,
+            "story_name": "粉丝答谢会",
+            "story_type": 2,
+            "union_type": 1,
+            "related_skill_ids": null,
+            "gain_skill": null,
+            "select_value_list": [
+                {
+                    "option": "无选项",
+                    "gain_list": [
+                        "干劲+1\n固有等级+1\n",
+                        "体力-5\n技能点数+25\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "story_id": 501014109,
+            "story_name": "圣诞节",
+            "story_type": 2,
+            "union_type": 1,
+            "related_skill_ids": null,
+            "gain_skill": null,
+            "select_value_list": [
+                {
+                    "option": "无选项",
+                    "gain_list": [
+                        "技能点数+20\n",
+                        "固有等级+1\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "story_id": 501014111,
+            "story_name": "神鹰飞得比任何人都高",
+            "story_type": 2,
+            "union_type": 1,
+            "related_skill_ids": null,
+            "gain_skill": null,
+            "select_value_list": [
+                {
+                    "option": "无选项",
+                    "gain_list": [
+                        "速度+5\n耐力+5\n力量+5\n毅力+5\n智力+5\n技能点数+20\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "story_id": 501014107,
+            "story_name": "情人节",
+            "story_type": 2,
+            "union_type": 1,
+            "related_skill_ids": null,
+            "gain_skill": null,
+            "select_value_list": [
+                {
+                    "option": "无选项",
+                    "gain_list": [
+                        "技能点数+20\n",
+                        "固有等级+1\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "story_id": 501014100,
+            "story_name": "神鹰登场！",
+            "story_type": 2,
+            "union_type": 1,
+            "related_skill_ids": null,
+            "gain_skill": null,
+            "select_value_list": [
+                {
+                    "option": "无选项",
+                    "gain_list": [
+                        "技能点数+120\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "story_id": 501014116,
+            "story_name": "迈向未来的嘉年华",
+            "story_type": 2,
+            "union_type": 1,
+            "related_skill_ids": null,
+            "gain_skill": null,
+            "select_value_list": [
+                {
+                    "option": "无选项",
+                    "gain_list": [
+                        "力量+5\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "story_id": 501014117,
+            "story_name": "盛宴开幕！",
+            "story_type": 2,
+            "union_type": 1,
+            "related_skill_ids": null,
+            "gain_skill": null,
+            "select_value_list": [
+                {
+                    "option": "无选项",
+                    "gain_list": [
+                        "速度+5\n力量+5\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "story_id": 501014113,
+            "story_name": "和同期生一起扮英雄",
+            "story_type": 2,
+            "union_type": 1,
+            "related_skill_ids": null,
+            "gain_skill": null,
+            "select_value_list": [
+                {
+                    "option": "无选项",
+                    "gain_list": [
+                        "力量+5\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "story_id": 501014114,
+            "story_name": "无处安放的斗志",
+            "story_type": 2,
+            "union_type": 1,
+            "related_skill_ids": null,
+            "gain_skill": null,
+            "select_value_list": [
+                {
+                    "option": "无选项",
+                    "gain_list": [
+                        "力量+5\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "story_id": 501014115,
+            "story_name": "摘下的面具",
+            "story_type": 2,
+            "union_type": 1,
+            "related_skill_ids": null,
+            "gain_skill": null,
+            "select_value_list": [
+                {
+                    "option": "无选项",
+                    "gain_list": [
+                        "力量+5\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "story_id": 501014728,
+            "story_name": "抓娃娃成功！",
+            "story_type": 2,
+            "union_type": 1,
+            "related_skill_ids": [
+                200382
+            ],
+            "gain_skill": "直线恢复",
+            "select_value_list": [
+                {
+                    "option": "无选项",
+                    "gain_list": [
+                        "体力+10\n干劲+1\n「直线恢复」的启发等级+1\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "story_id": 501014729,
+            "story_name": "抓娃娃失败……",
+            "story_type": 2,
+            "union_type": 1,
+            "related_skill_ids": null,
+            "gain_skill": null,
+            "select_value_list": [
+                {
+                    "option": "无选项",
+                    "gain_list": [
+                        "体力+5\n毅力+3\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "story_id": 501014730,
+            "story_name": "抓娃娃大获成功！",
+            "story_type": 2,
+            "union_type": 1,
+            "related_skill_ids": [
+                200382
+            ],
+            "gain_skill": "直线恢复",
+            "select_value_list": [
+                {
+                    "option": "无选项",
+                    "gain_list": [
+                        "体力+15\n干劲+1\n「直线恢复」的启发等级+2\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "story_id": 501014731,
+            "story_name": "抓娃娃成功！",
+            "story_type": 2,
+            "union_type": 1,
+            "related_skill_ids": [
+                200382
+            ],
+            "gain_skill": "直线恢复",
+            "select_value_list": [
+                {
+                    "option": "无选项",
+                    "gain_list": [
+                        "体力+10\n干劲+1\n「直线恢复」的启发等级+1\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "story_id": 501014727,
+            "story_name": "抓娃娃大获成功！",
+            "story_type": 2,
+            "union_type": 1,
+            "related_skill_ids": [
+                200382
+            ],
+            "gain_skill": "直线恢复",
+            "select_value_list": [
+                {
+                    "option": "无选项",
+                    "gain_list": [
+                        "体力+15\n干劲+1\n「直线恢复」的启发等级+2\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "story_id": 501014722,
+            "story_name": "头痛导致忧郁",
+            "story_type": 2,
+            "union_type": 1,
+            "related_skill_ids": null,
+            "gain_skill": null,
+            "select_value_list": [
+                {
+                    "option": "无选项",
+                    "gain_list": [
+                        "干劲-1\n智力-5\n获得“偏头痛”\n",
+                        "智力-5\n干劲-1\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "story_id": 501014716,
+            "story_name": "减肥成功！",
+            "story_type": 2,
+            "union_type": 1,
+            "related_skill_ids": null,
+            "gain_skill": null,
+            "select_value_list": [
+                {
+                    "option": "无选项",
+                    "gain_list": [
+                        "解除“长胖倾向”\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "story_id": 501014717,
+            "story_name": "医务室里",
+            "story_type": 2,
+            "union_type": 1,
+            "related_skill_ids": null,
+            "gain_skill": null,
+            "select_value_list": [
+                {
+                    "option": "无选项",
+                    "gain_list": [
+                        "体力+20\n随机解除负面状态\n",
+                        "体力+20\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "story_id": 501014718,
+            "story_name": "放松完毕",
+            "story_type": 2,
+            "union_type": 1,
+            "related_skill_ids": null,
+            "gain_skill": null,
+            "select_value_list": [
+                {
+                    "option": "无选项",
+                    "gain_list": [
+                        "体力+50\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "story_id": 501014719,
+            "story_name": "到底忘了什么？",
+            "story_type": 2,
+            "union_type": 1,
+            "related_skill_ids": null,
+            "gain_skill": null,
+            "select_value_list": [
+                {
+                    "option": "无选项",
+                    "gain_list": [
+                        "体力+15\n干劲-1\n毅力-5\n",
+                        "体力+15\n干劲-1\n毅力-5\n获得“爱偷懒”\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "story_id": 501014712,
+            "story_name": "没来训练的原因是……",
+            "story_type": 2,
+            "union_type": 1,
+            "related_skill_ids": null,
+            "gain_skill": null,
+            "select_value_list": [
+                {
+                    "option": "无选项",
+                    "gain_list": [
+                        "体力+10\n干劲-1\n秋川理事长友情槽-5\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "story_id": 501014707,
+            "story_name": "在神祠祈愿！",
+            "story_type": 2,
+            "union_type": 1,
+            "related_skill_ids": null,
+            "gain_skill": null,
+            "select_value_list": [
+                {
+                    "option": "无选项",
+                    "gain_list": [
+                        "随机解除负面状态\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "story_id": 501014700,
+            "story_name": "睡眠不足……",
+            "story_type": 2,
+            "union_type": 1,
+            "related_skill_ids": null,
+            "gain_skill": null,
+            "select_value_list": [
+                {
+                    "option": "无选项",
+                    "gain_list": [
+                        "体力+30\n",
+                        "体力+30\n干劲-1\n获得“熬夜倾向”\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "story_id": 501014701,
+            "story_name": "休息充分！",
+            "story_type": 2,
+            "union_type": 1,
+            "related_skill_ids": null,
+            "gain_skill": null,
+            "select_value_list": [
+                {
+                    "option": "无选项",
+                    "gain_list": [
+                        "体力+70\n",
+                        "体力+70\n解除“皮肤粗糙”\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "story_id": 501014600,
+            "story_name": "抖擞精神",
+            "story_type": 2,
+            "union_type": 1,
+            "related_skill_ids": null,
+            "gain_skill": null,
+            "select_value_list": [
+                {
+                    "option": "无选项",
+                    "gain_list": [
+                        "随机获得1个属性+5\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "story_id": 501014601,
+            "story_name": "这次一定要赢！",
+            "story_type": 2,
+            "union_type": 1,
+            "related_skill_ids": null,
+            "gain_skill": null,
+            "select_value_list": [
+                {
+                    "option": "无选项",
+                    "gain_list": [
+                        "干劲+1\n"
+                    ]
+                }
+            ]
+        }
+    ],
+    "after_match_story": [
+        {
+            "story_id": 501014708,
+            "story_name": "比赛胜利！",
+            "story_type": 3,
+            "union_type": 1,
+            "related_skill_ids": null,
+            "gain_skill": null,
+            "select_value_list": [
+                {
+                    "option": "选项一",
+                    "gain_list": [
+                        "体力-15\n有赛后结算"
+                    ]
+                },
+                {
+                    "option": "选项二",
+                    "gain_list": [
+                        "体力-5\n有赛后结算",
+                        "体力-20\n有赛后结算"
+                    ]
+                }
+            ]
+        },
+        {
+            "story_id": 501014709,
+            "story_name": "赛事入围",
+            "story_type": 3,
+            "union_type": 1,
+            "related_skill_ids": null,
+            "gain_skill": null,
+            "select_value_list": [
+                {
+                    "option": "选项一",
+                    "gain_list": [
+                        "体力-20\n有赛后结算"
+                    ]
+                },
+                {
+                    "option": "选项二",
+                    "gain_list": [
+                        "体力-10\n有赛后结算",
+                        "体力-30\n有赛后结算"
+                    ]
+                }
+            ]
+        },
+        {
+            "story_id": 501014710,
+            "story_name": "比赛落败",
+            "story_type": 3,
+            "union_type": 1,
+            "related_skill_ids": null,
+            "gain_skill": null,
+            "select_value_list": [
+                {
+                    "option": "选项一",
+                    "gain_list": [
+                        "体力-25\n有赛后结算"
+                    ]
+                },
+                {
+                    "option": "选项二",
+                    "gain_list": [
+                        "体力-15\n有赛后结算",
+                        "体力-35\n有赛后结算"
+                    ]
+                }
+            ]
+        },
+        {
+            "story_id": 501014711,
+            "story_name": "下一次一定要赢！",
+            "story_type": 3,
+            "union_type": 1,
+            "related_skill_ids": [
+                200302
+            ],
+            "gain_skill": "伏兵○",
+            "select_value_list": [
+                {
+                    "option": "选项一",
+                    "gain_list": [
+                        "体力-25\n干劲+1\n有赛后结算"
+                    ]
+                },
+                {
+                    "option": "选项二",
+                    "gain_list": [
+                        "体力-25\n「伏兵○」的启发等级+1\n有赛后结算"
+                    ]
+                }
+            ]
+        },
+        {
+            "story_id": 501014303,
+            "story_name": "新人战赛后：突然的重大宣言！",
+            "story_type": 3,
+            "union_type": 1,
+            "related_skill_ids": null,
+            "gain_skill": null,
+            "select_value_list": [
+                {
+                    "option": "无选项",
+                    "gain_list": [
+                        "秋川理事长友情槽+4\n有赛后结算"
+                    ]
+                }
+            ]
+        },
+        {
+            "story_id": 501014312,
+            "story_name": "中山大奖赛赛后：把热情带给世界！",
+            "story_type": 3,
+            "union_type": 1,
+            "related_skill_ids": null,
+            "gain_skill": null,
+            "select_value_list": [
+                {
+                    "option": "无选项",
+                    "gain_list": [
+                        "秋川理事长友情槽+4\n有赛后结算"
+                    ]
+                }
+            ]
+        },
+        {
+            "story_id": 501014308,
+            "story_name": "每日王冠赛后：猛烈追逐的代价",
+            "story_type": 3,
+            "union_type": 1,
+            "related_skill_ids": null,
+            "gain_skill": null,
+            "select_value_list": [
+                {
+                    "option": "无选项",
+                    "gain_list": [
+                        "秋川理事长友情槽+4\n有赛后结算"
+                    ]
+                }
+            ]
+        },
+        {
+            "story_id": 501014309,
+            "story_name": "每日王冠赛后：凋落的翅膀",
+            "story_type": 3,
+            "union_type": 1,
+            "related_skill_ids": null,
+            "gain_skill": null,
+            "select_value_list": [
+                {
+                    "option": "无选项",
+                    "gain_list": [
+                        "秋川理事长友情槽+4\n有赛后结算"
+                    ]
+                }
+            ]
+        },
+        {
+            "story_id": 501014310,
+            "story_name": "宝冢纪念赛后：复仇成功！",
+            "story_type": 3,
+            "union_type": 1,
+            "related_skill_ids": null,
+            "gain_skill": null,
+            "select_value_list": [
+                {
+                    "option": "无选项",
+                    "gain_list": [
+                        "秋川理事长友情槽+4\n有赛后结算"
+                    ]
+                }
+            ]
+        },
+        {
+            "story_id": 501014311,
+            "story_name": "日本杯赛后：想传达的话",
+            "story_type": 3,
+            "union_type": 1,
+            "related_skill_ids": [
+                200582
+            ],
+            "gain_skill": "准备突围",
+            "select_value_list": [
+                {
+                    "option": "无选项",
+                    "gain_list": [
+                        "秋川理事长友情槽+4\n「准备突围」的启发等级+1\n有赛后结算"
+                    ]
+                }
+            ]
+        },
+        {
+            "story_id": 501014304,
+            "story_name": "共同通信杯赛后：追逐前辈",
+            "story_type": 3,
+            "union_type": 1,
+            "related_skill_ids": null,
+            "gain_skill": null,
+            "select_value_list": [
+                {
+                    "option": "无选项",
+                    "gain_list": [
+                        "秋川理事长友情槽+4\n有赛后结算"
+                    ]
+                }
+            ]
+        },
+        {
+            "story_id": 501014305,
+            "story_name": "NHK英里杯赛后：急转弯！",
+            "story_type": 3,
+            "union_type": 1,
+            "related_skill_ids": null,
+            "gain_skill": null,
+            "select_value_list": [
+                {
+                    "option": "无选项",
+                    "gain_list": [
+                        "秋川理事长友情槽+4\n有赛后结算"
+                    ]
+                }
+            ]
+        },
+        {
+            "story_id": 501014306,
+            "story_name": "日本德比赛后：胜利与焦躁",
+            "story_type": 3,
+            "union_type": 1,
+            "related_skill_ids": null,
+            "gain_skill": null,
+            "select_value_list": [
+                {
+                    "option": "无选项",
+                    "gain_list": [
+                        "秋川理事长友情槽+4\n有赛后结算"
+                    ]
+                }
+            ]
+        },
+        {
+            "story_id": 501014307,
+            "story_name": "日本德比赛后：现实的落差",
+            "story_type": 3,
+            "union_type": 1,
+            "related_skill_ids": null,
+            "gain_skill": null,
+            "select_value_list": [
+                {
+                    "option": "无选项",
+                    "gain_list": [
+                        "秋川理事长友情槽+4\n有赛后结算"
+                    ]
+                }
+            ]
+        }
+    ],
+    "continuous_story": [
+        {
+            "story_id": 501014702,
+            "story_name": "憧憬的摔角手",
+            "story_type": 4,
+            "union_type": 1,
+            "related_skill_ids": null,
+            "gain_skill": null,
+            "select_value_list": [
+                {
+                    "option": "选项一",
+                    "gain_list": [
+                        "耐力+10\n"
+                    ]
+                },
+                {
+                    "option": "选项二",
+                    "gain_list": [
+                        "速度+10\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "story_id": 501014703,
+            "story_name": "令人震惊的退役",
+            "story_type": 4,
+            "union_type": 1,
+            "related_skill_ids": null,
+            "gain_skill": null,
+            "select_value_list": [
+                {
+                    "option": "选项一",
+                    "gain_list": [
+                        "毅力+10\n"
+                    ]
+                },
+                {
+                    "option": "选项二",
+                    "gain_list": [
+                        "力量+10\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "story_id": 501014704,
+            "story_name": "再一次下定决心",
+            "story_type": 4,
+            "union_type": 1,
+            "related_skill_ids": null,
+            "gain_skill": null,
+            "select_value_list": [
+                {
+                    "option": "选项一",
+                    "gain_list": [
+                        "毅力+10\n"
+                    ]
+                },
+                {
+                    "option": "选项二",
+                    "gain_list": [
+                        "耐力+10\n"
+                    ]
+                },
+                {
+                    "option": "选项三",
+                    "gain_list": [
+                        "速度+5\n耐力+5\n"
+                    ]
+                }
+            ]
+        }
+    ],
+    "trip_story": []
+}

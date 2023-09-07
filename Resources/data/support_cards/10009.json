@@ -1,0 +1,278 @@
+[
+    {
+        "support_card_info": {
+            "card_id": 10009,
+            "name": "[特雷森学园]草上飞",
+            "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/d6e1c6598ef9e2475bcb505af760ec20883bd9d3.png",
+            "attr_id": 3,
+            "rarity": 1
+        },
+        "branch_story": [
+            {
+                "story_id": 801011002,
+                "story_name": "析理于昼",
+                "story_type": 1,
+                "union_type": 2,
+                "related_skill_ids": [
+                    200801,
+                    200292
+                ],
+                "gain_skill": "跟前策略、彻底盯紧○",
+                "select_value_list": [
+                    {
+                        "option": "选项一",
+                        "gain_list": [
+                            "草上飞友情槽+5\n「跟前策略」的启发等级+1\n"
+                        ]
+                    },
+                    {
+                        "option": "选项二",
+                        "gain_list": [
+                            "草上飞友情槽+5\n「彻底盯紧○」的启发等级+1\n"
+                        ]
+                    }
+                ]
+            },
+            {
+                "story_id": 801011001,
+                "story_name": "书阁忧思",
+                "story_type": 1,
+                "union_type": 2,
+                "related_skill_ids": null,
+                "gain_skill": null,
+                "select_value_list": [
+                    {
+                        "option": "选项一",
+                        "gain_list": [
+                            "智力+10\n草上飞友情槽+5\n"
+                        ]
+                    },
+                    {
+                        "option": "选项二",
+                        "gain_list": [
+                            "毅力+5\n智力+5\n草上飞友情槽+5\n"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "no_branch_story": [],
+        "after_match_story": [],
+        "continuous_story": null,
+        "trip_story": [],
+        "story_skill_info": [
+            {
+                "skill_id": 200801,
+                "skill_name": "跟前策略",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/2c1a2298d667aec9efc1dcb29be462e14a5015b6.png",
+                "rarity": 1,
+                "skill_desc": "战术是跟前的优俊少女陷入焦躁时\n恢复冷静需要耗费时间",
+                "limitation": "通用",
+                "condition1": "跟前策略焦躁人数≥1，未进入过焦躁状态",
+                "condition2": null,
+                "skill_type1": "焦躁持续时间",
+                "skill_type2": null,
+                "ability_value1": [
+                    50000
+                ],
+                "ability_value2": [],
+                "ability_time1": 0,
+                "ability_time2": null,
+                "need_skill_point": 130,
+                "pre_skill": null,
+                "pre_skill_name": null
+            },
+            {
+                "skill_id": 200292,
+                "skill_name": "彻底盯紧○",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/977e98772467a7d9ea51bd0ad54b9dc1d1e1e01e.png",
+                "rarity": 1,
+                "skill_desc": "在与人气第1名的优俊少女战术相同时\n能力稍微容易发挥",
+                "limitation": "通用",
+                "condition1": "和人气第一者作战方式相同",
+                "condition2": null,
+                "skill_type1": "毅力（属性）",
+                "skill_type2": null,
+                "ability_value1": [
+                    400000
+                ],
+                "ability_value2": [],
+                "ability_time1": -1,
+                "ability_time2": null,
+                "need_skill_point": 90,
+                "pre_skill": null,
+                "pre_skill_name": null
+            }
+        ],
+        "training_skill_info": [
+            {
+                "skill_id": 200042,
+                "skill_name": "中山赛场○",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/762928d76f4cb135264040edacbc36eb0fb7708e.png",
+                "rarity": 1,
+                "skill_desc": "会变得稍微擅长中山赛场的赛事",
+                "limitation": "通用",
+                "condition1": "中山场",
+                "condition2": null,
+                "skill_type1": "耐力（属性）",
+                "skill_type2": null,
+                "ability_value1": [
+                    400000
+                ],
+                "ability_value2": [],
+                "ability_time1": -1,
+                "ability_time2": null,
+                "need_skill_point": 90,
+                "pre_skill": null,
+                "pre_skill_name": null
+            },
+            {
+                "skill_id": 200282,
+                "skill_name": "对抗意识○",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/673e0c0734bcdbee9cd2648df49bb77e2b3952fe.png",
+                "rarity": 1,
+                "skill_desc": "在有至少6名优俊少女与自己战术相同时\n能力稍微容易发挥",
+                "limitation": "通用",
+                "condition1": "相同跑法人数≥6",
+                "condition2": null,
+                "skill_type1": "力量（属性）",
+                "skill_type2": null,
+                "ability_value1": [
+                    400000
+                ],
+                "ability_value2": [],
+                "ability_time1": -1,
+                "ability_time2": null,
+                "need_skill_point": 90,
+                "pre_skill": null,
+                "pre_skill_name": null
+            },
+            {
+                "skill_id": 200512,
+                "skill_name": "最后冲刺",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/c44ceb01d2551e9cd2a82b7b1ca8b3f30e433902.png",
+                "rarity": 1,
+                "skill_desc": "最后冲刺阶段速度略微提升",
+                "limitation": "通用",
+                "condition1": "最后冲刺，终盘后半段任意",
+                "condition2": null,
+                "skill_type1": "目标速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    1500
+                ],
+                "ability_value2": [],
+                "ability_time1": 18000,
+                "ability_time2": null,
+                "need_skill_point": 170,
+                "pre_skill": 200511,
+                "pre_skill_name": "全神贯注"
+            },
+            {
+                "skill_id": 200592,
+                "skill_name": "向前抢位",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/c44ceb01d2551e9cd2a82b7b1ca8b3f30e433902.png",
+                "rarity": 1,
+                "skill_desc": "在赛事中期时速度略微提升\n<战术：居中>",
+                "limitation": "居中",
+                "condition1": "居中，中盘随机位置，名次>50%",
+                "condition2": null,
+                "skill_type1": "目标速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    1500
+                ],
+                "ability_value2": [],
+                "ability_time1": 18000,
+                "ability_time2": null,
+                "need_skill_point": 180,
+                "pre_skill": 200591,
+                "pre_skill_name": "迅速果断"
+            },
+            {
+                "skill_id": 200602,
+                "skill_name": "超越架势",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/bd338ecc1d33ec83d4e45977372f03c4d221c3e0.png",
+                "rarity": 1,
+                "skill_desc": "在赛事末期时加速能力略微提升\n<战术：居中>",
+                "limitation": "居中",
+                "condition1": "居中，终盘前半段随机位置，名次>50%",
+                "condition2": null,
+                "skill_type1": "加速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    2000
+                ],
+                "ability_value2": [],
+                "ability_time1": 18000,
+                "ability_time2": null,
+                "need_skill_point": 180,
+                "pre_skill": 200601,
+                "pre_skill_name": "换乘能手"
+            },
+            {
+                "skill_id": 200702,
+                "skill_name": "上升气流",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/bd338ecc1d33ec83d4e45977372f03c4d221c3e0.png",
+                "rarity": 1,
+                "skill_desc": "在赛事末期位于后方时\n赶超能力略微提升<英里>",
+                "limitation": "英里",
+                "condition1": "英里，终盘前半段随机位置，名次>50%",
+                "condition2": null,
+                "skill_type1": "加速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    2000
+                ],
+                "ability_value2": [],
+                "ability_time1": 30000,
+                "ability_time2": null,
+                "need_skill_point": 160,
+                "pre_skill": 200701,
+                "pre_skill_name": "奋力一搏"
+            },
+            {
+                "skill_id": 200871,
+                "skill_name": "跟前焦躁",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/0c83e76b13b77ecb2daf700587c64c85a86fdaa3.png",
+                "rarity": 1,
+                "skill_desc": "在赛事中期让跟前战术的优俊少女\n焦躁使其略微容易疲劳",
+                "limitation": "通用",
+                "condition1": "跟前策略人数≥1，中盘随机位置",
+                "condition2": null,
+                "skill_type1": "体力值（百分比）",
+                "skill_type2": null,
+                "ability_value1": [
+                    -100
+                ],
+                "ability_value2": [],
+                "ability_time1": 0,
+                "ability_time2": null,
+                "need_skill_point": 130,
+                "pre_skill": null,
+                "pre_skill_name": null
+            },
+            {
+                "skill_id": 201152,
+                "skill_name": "束缚",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/1612c4d4017143348c64c3a7830305aa46a8034e.png",
+                "rarity": 1,
+                "skill_desc": "在赛事末期位于后方时\n会略微降低前方优俊少女的速度<中距离>",
+                "limitation": "中距离",
+                "condition1": "中距离，终盘前半段随机位置，名次>50%",
+                "condition2": null,
+                "skill_type1": "当前速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    -1500
+                ],
+                "ability_value2": [],
+                "ability_time1": 30000,
+                "ability_time2": null,
+                "need_skill_point": 160,
+                "pre_skill": 201151,
+                "pre_skill_name": "独占力"
+            }
+        ]
+    }
+]

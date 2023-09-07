@@ -1,0 +1,172 @@
+[
+    {
+        "support_card_info": {
+            "card_id": 10032,
+            "name": "[特雷森学园]美浦波旁",
+            "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/badcb9e45c099ef277b54da4027de33c2069e5cc.png",
+            "attr_id": 2,
+            "rarity": 1
+        },
+        "branch_story": [
+            {
+                "story_id": 801026002,
+                "story_name": "必须遵守命令",
+                "story_type": 1,
+                "union_type": 2,
+                "related_skill_ids": [
+                    200432
+                ],
+                "gain_skill": "专注力",
+                "select_value_list": [
+                    {
+                        "option": "选项一",
+                        "gain_list": [
+                            "美浦波旁友情槽+5\n「专注力」的启发等级+1\n"
+                        ]
+                    },
+                    {
+                        "option": "选项二",
+                        "gain_list": [
+                            "技能点数+15\n速度+10\n美浦波旁友情槽+5\n"
+                        ]
+                    }
+                ]
+            },
+            {
+                "story_id": 801026001,
+                "story_name": "不能影响他人",
+                "story_type": 1,
+                "union_type": 2,
+                "related_skill_ids": null,
+                "gain_skill": null,
+                "select_value_list": [
+                    {
+                        "option": "选项一",
+                        "gain_list": [
+                            "体力-10\n耐力+5\n力量+15\n美浦波旁友情槽+5\n"
+                        ]
+                    },
+                    {
+                        "option": "选项二",
+                        "gain_list": [
+                            "体力+10\n智力+5\n美浦波旁友情槽+5\n"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "no_branch_story": [],
+        "after_match_story": [],
+        "continuous_story": null,
+        "trip_story": [],
+        "story_skill_info": [
+            {
+                "skill_id": 200432,
+                "skill_name": "专注力",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/23c1b9bb9cfde7225e7ce94b2fa4a688b4faf8b8.png",
+                "rarity": 1,
+                "skill_desc": "会变得擅长起跑\n起跑失误的时间会略微减少",
+                "limitation": "通用",
+                "condition1": "无特殊条件",
+                "condition2": null,
+                "skill_type1": "起跑",
+                "skill_type2": null,
+                "ability_value1": [
+                    9000
+                ],
+                "ability_value2": [],
+                "ability_time1": 0,
+                "ability_time2": null,
+                "need_skill_point": 140,
+                "pre_skill": 200431,
+                "pre_skill_name": "专心一意"
+            }
+        ],
+        "training_skill_info": [
+            {
+                "skill_id": 200242,
+                "skill_name": "雪天○",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/977e98772467a7d9ea51bd0ad54b9dc1d1e1e01e.png",
+                "rarity": 1,
+                "skill_desc": "会变得稍微擅长雪天的赛事",
+                "limitation": "通用",
+                "condition1": "雪",
+                "condition2": null,
+                "skill_type1": "毅力（属性）",
+                "skill_type2": null,
+                "ability_value1": [
+                    400000
+                ],
+                "ability_value2": [],
+                "ability_time1": -1,
+                "ability_time2": null,
+                "need_skill_point": 90,
+                "pre_skill": null,
+                "pre_skill_name": null
+            },
+            {
+                "skill_id": 200532,
+                "skill_name": "抢先",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/bd338ecc1d33ec83d4e45977372f03c4d221c3e0.png",
+                "rarity": 1,
+                "skill_desc": "在赛事初期时\n会略微容易取得领先<战术：领跑>",
+                "limitation": "领跑",
+                "condition1": "领跑，序盘，赛事进行时间≥5",
+                "condition2": null,
+                "skill_type1": "加速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    2000
+                ],
+                "ability_value2": [],
+                "ability_time1": 12000,
+                "ability_time2": null,
+                "need_skill_point": 120,
+                "pre_skill": 200531,
+                "pre_skill_name": "先发制人"
+            },
+            {
+                "skill_id": 201242,
+                "skill_name": "领跑直线○",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/c44ceb01d2551e9cd2a82b7b1ca8b3f30e433902.png",
+                "rarity": 1,
+                "skill_desc": "在直线上的速度略微提升\n<战术：领跑>",
+                "limitation": "领跑",
+                "condition1": "领跑，直线",
+                "condition2": null,
+                "skill_type1": "目标速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    1500
+                ],
+                "ability_value2": [],
+                "ability_time1": 30000,
+                "ability_time2": null,
+                "need_skill_point": 130,
+                "pre_skill": null,
+                "pre_skill_name": null
+            },
+            {
+                "skill_id": 201252,
+                "skill_name": "领跑弯道○",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/c44ceb01d2551e9cd2a82b7b1ca8b3f30e433902.png",
+                "rarity": 1,
+                "skill_desc": "在弯道上的速度略微提升\n<战术：领跑>",
+                "limitation": "领跑",
+                "condition1": "领跑，第1弯道；领跑，第2弯道；领跑，第3弯道；领跑，第4弯道",
+                "condition2": null,
+                "skill_type1": "目标速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    1500
+                ],
+                "ability_value2": [],
+                "ability_time1": 30000,
+                "ability_time2": null,
+                "need_skill_point": 130,
+                "pre_skill": null,
+                "pre_skill_name": null
+            }
+        ]
+    }
+]

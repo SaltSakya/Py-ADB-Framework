@@ -1,0 +1,214 @@
+[
+    {
+        "support_card_info": {
+            "card_id": 10025,
+            "name": "[特雷森学园]气槽",
+            "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/dd4379162988ad4c8b466aa025f7a8f2cff3ccb4.png",
+            "attr_id": 3,
+            "rarity": 1
+        },
+        "branch_story": [
+            {
+                "story_id": 801018002,
+                "story_name": "灵敏而又有力",
+                "story_type": 1,
+                "union_type": 2,
+                "related_skill_ids": null,
+                "gain_skill": null,
+                "select_value_list": [
+                    {
+                        "option": "选项一",
+                        "gain_list": [
+                            "力量+15\n气槽友情槽+5\n"
+                        ]
+                    },
+                    {
+                        "option": "选项二",
+                        "gain_list": [
+                            "速度+10\n耐力+5\n气槽友情槽+5\n"
+                        ]
+                    }
+                ]
+            },
+            {
+                "story_id": 801018001,
+                "story_name": "严厉而又仁慈",
+                "story_type": 1,
+                "union_type": 2,
+                "related_skill_ids": [
+                    200502
+                ],
+                "gain_skill": "临机应变",
+                "select_value_list": [
+                    {
+                        "option": "选项一",
+                        "gain_list": [
+                            "气槽友情槽+5\n「临机应变」的启发等级+1\n"
+                        ]
+                    },
+                    {
+                        "option": "选项二",
+                        "gain_list": [
+                            "体力+10\n智力+10\n"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "no_branch_story": [],
+        "after_match_story": [],
+        "continuous_story": null,
+        "trip_story": [],
+        "story_skill_info": [
+            {
+                "skill_id": 200502,
+                "skill_name": "临机应变",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/71102427535809845ae98aa2d2238606645af8b7.png",
+                "rarity": 1,
+                "skill_desc": "赛事末期时\n稍微容易取得好路线",
+                "limitation": "通用",
+                "condition1": "终盘前半段随机位置",
+                "condition2": null,
+                "skill_type1": "变道速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    250
+                ],
+                "ability_value2": [],
+                "ability_time1": 30000,
+                "ability_time2": null,
+                "need_skill_point": 120,
+                "pre_skill": 200501,
+                "pre_skill_name": "赛道的魔术师"
+            }
+        ],
+        "training_skill_info": [
+            {
+                "skill_id": 200472,
+                "skill_name": "保持步伐",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/4c910489d09842c36b36fa521844dc37342d3d20.png",
+                "rarity": 1,
+                "skill_desc": "在赛事中期被赶超时\n体力略微恢复",
+                "limitation": "通用",
+                "condition1": "中盘，被超越次数＞0",
+                "condition2": null,
+                "skill_type1": "体力值（百分比）",
+                "skill_type2": null,
+                "ability_value1": [
+                    150
+                ],
+                "ability_value2": [],
+                "ability_time1": 0,
+                "ability_time2": null,
+                "need_skill_point": 170,
+                "pre_skill": 200471,
+                "pre_skill_name": "不屈之心"
+            },
+            {
+                "skill_id": 200722,
+                "skill_name": "加快节奏",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/c44ceb01d2551e9cd2a82b7b1ca8b3f30e433902.png",
+                "rarity": 1,
+                "skill_desc": "在赛事中期位于前列时\n略微容易取得良好位置<中距离>",
+                "limitation": "中距离",
+                "condition1": "中距离，中盘随机位置，名次≤50%",
+                "condition2": null,
+                "skill_type1": "目标速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    1500
+                ],
+                "ability_value2": [],
+                "ability_time1": 9000,
+                "ability_time2": null,
+                "need_skill_point": 160,
+                "pre_skill": 200721,
+                "pre_skill_name": "绝妙韵律"
+            },
+            {
+                "skill_id": 200931,
+                "skill_name": "后追焦躁",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/0c83e76b13b77ecb2daf700587c64c85a86fdaa3.png",
+                "rarity": 1,
+                "skill_desc": "在赛事中期让后追战术的优俊少女\n焦躁使其略微容易疲劳",
+                "limitation": "通用",
+                "condition1": "后追策略人数≥1，中盘随机位置",
+                "condition2": null,
+                "skill_type1": "体力值（百分比）",
+                "skill_type2": null,
+                "ability_value1": [
+                    -100
+                ],
+                "ability_value2": [],
+                "ability_time1": 0,
+                "ability_time2": null,
+                "need_skill_point": 130,
+                "pre_skill": null,
+                "pre_skill_name": null
+            },
+            {
+                "skill_id": 200941,
+                "skill_name": "后追踌躇",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/1612c4d4017143348c64c3a7830305aa46a8034e.png",
+                "rarity": 1,
+                "skill_desc": "在赛事末期让后追战术的优俊少女踌躇\n使其速度略微降低",
+                "limitation": "通用",
+                "condition1": "后追策略人数≥1，终盘前半段随机位置",
+                "condition2": null,
+                "skill_type1": "当前速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    -1500
+                ],
+                "ability_value2": [],
+                "ability_time1": 30000,
+                "ability_time2": null,
+                "need_skill_point": 130,
+                "pre_skill": null,
+                "pre_skill_name": null
+            },
+            {
+                "skill_id": 201102,
+                "skill_name": "中距离直线○",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/c44ceb01d2551e9cd2a82b7b1ca8b3f30e433902.png",
+                "rarity": 1,
+                "skill_desc": "在直线上的速度略微提升<中距离>",
+                "limitation": "中距离",
+                "condition1": "中距离，直线",
+                "condition2": null,
+                "skill_type1": "目标速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    1500
+                ],
+                "ability_value2": [],
+                "ability_time1": 30000,
+                "ability_time2": null,
+                "need_skill_point": 100,
+                "pre_skill": null,
+                "pre_skill_name": null
+            },
+            {
+                "skill_id": 201601,
+                "skill_name": "打基础",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/bd338ecc1d33ec83d4e45977372f03c4d221c3e0.png",
+                "rarity": 1,
+                "skill_desc": "在赛事初期发动多个技能时\n加速能力略微提升",
+                "limitation": "通用",
+                "condition1": "序盘技能发动数量≥3",
+                "condition2": null,
+                "skill_type1": "加速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    2000
+                ],
+                "ability_value2": [],
+                "ability_time1": 30000,
+                "ability_time2": null,
+                "need_skill_point": 100,
+                "pre_skill": null,
+                "pre_skill_name": null
+            }
+        ]
+    }
+]

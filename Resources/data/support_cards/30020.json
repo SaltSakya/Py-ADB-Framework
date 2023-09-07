@@ -1,0 +1,308 @@
+[
+    {
+        "support_card_info": {
+            "card_id": 30020,
+            "name": "[必杀技！双胡萝卜拳！]微光飞驹",
+            "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/bf811dca7917633bb1605838129cd418afdbdac2.png",
+            "attr_id": 1,
+            "rarity": 3
+        },
+        "branch_story": [
+            {
+                "story_id": 801054002,
+                "story_name": "学会绝招吧！",
+                "story_type": 1,
+                "union_type": 2,
+                "related_skill_ids": [
+                    200962
+                ],
+                "gain_skill": "短距离直线○",
+                "select_value_list": [
+                    {
+                        "option": "选项一",
+                        "gain_list": [
+                            "微光飞驹友情槽+5\n「短距离直线○」的启发等级+1\n"
+                        ]
+                    },
+                    {
+                        "option": "选项二",
+                        "gain_list": [
+                            "体力+30\n微光飞驹友情槽+5\n"
+                        ]
+                    }
+                ]
+            },
+            {
+                "story_id": 801054001,
+                "story_name": "英雄的烦恼",
+                "story_type": 1,
+                "union_type": 2,
+                "related_skill_ids": null,
+                "gain_skill": null,
+                "select_value_list": [
+                    {
+                        "option": "选项一",
+                        "gain_list": [
+                            "体力+15\n微光飞驹友情槽+5\n"
+                        ]
+                    },
+                    {
+                        "option": "选项二",
+                        "gain_list": [
+                            "体力+5\n力量+5\n微光飞驹友情槽+5\n"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "no_branch_story": [],
+        "after_match_story": [],
+        "continuous_story": [
+            {
+                "story_id": 830020001,
+                "story_name": "热血誓言！我要成为英雄！",
+                "story_type": 4,
+                "union_type": 3,
+                "related_skill_ids": null,
+                "gain_skill": null,
+                "select_value_list": [
+                    {
+                        "option": "无选项",
+                        "gain_list": [
+                            "速度+5\n毅力+5\n"
+                        ]
+                    }
+                ]
+            },
+            {
+                "story_id": 830020002,
+                "story_name": "猛烈特训！胡萝卜侠现身？！",
+                "story_type": 4,
+                "union_type": 3,
+                "related_skill_ids": null,
+                "gain_skill": null,
+                "select_value_list": [
+                    {
+                        "option": "无选项",
+                        "gain_list": [
+                            "速度+5\n毅力+5\n"
+                        ]
+                    }
+                ]
+            },
+            {
+                "story_id": 830020003,
+                "story_name": "决战！拿下荣耀的胜利！",
+                "story_type": 4,
+                "union_type": 3,
+                "related_skill_ids": [
+                    200991
+                ],
+                "gain_skill": "X计划",
+                "select_value_list": [
+                    {
+                        "option": "无选项",
+                        "gain_list": [
+                            "速度+5\n力量+5\n毅力+5\n「X计划」的启发等级+1\n"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "trip_story": [],
+        "story_skill_info": [
+            {
+                "skill_id": 200962,
+                "skill_name": "短距离直线○",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/c44ceb01d2551e9cd2a82b7b1ca8b3f30e433902.png",
+                "rarity": 1,
+                "skill_desc": "在直线上的速度略微提升<短距离>",
+                "limitation": "短距离",
+                "condition1": "短距离，直线",
+                "condition2": null,
+                "skill_type1": "目标速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    1500
+                ],
+                "ability_value2": [],
+                "ability_time1": 30000,
+                "ability_time2": null,
+                "need_skill_point": 100,
+                "pre_skill": null,
+                "pre_skill_name": null
+            },
+            {
+                "skill_id": 200991,
+                "skill_name": "X计划",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/474b7f656caba23ad1448ff7bf804e5c348f4b67.png",
+                "rarity": 2,
+                "skill_desc": "在赛事中期位于前列时\n会容易赶超<短距离>",
+                "limitation": "短距离",
+                "condition1": "短距离，中盘随机位置，名次≥2，名次≤50%",
+                "condition2": null,
+                "skill_type1": "加速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    4000
+                ],
+                "ability_value2": [],
+                "ability_time1": 30000,
+                "ability_time2": null,
+                "need_skill_point": 160,
+                "pre_skill": null,
+                "pre_skill_name": null
+            }
+        ],
+        "training_skill_info": [
+            {
+                "skill_id": 200262,
+                "skill_name": "擅长外道○",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/70f3c8fea3c651cb38d69df6e644872657a63cbf.png",
+                "rarity": 1,
+                "skill_desc": "会变得稍微擅长道次6至8号的赛事",
+                "limitation": "通用",
+                "condition1": "道次≥6",
+                "condition2": null,
+                "skill_type1": "速度（属性）",
+                "skill_type2": null,
+                "ability_value1": [
+                    400000
+                ],
+                "ability_value2": [],
+                "ability_time1": -1,
+                "ability_time2": null,
+                "need_skill_point": 90,
+                "pre_skill": null,
+                "pre_skill_name": null
+            },
+            {
+                "skill_id": 200662,
+                "skill_name": "观望",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/4c910489d09842c36b36fa521844dc37342d3d20.png",
+                "rarity": 1,
+                "skill_desc": "在赛事中期位于后方时\n会略微不容易疲劳<短距离>",
+                "limitation": "短距离",
+                "condition1": "短距离，中盘随机位置，名次>50%",
+                "condition2": null,
+                "skill_type1": "体力值（百分比）",
+                "skill_type2": null,
+                "ability_value1": [
+                    150
+                ],
+                "ability_value2": [],
+                "ability_time1": 0,
+                "ability_time2": null,
+                "need_skill_point": 160,
+                "pre_skill": null,
+                "pre_skill_name": null
+            },
+            {
+                "skill_id": 200672,
+                "skill_name": "逼近",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/c44ceb01d2551e9cd2a82b7b1ca8b3f30e433902.png",
+                "rarity": 1,
+                "skill_desc": "在赛事末期位于后方时\n冲刺会略微变得容易<短距离>",
+                "limitation": "短距离",
+                "condition1": "短距离，终盘前半段随机位置，名次>50%",
+                "condition2": null,
+                "skill_type1": "目标速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    1500
+                ],
+                "ability_value2": [],
+                "ability_time1": 30000,
+                "ability_time2": null,
+                "need_skill_point": 160,
+                "pre_skill": 200671,
+                "pre_skill_name": "电击光辉"
+            },
+            {
+                "skill_id": 200682,
+                "skill_name": "积极行动",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/c44ceb01d2551e9cd2a82b7b1ca8b3f30e433902.png",
+                "rarity": 1,
+                "skill_desc": "在赛事初期位于领先位置时\n会略微容易拉开差距<英里>",
+                "limitation": "英里",
+                "condition1": "英里，序盘随机位置，赛事进行时间≥5，名次=1",
+                "condition2": null,
+                "skill_type1": "目标速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    1500
+                ],
+                "ability_value2": [],
+                "ability_time1": 30000,
+                "ability_time2": null,
+                "need_skill_point": 160,
+                "pre_skill": 200681,
+                "pre_skill_name": "英里统治者"
+            },
+            {
+                "skill_id": 200702,
+                "skill_name": "上升气流",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/bd338ecc1d33ec83d4e45977372f03c4d221c3e0.png",
+                "rarity": 1,
+                "skill_desc": "在赛事末期位于后方时\n赶超能力略微提升<英里>",
+                "limitation": "英里",
+                "condition1": "英里，终盘前半段随机位置，名次>50%",
+                "condition2": null,
+                "skill_type1": "加速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    2000
+                ],
+                "ability_value2": [],
+                "ability_time1": 30000,
+                "ability_time2": null,
+                "need_skill_point": 160,
+                "pre_skill": 200701,
+                "pre_skill_name": "奋力一搏"
+            },
+            {
+                "skill_id": 201002,
+                "skill_name": "准备冲刺",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/71102427535809845ae98aa2d2238606645af8b7.png",
+                "rarity": 1,
+                "skill_desc": "在赛事中期时稍微准备好\n向终点进发<短距离>",
+                "limitation": "短距离",
+                "condition1": "短距离，中盘随机位置",
+                "condition2": null,
+                "skill_type1": "变道速度、加速度",
+                "skill_type2": null,
+                "ability_value1": [
+                    250,
+                    2000
+                ],
+                "ability_value2": [],
+                "ability_time1": 30000,
+                "ability_time2": null,
+                "need_skill_point": 140,
+                "pre_skill": 201001,
+                "pre_skill_name": "万事俱备！"
+            },
+            {
+                "skill_id": 201022,
+                "skill_name": "禁止抢先",
+                "icon_url": "https://i0.hdslb.com/bfs/game/player/tools/uma/0c83e76b13b77ecb2daf700587c64c85a86fdaa3.png",
+                "rarity": 1,
+                "skill_desc": "在赛事初期位于后方时\n使前方的优俊少女略微感到焦躁<短距离>",
+                "limitation": "短距离",
+                "condition1": "短距离，序盘随机位置，名次>50%，赛事进行时间≥5",
+                "condition2": null,
+                "skill_type1": "体力值（百分比）",
+                "skill_type2": null,
+                "ability_value1": [
+                    -100
+                ],
+                "ability_value2": [],
+                "ability_time1": 0,
+                "ability_time2": null,
+                "need_skill_point": 170,
+                "pre_skill": 201021,
+                "pre_skill_name": "逃亡禁令"
+            }
+        ]
+    }
+]
